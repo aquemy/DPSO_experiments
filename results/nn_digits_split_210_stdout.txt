@@ -1,0 +1,78 @@
+SCENARIO:
+ {
+    "control": {
+        "seed": 42
+    }, 
+    "file_name": "nn_digits_split_210", 
+    "policy": {
+        "step_pipeline": 210
+    }, 
+    "setup": {
+        "algorithm": "NeuralNet", 
+        "dataset": "digits", 
+        "policy": "split", 
+        "runtime": 300
+    }, 
+    "title": "Neural Net on Digits with Split policy"
+}
+## Data Pipeline
+Best score: 0.633908662628 (0.0396268460744) [P] | Score: 0.633908662628 (0.0396268460744) [P]
+Best score: 0.633908662628 (0.0396268460744) [P] | Score: 0.560955660415 (0.0536447401021) [P]
+Best score: 0.633908662628 (0.0396268460744) [P] | Score: 0.378140551791 (0.0500841920709) [P]
+Best score: 0.633908662628 (0.0396268460744) [P] | Score: 0.556423847845 (0.0502285359105) [P]
+Best score: 0.728853391271 (0.0276257200327) [P] | Score: 0.728853391271 (0.0276257200327) [P]
+Best score: 0.728853391271 (0.0276257200327) [P] | Score: 0.219989313529 (0.0311006989891) [P]
+Best score: 0.952113971023 (0.0292967458128) [P] | Score: 0.952113971023 (0.0292967458128) [P]
+#################### STEP RESULT ####################
+BEST PIPELINE:
+ {
+    "features": [
+        "features_NoneType", 
+        {}
+    ], 
+    "normalizer": [
+        "normalizer_StandardScaler", 
+        {
+            "normalizer__with_mean": false, 
+            "normalizer__with_std": true
+        }
+    ], 
+    "rebalance": [
+        "rebalance_NearMiss", 
+        {
+            "rebalance__n_neighbors": 3
+        }
+    ]
+}
+BEST ALGO CONFIG:
+ {}
+BEST SCORE: 0.952113971023 (0.0292967458128)
+##################################################
+## Algorithm
+Best score: 0.952113971023 (0.0292967458128) [P] | Score: 0.944250485515 (0.0265394981724) [A]
+Best score: 0.952113971023 (0.0292967458128) [P] | Score: 0.894763090563 (0.0363134144147) [A]
+#################### STEP RESULT ####################
+BEST PIPELINE:
+ {
+    "features": [
+        "features_NoneType", 
+        {}
+    ], 
+    "normalizer": [
+        "normalizer_StandardScaler", 
+        {
+            "normalizer__with_mean": false, 
+            "normalizer__with_std": true
+        }
+    ], 
+    "rebalance": [
+        "rebalance_NearMiss", 
+        {
+            "rebalance__n_neighbors": 3
+        }
+    ]
+}
+BEST ALGO CONFIG:
+ {}
+BEST SCORE: 0.952113971023 (0.0292967458128)
+##################################################

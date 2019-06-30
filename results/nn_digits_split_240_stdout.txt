@@ -1,0 +1,82 @@
+SCENARIO:
+ {
+    "control": {
+        "seed": 42
+    }, 
+    "file_name": "nn_digits_split_240", 
+    "policy": {
+        "step_pipeline": 240
+    }, 
+    "setup": {
+        "algorithm": "NeuralNet", 
+        "dataset": "digits", 
+        "policy": "split", 
+        "runtime": 300
+    }, 
+    "title": "Neural Net on Digits with Split policy"
+}
+## Data Pipeline
+Best score: 0.175916525563 (0.0302608744168) [P] | Score: 0.175916525563 (0.0302608744168) [P]
+Best score: 0.94656700271 (0.036105562571) [P] | Score: 0.94656700271 (0.036105562571) [P]
+Best score: 0.94656700271 (0.036105562571) [P] | Score: 0.656234866476 (0.0603449363339) [P]
+Best score: 0.94656700271 (0.036105562571) [P] | Score: 0.536246040843 (0.0615647284513) [P]
+Best score: 0.94656700271 (0.036105562571) [P] | Score: 0.825124484091 (0.0276231053556) [P]
+Best score: 0.94656700271 (0.036105562571) [P] | Score: 0.852446756997 (0.0408402830295) [P]
+#################### STEP RESULT ####################
+BEST PIPELINE:
+ {
+    "features": [
+        "features_NoneType", 
+        {}
+    ], 
+    "normalizer": [
+        "normalizer_MinMaxScaler", 
+        {}
+    ], 
+    "rebalance": [
+        "rebalance_SMOTE", 
+        {
+            "rebalance__k_neighbors": 6
+        }
+    ]
+}
+BEST ALGO CONFIG:
+ {}
+BEST SCORE: 0.94656700271 (0.036105562571)
+##################################################
+## Algorithm
+Best score: 0.950036614719 (0.0281530539385) [A] | Score: 0.950036614719 (0.0281530539385) [A]
+#################### STEP RESULT ####################
+BEST PIPELINE:
+ {
+    "features": [
+        "features_NoneType", 
+        {}
+    ], 
+    "normalizer": [
+        "normalizer_MinMaxScaler", 
+        {}
+    ], 
+    "rebalance": [
+        "rebalance_SMOTE", 
+        {
+            "rebalance__k_neighbors": 6
+        }
+    ]
+}
+BEST ALGO CONFIG:
+ {
+    "activation": "relu", 
+    "alpha": 0.0001, 
+    "hidden_layer_sizes": [
+        50, 
+        50, 
+        50, 
+        50, 
+        50
+    ], 
+    "learning_rate": "invscaling", 
+    "solver": "adam"
+}
+BEST SCORE: 0.950036614719 (0.0281530539385)
+##################################################

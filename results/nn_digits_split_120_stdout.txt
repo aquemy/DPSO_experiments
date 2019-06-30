@@ -1,0 +1,71 @@
+SCENARIO:
+ {
+    "control": {
+        "seed": 42
+    }, 
+    "file_name": "nn_digits_split_120", 
+    "policy": {
+        "step_pipeline": 120
+    }, 
+    "setup": {
+        "algorithm": "NeuralNet", 
+        "dataset": "digits", 
+        "policy": "split", 
+        "runtime": 300
+    }, 
+    "title": "Neural Net on Digits with Split policy"
+}
+## Data Pipeline
+Best score: 0.949409842457 (0.0191372559112) [P] | Score: 0.949409842457 (0.0191372559112) [P]
+Best score: 0.949409842457 (0.0191372559112) [P] | Score: 0.746924557425 (0.0433817264557) [P]
+Best score: 0.949409842457 (0.0191372559112) [P] | Score: 0.702405599999 (0.0335478600321) [P]
+#################### STEP RESULT ####################
+BEST PIPELINE:
+ {
+    "features": [
+        "features_NoneType", 
+        {}
+    ], 
+    "normalizer": [
+        "normalizer_PowerTransformer", 
+        {}
+    ], 
+    "rebalance": [
+        "rebalance_SMOTE", 
+        {
+            "rebalance__k_neighbors": 7
+        }
+    ]
+}
+BEST ALGO CONFIG:
+ {}
+BEST SCORE: 0.949409842457 (0.0191372559112)
+##################################################
+## Algorithm
+Best score: 0.949409842457 (0.0191372559112) [P] | Score: 0.159833510147 (0.022223044242) [A]
+Best score: 0.949409842457 (0.0191372559112) [P] | Score: 0.100727808794 (0.00123438366376) [A]
+Best score: 0.949409842457 (0.0191372559112) [P] | Score: 0.359742926779 (0.0454776374797) [A]
+Best score: 0.949409842457 (0.0191372559112) [P] | Score: 0.101826743069 (0.00153387365197) [A]
+Best score: 0.949409842457 (0.0191372559112) [P] | Score: 0.876505983289 (0.0512392055064) [A]
+#################### STEP RESULT ####################
+BEST PIPELINE:
+ {
+    "features": [
+        "features_NoneType", 
+        {}
+    ], 
+    "normalizer": [
+        "normalizer_PowerTransformer", 
+        {}
+    ], 
+    "rebalance": [
+        "rebalance_SMOTE", 
+        {
+            "rebalance__k_neighbors": 7
+        }
+    ]
+}
+BEST ALGO CONFIG:
+ {}
+BEST SCORE: 0.949409842457 (0.0191372559112)
+##################################################

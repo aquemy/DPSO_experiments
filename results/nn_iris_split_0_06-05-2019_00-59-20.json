@@ -1,0 +1,223 @@
+{
+    "context": {
+        "best_config": {
+            "status": "ok", 
+            "score_std": 0.04268749491621898, 
+            "max_history_score_std": 0.04268749491621898, 
+            "iteration": 1, 
+            "start_time": 1559688994.017573, 
+            "step": "algorithm", 
+            "duration": 166.5898859500885, 
+            "loss": 0.019999999999999907, 
+            "pipeline": {}, 
+            "algorithm": {
+                "alpha": 0.001, 
+                "activation": "tanh", 
+                "hidden_layer_sizes": [
+                    100, 
+                    100, 
+                    100, 
+                    100, 
+                    100, 
+                    100, 
+                    100, 
+                    100, 
+                    100, 
+                    100, 
+                    100, 
+                    100, 
+                    100, 
+                    100, 
+                    100, 
+                    100, 
+                    100, 
+                    100, 
+                    100, 
+                    100, 
+                    100, 
+                    100, 
+                    100, 
+                    100, 
+                    100
+                ], 
+                "learning_rate": "constant", 
+                "solver": "sgd"
+            }, 
+            "config_hash": {
+                "pipeline": "bf21a9e8fbc5a3846fb05b4fa0859e0917b2202f", 
+                "config": "63af35b0385fd1b9c574344fe97e7665100a0843", 
+                "algorithm": "8528c0f61f09bac0c9c9205e79a447ec54708aff"
+            }, 
+            "max_history_step": "algorithm", 
+            "score": 0.9800000000000001, 
+            "stop_time": 1559689160.607459, 
+            "type": "pipeline", 
+            "max_history_score": 0.9800000000000001
+        }, 
+        "baseline_score": 0.9800000000000001, 
+        "history_index": {
+            "63af35b0385fd1b9c574344fe97e7665100a0843": 1, 
+            "1d1c499d75196e5d24d864d596c4f94d6265b42a": 0
+        }, 
+        "baseline_score_std": 0.04268749491621898, 
+        "history_hash": [
+            "1d1c499d75196e5d24d864d596c4f94d6265b42a", 
+            "63af35b0385fd1b9c574344fe97e7665100a0843"
+        ], 
+        "max_history_step": "algorithm", 
+        "max_history_score_std": 0.04268749491621898, 
+        "iteration": 1, 
+        "max_history_score": 0.9800000000000001, 
+        "history": [
+            {
+                "status": "ok", 
+                "score_std": 5.551115123125783e-17, 
+                "max_history_score_std": 5.551115123125783e-17, 
+                "iteration": 0, 
+                "start_time": 1559688834.040167, 
+                "step": "algorithm", 
+                "duration": 159.9133780002594, 
+                "loss": 0.6666666666666666, 
+                "pipeline": {}, 
+                "algorithm": {
+                    "alpha": 0.001, 
+                    "activation": "logistic", 
+                    "hidden_layer_sizes": [
+                        100, 
+                        100, 
+                        100, 
+                        100, 
+                        100, 
+                        100, 
+                        100, 
+                        100, 
+                        100, 
+                        100, 
+                        100, 
+                        100, 
+                        100, 
+                        100, 
+                        100, 
+                        100, 
+                        100, 
+                        100, 
+                        100, 
+                        100, 
+                        100, 
+                        100, 
+                        100, 
+                        100, 
+                        100, 
+                        100, 
+                        100, 
+                        100, 
+                        100, 
+                        100, 
+                        100, 
+                        100, 
+                        100, 
+                        100, 
+                        100, 
+                        100, 
+                        100, 
+                        100, 
+                        100, 
+                        100, 
+                        100, 
+                        100, 
+                        100, 
+                        100, 
+                        100, 
+                        100, 
+                        100, 
+                        100, 
+                        100, 
+                        100
+                    ], 
+                    "learning_rate": "adaptive", 
+                    "solver": "sgd"
+                }, 
+                "config_hash": {
+                    "pipeline": "bf21a9e8fbc5a3846fb05b4fa0859e0917b2202f", 
+                    "config": "1d1c499d75196e5d24d864d596c4f94d6265b42a", 
+                    "algorithm": "cf2eef7ac04171b3e63d3d2c62cc05dfb4da77a3"
+                }, 
+                "max_history_step": "algorithm", 
+                "score": 0.33333333333333337, 
+                "stop_time": 1559688993.953545, 
+                "type": "pipeline", 
+                "max_history_score": 0.33333333333333337
+            }, 
+            {
+                "status": "ok", 
+                "score_std": 0.04268749491621898, 
+                "max_history_score_std": 0.04268749491621898, 
+                "iteration": 1, 
+                "start_time": 1559688994.017573, 
+                "step": "algorithm", 
+                "duration": 166.5898859500885, 
+                "loss": 0.019999999999999907, 
+                "pipeline": {}, 
+                "algorithm": {
+                    "alpha": 0.001, 
+                    "activation": "tanh", 
+                    "hidden_layer_sizes": [
+                        100, 
+                        100, 
+                        100, 
+                        100, 
+                        100, 
+                        100, 
+                        100, 
+                        100, 
+                        100, 
+                        100, 
+                        100, 
+                        100, 
+                        100, 
+                        100, 
+                        100, 
+                        100, 
+                        100, 
+                        100, 
+                        100, 
+                        100, 
+                        100, 
+                        100, 
+                        100, 
+                        100, 
+                        100
+                    ], 
+                    "learning_rate": "constant", 
+                    "solver": "sgd"
+                }, 
+                "config_hash": {
+                    "pipeline": "bf21a9e8fbc5a3846fb05b4fa0859e0917b2202f", 
+                    "config": "63af35b0385fd1b9c574344fe97e7665100a0843", 
+                    "algorithm": "8528c0f61f09bac0c9c9205e79a447ec54708aff"
+                }, 
+                "max_history_step": "algorithm", 
+                "score": 0.9800000000000001, 
+                "stop_time": 1559689160.607459, 
+                "type": "pipeline", 
+                "max_history_score": 0.9800000000000001
+            }
+        ]
+    }, 
+    "scenario": {
+        "control": {
+            "seed": 42
+        }, 
+        "policy": {
+            "step_pipeline": 0
+        }, 
+        "setup": {
+            "policy": "split", 
+            "runtime": 300, 
+            "algorithm": "NeuralNet", 
+            "dataset": "iris"
+        }, 
+        "file_name": "nn_iris_split_0", 
+        "title": "Neural Net on Iris with Split policy"
+    }
+}

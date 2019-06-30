@@ -1,0 +1,39 @@
+SCENARIO:
+ {
+    "control": {
+        "seed": 42
+    }, 
+    "file_name": "nn_breast_split_0", 
+    "policy": {
+        "step_pipeline": 0
+    }, 
+    "setup": {
+        "algorithm": "NeuralNet", 
+        "dataset": "breast", 
+        "policy": "split", 
+        "runtime": 300
+    }, 
+    "title": "Neural Net on Breast with Split policy"
+}
+## Algorithm
+Best score: 0.372572595281 (0.00441189245975) [A] | Score: 0.372572595281 (0.00441189245975) [A]
+Best score: 0.917346167142 (0.0139695572975) [A] | Score: 0.917346167142 (0.0139695572975) [A]
+Best score: 0.917346167142 (0.0139695572975) [A] | Score: 0.627427404719 (0.00441189245975) [A]
+Best score: 0.917499567885 (0.0321253495954) [A] | Score: 0.917499567885 (0.0321253495954) [A]
+Best score: 0.917499567885 (0.0321253495954) [A] | Score: 0.627427404719 (0.00441189245975) [A]
+Best score: 0.934892187365 (0.0276468010013) [A] | Score: 0.934892187365 (0.0276468010013) [A]
+#################### STEP RESULT ####################
+BEST PIPELINE:
+ {}
+BEST ALGO CONFIG:
+ {
+    "activation": "tanh", 
+    "alpha": 1e-05, 
+    "hidden_layer_sizes": [
+        100
+    ], 
+    "learning_rate": "constant", 
+    "solver": "adam"
+}
+BEST SCORE: 0.934892187365 (0.0276468010013)
+##################################################

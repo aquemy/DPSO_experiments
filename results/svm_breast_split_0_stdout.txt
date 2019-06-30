@@ -1,0 +1,87 @@
+SCENARIO:
+ {
+    "control": {
+        "seed": 42
+    }, 
+    "file_name": "svm_breast_split_0", 
+    "policy": {
+        "step_pipeline": 0
+    }, 
+    "setup": {
+        "algorithm": "SVM", 
+        "dataset": "breast", 
+        "policy": "split", 
+        "runtime": 300
+    }, 
+    "title": "S VM on Breast with Split policy"
+}
+## Algorithm
+Best score: 0.627427404719 (0.00441189245975) [A] | Score: 0.627427404719 (0.00441189245975) [A]
+Best score: 0.947235545761 (0.0284617634318) [A] | Score: 0.947235545761 (0.0284617634318) [A]
+Best score: 0.947235545761 (0.0284617634318) [A] | Score: 0.627427404719 (0.00441189245975) [A]
+Best score: 0.947235545761 (0.0284617634318) [A] | Score: 0.627427404719 (0.00441189245975) [A]
+Best score: 0.947235545761 (0.0284617634318) [A] | Score: 0.627427404719 (0.00441189245975) [A]
+Best score: 0.947422435399 (0.0279171700704) [A] | Score: 0.947422435399 (0.0279171700704) [A]
+#################### STEP RESULT ####################
+BEST PIPELINE:
+ {}
+BEST ALGO CONFIG:
+ {
+    "C": 0.5, 
+    "degree": 3, 
+    "gamma": "scale", 
+    "kernel": "poly", 
+    "shrinking": false
+}
+BEST SCORE: 0.947422435399 (0.0279171700704)
+##################################################
+SCENARIO:
+ {
+    "control": {
+        "seed": 42
+    }, 
+    "file_name": "svm_breast_split_0", 
+    "policy": {
+        "step_pipeline": 0
+    }, 
+    "setup": {
+        "algorithm": "SVM", 
+        "dataset": "breast", 
+        "policy": "split", 
+        "runtime": 300
+    }, 
+    "title": "S VM on Breast with Split policy"
+}
+SCENARIO:
+ {
+    "control": {
+        "seed": 42
+    }, 
+    "file_name": "svm_breast_split_0", 
+    "policy": {
+        "step_pipeline": 0
+    }, 
+    "setup": {
+        "algorithm": "SVM", 
+        "dataset": "breast", 
+        "policy": "split", 
+        "runtime": 300
+    }, 
+    "title": "S VM on Breast with Split policy"
+}
+## Algorithm
+Best score: 0.627427404719 (0.00441189245975) [A] | Score: 0.627427404719 (0.00441189245975) [A]
+Best score: 0.956134949443 (0.0209263390607) [A] | Score: 0.956134949443 (0.0209263390607) [A]
+#################### STEP RESULT ####################
+BEST PIPELINE:
+ {}
+BEST ALGO CONFIG:
+ {
+    "C": 0.05, 
+    "degree": 2, 
+    "gamma": "auto", 
+    "kernel": "poly", 
+    "shrinking": true
+}
+BEST SCORE: 0.956134949443 (0.0209263390607)
+##################################################

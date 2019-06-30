@@ -1,0 +1,86 @@
+SCENARIO:
+ {
+    "control": {
+        "seed": 42
+    }, 
+    "file_name": "nn_digits_split_180", 
+    "policy": {
+        "step_pipeline": 180
+    }, 
+    "setup": {
+        "algorithm": "NeuralNet", 
+        "dataset": "digits", 
+        "policy": "split", 
+        "runtime": 300
+    }, 
+    "title": "Neural Net on Digits with Split policy"
+}
+## Data Pipeline
+Best score: 0.609592177798 (0.0707509625038) [P] | Score: 0.609592177798 (0.0707509625038) [P]
+Best score: 0.609592177798 (0.0707509625038) [P] | Score: 0.133525676732 (0.0195373139657) [P]
+Best score: 0.609592177798 (0.0707509625038) [P] | Score: 0.146333250029 (0.0197000684295) [P]
+Best score: 0.7258460243 (0.0389789551344) [P] | Score: 0.7258460243 (0.0389789551344) [P]
+Best score: 0.7258460243 (0.0389789551344) [P] | Score: 0.371536162507 (0.0654814745398) [P]
+Best score: 0.7258460243 (0.0389789551344) [P] | Score: 0.482580473507 (0.0707128817384) [P]
+Best score: 0.728899063202 (0.0232012454603) [P] | Score: 0.728899063202 (0.0232012454603) [P]
+#################### STEP RESULT ####################
+BEST PIPELINE:
+ {
+    "features": [
+        "features_PCA", 
+        {
+            "features__n_components": 3
+        }
+    ], 
+    "normalizer": [
+        "normalizer_RobustScaler", 
+        {
+            "normalizer__quantile_range": [
+                5.0, 
+                95.0
+            ], 
+            "normalizer__with_centering": true, 
+            "normalizer__with_scaling": false
+        }
+    ], 
+    "rebalance": [
+        "rebalance_NoneType", 
+        {}
+    ]
+}
+BEST ALGO CONFIG:
+ {}
+BEST SCORE: 0.728899063202 (0.0232012454603)
+##################################################
+## Algorithm
+Best score: 0.728899063202 (0.0232012454603) [P] | Score: 0.105141660196 (0.0110501525473) [A]
+Best score: 0.728899063202 (0.0232012454603) [P] | Score: 0.708304428697 (0.0317960579844) [A]
+#################### STEP RESULT ####################
+BEST PIPELINE:
+ {
+    "features": [
+        "features_PCA", 
+        {
+            "features__n_components": 3
+        }
+    ], 
+    "normalizer": [
+        "normalizer_RobustScaler", 
+        {
+            "normalizer__quantile_range": [
+                5.0, 
+                95.0
+            ], 
+            "normalizer__with_centering": true, 
+            "normalizer__with_scaling": false
+        }
+    ], 
+    "rebalance": [
+        "rebalance_NoneType", 
+        {}
+    ]
+}
+BEST ALGO CONFIG:
+ {}
+BEST SCORE: 0.728899063202 (0.0232012454603)
+##################################################

@@ -1,0 +1,65 @@
+SCENARIO:
+ {
+    "control": {
+        "seed": 42
+    }, 
+    "file_name": "nn_wine_joint", 
+    "policy": null, 
+    "setup": {
+        "algorithm": "NeuralNet", 
+        "dataset": "wine", 
+        "policy": "joint", 
+        "runtime": 300
+    }, 
+    "title": "Neural Net on Wine with Joint policy"
+}
+Best score: 0.269289645683 (0.0143865333972) [J] | Score: 0.269289645683 (0.0143865333972) [J]
+Best score: 0.713424492604 (0.0834279148465) [J] | Score: 0.713424492604 (0.0834279148465) [J]
+Best score: 0.713424492604 (0.0834279148465) [J] | Score: 0.408799879601 (0.122024900216) [J]
+Best score: 0.713424492604 (0.0834279148465) [J] | Score: 0.269289645683 (0.0143865333972) [J]
+Best score: 0.713424492604 (0.0834279148465) [J] | Score: 0.519850791194 (0.248746941273) [J]
+Best score: 0.713424492604 (0.0834279148465) [J] | Score: 0.399253955968 (0.0168715835498) [J]
+Best score: 0.713424492604 (0.0834279148465) [J] | Score: 0.399253955968 (0.0168715835498) [J]
+#################### STEP RESULT ####################
+BEST PIPELINE:
+ {
+    "features": [
+        "features_PCA", 
+        {
+            "features__n_components": 3
+        }
+    ], 
+    "normalizer": [
+        "normalizer_RobustScaler", 
+        {
+            "normalizer__quantile_range": [
+                5.0, 
+                95.0
+            ], 
+            "normalizer__with_centering": true, 
+            "normalizer__with_scaling": false
+        }
+    ], 
+    "rebalance": [
+        "rebalance_NearMiss", 
+        {
+            "rebalance__n_neighbors": 1
+        }
+    ]
+}
+BEST ALGO CONFIG:
+ {
+    "activation": "logistic", 
+    "alpha": 0.0001, 
+    "hidden_layer_sizes": [
+        100, 
+        100, 
+        100, 
+        100, 
+        100
+    ], 
+    "learning_rate": "invscaling", 
+    "solver": "lbfgs"
+}
+BEST SCORE: 0.713424492604 (0.0834279148465)
+##################################################

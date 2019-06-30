@@ -1,0 +1,196 @@
+SCENARIO:
+ {
+    "control": {
+        "seed": 42
+    }, 
+    "file_name": "nn_breast_adaptive", 
+    "policy": {
+        "initial_step_time": 15, 
+        "reset_trial": false, 
+        "reset_trials_after": 2
+    }, 
+    "setup": {
+        "algorithm": "NeuralNet", 
+        "dataset": "breast", 
+        "policy": "adaptive", 
+        "runtime": 300
+    }, 
+    "title": "Neural Net on Breast with Adaptive policy"
+}
+## Data Pipeline
+Best score: 0.9456378014 (0.0238138042823) [P] | Score: 0.9456378014 (0.0238138042823) [P]
+Best score: 0.9456378014 (0.0238138042823) [P] | Score: 0.929473468153 (0.0243591820263) [P]
+Best score: 0.9456378014 (0.0238138042823) [P] | Score: 0.905124881168 (0.0369994985562) [P]
+#################### STEP RESULT ####################
+BEST PIPELINE:
+ {
+    "features": [
+        "features_PCA", 
+        {
+            "features__n_components": 3
+        }
+    ], 
+    "normalizer": [
+        "normalizer_StandardScaler", 
+        {
+            "normalizer__with_mean": true, 
+            "normalizer__with_std": true
+        }
+    ], 
+    "rebalance": [
+        "rebalance_NearMiss", 
+        {
+            "rebalance__n_neighbors": 2
+        }
+    ]
+}
+BEST ALGO CONFIG:
+ {}
+BEST SCORE: 0.9456378014 (0.0238138042823)
+##################################################
+--> [POLICY ACTION] DOUBLE TIME FOR PIPELINE from 15s to 30s.
+## Algorithm
+Best score: 0.9456378014 (0.0238138042823) [P] | Score: 0.372572595281 (0.00441189245975) [A]
+#################### STEP RESULT ####################
+BEST PIPELINE:
+ {
+    "features": [
+        "features_PCA", 
+        {
+            "features__n_components": 3
+        }
+    ], 
+    "normalizer": [
+        "normalizer_StandardScaler", 
+        {
+            "normalizer__with_mean": true, 
+            "normalizer__with_std": true
+        }
+    ], 
+    "rebalance": [
+        "rebalance_NearMiss", 
+        {
+            "rebalance__n_neighbors": 2
+        }
+    ]
+}
+BEST ALGO CONFIG:
+ {}
+BEST SCORE: 0.9456378014 (0.0238138042823)
+##################################################
+## Data Pipeline
+Best score: 0.9456378014 (0.0238138042823) [P] | Score: 0.931659968888 (0.0233426819993) [P]
+Best score: 0.9456378014 (0.0238138042823) [P] | Score: 0.910542520093 (0.0399303948181) [P]
+Best score: 0.9456378014 (0.0238138042823) [P] | Score: 0.924178981938 (0.025765549826) [P]
+#################### STEP RESULT ####################
+BEST PIPELINE:
+ {
+    "features": [
+        "features_PCA", 
+        {
+            "features__n_components": 3
+        }
+    ], 
+    "normalizer": [
+        "normalizer_StandardScaler", 
+        {
+            "normalizer__with_mean": true, 
+            "normalizer__with_std": true
+        }
+    ], 
+    "rebalance": [
+        "rebalance_NearMiss", 
+        {
+            "rebalance__n_neighbors": 2
+        }
+    ]
+}
+BEST ALGO CONFIG:
+ {}
+BEST SCORE: 0.9456378014 (0.0238138042823)
+##################################################
+--> [POLICY ACTION] DIVIDE TIME FOR PIPELINE from 30s to 15s.
+## Algorithm
+Best score: 0.9456378014 (0.0238138042823) [P] | Score: 0.93159947282 (0.0303136996225) [A]
+Best score: 0.9456378014 (0.0238138042823) [P] | Score: 0.922673061965 (0.0303686247459) [A]
+#################### STEP RESULT ####################
+BEST PIPELINE:
+ {
+    "features": [
+        "features_PCA", 
+        {
+            "features__n_components": 3
+        }
+    ], 
+    "normalizer": [
+        "normalizer_StandardScaler", 
+        {
+            "normalizer__with_mean": true, 
+            "normalizer__with_std": true
+        }
+    ], 
+    "rebalance": [
+        "rebalance_NearMiss", 
+        {
+            "rebalance__n_neighbors": 2
+        }
+    ]
+}
+BEST ALGO CONFIG:
+ {}
+BEST SCORE: 0.9456378014 (0.0238138042823)
+##################################################
+## Data Pipeline
+Best score: 0.964938207588 (0.0172734752468) [P] | Score: 0.964938207588 (0.0172734752468) [P]
+Best score: 0.964938207588 (0.0172734752468) [P] | Score: 0.963090916948 (0.0145752616075) [P]
+#################### STEP RESULT ####################
+BEST PIPELINE:
+ {
+    "features": [
+        "features_PCA", 
+        {
+            "features__n_components": 4
+        }
+    ], 
+    "normalizer": [
+        "normalizer_MinMaxScaler", 
+        {}
+    ], 
+    "rebalance": [
+        "rebalance_SMOTE", 
+        {
+            "rebalance__k_neighbors": 6
+        }
+    ]
+}
+BEST ALGO CONFIG:
+ {}
+BEST SCORE: 0.964938207588 (0.0172734752468)
+##################################################
+--> [POLICY ACTION] DOUBLE TIME FOR PIPELINE from 15s to 30s.
+## Algorithm
+Best score: 0.964938207588 (0.0172734752468) [P] | Score: 0.381408262034 (0.0376783088554) [A]
+#################### STEP RESULT ####################
+BEST PIPELINE:
+ {
+    "features": [
+        "features_PCA", 
+        {
+            "features__n_components": 4
+        }
+    ], 
+    "normalizer": [
+        "normalizer_MinMaxScaler", 
+        {}
+    ], 
+    "rebalance": [
+        "rebalance_SMOTE", 
+        {
+            "rebalance__k_neighbors": 6
+        }
+    ]
+}
+BEST ALGO CONFIG:
+ {}
+BEST SCORE: 0.964938207588 (0.0172734752468)
+##################################################

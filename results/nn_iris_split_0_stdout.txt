@@ -1,0 +1,59 @@
+SCENARIO:
+ {
+    "control": {
+        "seed": 42
+    }, 
+    "file_name": "nn_iris_split_0", 
+    "policy": {
+        "step_pipeline": 0
+    }, 
+    "setup": {
+        "algorithm": "NeuralNet", 
+        "dataset": "iris", 
+        "policy": "split", 
+        "runtime": 300
+    }, 
+    "title": "Neural Net on Iris with Split policy"
+}
+## Algorithm
+Best score: 0.333333333333 (5.55111512313e-17) [A] | Score: 0.333333333333 (5.55111512313e-17) [A]
+Best score: 0.98 (0.0426874949162) [A] | Score: 0.98 (0.0426874949162) [A]
+#################### STEP RESULT ####################
+BEST PIPELINE:
+ {}
+BEST ALGO CONFIG:
+ {
+    "activation": "tanh", 
+    "alpha": 0.001, 
+    "hidden_layer_sizes": [
+        100, 
+        100, 
+        100, 
+        100, 
+        100, 
+        100, 
+        100, 
+        100, 
+        100, 
+        100, 
+        100, 
+        100, 
+        100, 
+        100, 
+        100, 
+        100, 
+        100, 
+        100, 
+        100, 
+        100, 
+        100, 
+        100, 
+        100, 
+        100, 
+        100
+    ], 
+    "learning_rate": "constant", 
+    "solver": "sgd"
+}
+BEST SCORE: 0.98 (0.0426874949162)
+##################################################

@@ -1,0 +1,90 @@
+/home/aquemy/.local/lib/python2.7/site-packages/sklearn/ensemble/forest.py:246: FutureWarning: The default value of n_estimators will change from 10 in version 0.20 to 100 in 0.22.
+  "10 in version 0.20 to 100 in 0.22.", FutureWarning)
+/home/aquemy/.local/lib/python2.7/site-packages/sklearn/ensemble/forest.py:246: FutureWarning: The default value of n_estimators will change from 10 in version 0.20 to 100 in 0.22.
+  "10 in version 0.20 to 100 in 0.22.", FutureWarning)
+/home/aquemy/.local/lib/python2.7/site-packages/sklearn/ensemble/forest.py:246: FutureWarning: The default value of n_estimators will change from 10 in version 0.20 to 100 in 0.22.
+  "10 in version 0.20 to 100 in 0.22.", FutureWarning)
+/home/aquemy/.local/lib/python2.7/site-packages/sklearn/ensemble/forest.py:246: FutureWarning: The default value of n_estimators will change from 10 in version 0.20 to 100 in 0.22.
+  "10 in version 0.20 to 100 in 0.22.", FutureWarning)
+/home/aquemy/.local/lib/python2.7/site-packages/sklearn/preprocessing/data.py:2778: RuntimeWarning: divide by zero encountered in log
+  loglike = -n_samples / 2 * np.log(x_trans.var())
+/home/aquemy/.local/lib/python2.7/site-packages/sklearn/preprocessing/data.py:2778: RuntimeWarning: divide by zero encountered in log
+  loglike = -n_samples / 2 * np.log(x_trans.var())
+/home/aquemy/.local/lib/python2.7/site-packages/sklearn/preprocessing/data.py:2778: RuntimeWarning: divide by zero encountered in log
+  loglike = -n_samples / 2 * np.log(x_trans.var())
+/home/aquemy/.local/lib/python2.7/site-packages/sklearn/preprocessing/data.py:2778: RuntimeWarning: divide by zero encountered in log
+  loglike = -n_samples / 2 * np.log(x_trans.var())
+/home/aquemy/.local/lib/python2.7/site-packages/sklearn/feature_selection/univariate_selection.py:114: UserWarning: Features [ 0 32 39] are constant.
+  UserWarning)
+/home/aquemy/.local/lib/python2.7/site-packages/sklearn/feature_selection/univariate_selection.py:115: RuntimeWarning: invalid value encountered in divide
+  f = msb / msw
+/home/aquemy/.local/lib/python2.7/site-packages/sklearn/feature_selection/univariate_selection.py:114: UserWarning: Features [ 0 32 39] are constant.
+  UserWarning)
+/home/aquemy/.local/lib/python2.7/site-packages/sklearn/feature_selection/univariate_selection.py:115: RuntimeWarning: invalid value encountered in divide
+  f = msb / msw
+/home/aquemy/.local/lib/python2.7/site-packages/sklearn/feature_selection/univariate_selection.py:114: UserWarning: Features [ 0 32 39 56] are constant.
+  UserWarning)
+/home/aquemy/.local/lib/python2.7/site-packages/sklearn/feature_selection/univariate_selection.py:115: RuntimeWarning: invalid value encountered in divide
+  f = msb / msw
+/home/aquemy/.local/lib/python2.7/site-packages/sklearn/feature_selection/univariate_selection.py:114: UserWarning: Features [ 0 32 39] are constant.
+  UserWarning)
+/home/aquemy/.local/lib/python2.7/site-packages/sklearn/feature_selection/univariate_selection.py:115: RuntimeWarning: invalid value encountered in divide
+  f = msb / msw
+/home/aquemy/.local/lib/python2.7/site-packages/sklearn/feature_selection/univariate_selection.py:114: UserWarning: Features [ 0 32 39] are constant.
+  UserWarning)
+/home/aquemy/.local/lib/python2.7/site-packages/sklearn/feature_selection/univariate_selection.py:114: UserWarning: Features [ 0 32 39 56] are constant.
+  UserWarning)
+/home/aquemy/.local/lib/python2.7/site-packages/sklearn/feature_selection/univariate_selection.py:114: UserWarning: Features [ 0 23 24 31 32 39 40 56] are constant.
+  UserWarning)
+/home/aquemy/.local/lib/python2.7/site-packages/sklearn/feature_selection/univariate_selection.py:114: UserWarning: Features [ 0 24 31 32 39 40 47] are constant.
+  UserWarning)
+/home/aquemy/.local/lib/python2.7/site-packages/sklearn/feature_selection/univariate_selection.py:114: UserWarning: Features [ 0 24 31 32 39 40 47 48 56] are constant.
+  UserWarning)
+/home/aquemy/.local/lib/python2.7/site-packages/sklearn/feature_selection/univariate_selection.py:114: UserWarning: Features [ 0 23 24 31 32 39 40 47 56] are constant.
+  UserWarning)
+/home/aquemy/.local/lib/python2.7/site-packages/sklearn/feature_selection/univariate_selection.py:114: UserWarning: Features [ 0 23 24 31 32 39 47 48 56] are constant.
+  UserWarning)
+/home/aquemy/.local/lib/python2.7/site-packages/sklearn/feature_selection/univariate_selection.py:114: UserWarning: Features [ 0 23 24 31 32 39 40 48 56] are constant.
+  UserWarning)
+/home/aquemy/.local/lib/python2.7/site-packages/sklearn/feature_selection/univariate_selection.py:114: UserWarning: Features [ 0 31 32 39 40 47 48 56] are constant.
+  UserWarning)
+/home/aquemy/.local/lib/python2.7/site-packages/sklearn/feature_selection/univariate_selection.py:114: UserWarning: Features [ 0 31 32 39 40 47 56] are constant.
+  UserWarning)
+/home/aquemy/.local/lib/python2.7/site-packages/sklearn/feature_selection/univariate_selection.py:114: UserWarning: Features [ 0 23 24 31 32 39 40 47 48 56] are constant.
+  UserWarning)
+/home/aquemy/.local/lib/python2.7/site-packages/sklearn/feature_selection/univariate_selection.py:114: UserWarning: Features [ 0 23 31 32 39 40 47 56] are constant.
+  UserWarning)
+/home/aquemy/.local/lib/python2.7/site-packages/sklearn/feature_selection/univariate_selection.py:114: UserWarning: Features [ 0 23 24 31 32 39 40 47] are constant.
+  UserWarning)
+/home/aquemy/.local/lib/python2.7/site-packages/sklearn/feature_selection/univariate_selection.py:114: UserWarning: Features [ 0 24 31 32 39 40 48 56] are constant.
+  UserWarning)
+/home/aquemy/.local/lib/python2.7/site-packages/sklearn/feature_selection/univariate_selection.py:114: UserWarning: Features [ 0 23 24 31 32 39 40 47 48 56] are constant.
+  UserWarning)
+/home/aquemy/.local/lib/python2.7/site-packages/sklearn/feature_selection/univariate_selection.py:114: UserWarning: Features [ 0 23 31 32 39 40 47 48 56] are constant.
+  UserWarning)
+/home/aquemy/.local/lib/python2.7/site-packages/sklearn/feature_selection/univariate_selection.py:114: UserWarning: Features [ 0 23 24 31 32 39 40 47 48 56] are constant.
+  UserWarning)
+/home/aquemy/.local/lib/python2.7/site-packages/sklearn/feature_selection/univariate_selection.py:114: UserWarning: Features [ 0 32 39 56] are constant.
+  UserWarning)
+/home/aquemy/.local/lib/python2.7/site-packages/sklearn/feature_selection/univariate_selection.py:114: UserWarning: Features [ 0 32 39 56] are constant.
+  UserWarning)
+/home/aquemy/.local/lib/python2.7/site-packages/sklearn/feature_selection/univariate_selection.py:114: UserWarning: Features [ 0 31 32 39 40 47 48 56] are constant.
+  UserWarning)
+/home/aquemy/.local/lib/python2.7/site-packages/sklearn/feature_selection/univariate_selection.py:114: UserWarning: Features [ 0 24 31 32 39 40 47] are constant.
+  UserWarning)
+/home/aquemy/.local/lib/python2.7/site-packages/sklearn/feature_selection/univariate_selection.py:114: UserWarning: Features [ 0 31 32 39 40 47 56] are constant.
+  UserWarning)
+/home/aquemy/.local/lib/python2.7/site-packages/sklearn/feature_selection/univariate_selection.py:114: UserWarning: Features [ 0 31 32 39 40 56] are constant.
+  UserWarning)
+/home/aquemy/.local/lib/python2.7/site-packages/sklearn/feature_selection/univariate_selection.py:114: UserWarning: Features [ 0 31 32 39 47 48 56] are constant.
+  UserWarning)
+/home/aquemy/.local/lib/python2.7/site-packages/sklearn/feature_selection/univariate_selection.py:114: UserWarning: Features [ 0 23 31 32 39 40 47 48 56] are constant.
+  UserWarning)
+/home/aquemy/.local/lib/python2.7/site-packages/sklearn/feature_selection/univariate_selection.py:114: UserWarning: Features [ 0 23 24 31 32 39 40 47 48 56] are constant.
+  UserWarning)
+/home/aquemy/.local/lib/python2.7/site-packages/sklearn/feature_selection/univariate_selection.py:114: UserWarning: Features [ 0 32 39 40 47 48 56] are constant.
+  UserWarning)
+/home/aquemy/.local/lib/python2.7/site-packages/sklearn/feature_selection/univariate_selection.py:114: UserWarning: Features [ 0 23 31 32 39 40 47 56] are constant.
+  UserWarning)
+/home/aquemy/.local/lib/python2.7/site-packages/sklearn/feature_selection/univariate_selection.py:114: UserWarning: Features [ 0 23 24 31 32 39 40 48 56] are constant.
+  UserWarning)

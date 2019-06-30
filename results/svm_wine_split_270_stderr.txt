@@ -1,0 +1,32 @@
+/home/aquemy/.local/lib/python2.7/site-packages/sklearn/svm/base.py:196: FutureWarning: The default value of gamma will change from 'auto' to 'scale' in version 0.22 to account better for unscaled features. Set gamma explicitly to 'auto' or 'scale' to avoid this warning.
+  "avoid this warning.", FutureWarning)
+/home/aquemy/.local/lib/python2.7/site-packages/sklearn/svm/base.py:196: FutureWarning: The default value of gamma will change from 'auto' to 'scale' in version 0.22 to account better for unscaled features. Set gamma explicitly to 'auto' or 'scale' to avoid this warning.
+  "avoid this warning.", FutureWarning)
+/home/aquemy/.local/lib/python2.7/site-packages/sklearn/svm/base.py:196: FutureWarning: The default value of gamma will change from 'auto' to 'scale' in version 0.22 to account better for unscaled features. Set gamma explicitly to 'auto' or 'scale' to avoid this warning.
+  "avoid this warning.", FutureWarning)
+/home/aquemy/.local/lib/python2.7/site-packages/sklearn/svm/base.py:196: FutureWarning: The default value of gamma will change from 'auto' to 'scale' in version 0.22 to account better for unscaled features. Set gamma explicitly to 'auto' or 'scale' to avoid this warning.
+  "avoid this warning.", FutureWarning)
+/home/aquemy/.local/lib/python2.7/site-packages/sklearn/preprocessing/data.py:2778: RuntimeWarning: divide by zero encountered in log
+  loglike = -n_samples / 2 * np.log(x_trans.var())
+/home/aquemy/.local/lib/python2.7/site-packages/sklearn/preprocessing/data.py:2778: RuntimeWarning: divide by zero encountered in log
+  loglike = -n_samples / 2 * np.log(x_trans.var())
+/home/aquemy/.local/lib/python2.7/site-packages/sklearn/preprocessing/data.py:2778: RuntimeWarning: divide by zero encountered in log
+  loglike = -n_samples / 2 * np.log(x_trans.var())
+/home/aquemy/.local/lib/python2.7/site-packages/sklearn/preprocessing/data.py:2778: RuntimeWarning: divide by zero encountered in log
+  loglike = -n_samples / 2 * np.log(x_trans.var())
+/home/aquemy/.local/lib/python2.7/site-packages/sklearn/feature_selection/univariate_selection.py:114: UserWarning: Features [12] are constant.
+  UserWarning)
+/home/aquemy/.local/lib/python2.7/site-packages/sklearn/feature_selection/univariate_selection.py:115: RuntimeWarning: invalid value encountered in divide
+  f = msb / msw
+/home/aquemy/.local/lib/python2.7/site-packages/sklearn/feature_selection/univariate_selection.py:114: UserWarning: Features [12] are constant.
+  UserWarning)
+/home/aquemy/.local/lib/python2.7/site-packages/sklearn/feature_selection/univariate_selection.py:115: RuntimeWarning: invalid value encountered in divide
+  f = msb / msw
+/home/aquemy/.local/lib/python2.7/site-packages/sklearn/feature_selection/univariate_selection.py:114: UserWarning: Features [12] are constant.
+  UserWarning)
+/home/aquemy/.local/lib/python2.7/site-packages/sklearn/feature_selection/univariate_selection.py:115: RuntimeWarning: invalid value encountered in divide
+  f = msb / msw
+/home/aquemy/.local/lib/python2.7/site-packages/sklearn/feature_selection/univariate_selection.py:114: UserWarning: Features [12] are constant.
+  UserWarning)
+/home/aquemy/.local/lib/python2.7/site-packages/sklearn/feature_selection/univariate_selection.py:115: RuntimeWarning: invalid value encountered in divide
+  f = msb / msw

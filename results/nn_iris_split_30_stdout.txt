@@ -1,0 +1,116 @@
+SCENARIO:
+ {
+    "control": {
+        "seed": 42
+    }, 
+    "file_name": "nn_iris_split_30", 
+    "policy": {
+        "step_pipeline": 30
+    }, 
+    "setup": {
+        "algorithm": "NeuralNet", 
+        "dataset": "iris", 
+        "policy": "split", 
+        "runtime": 300
+    }, 
+    "title": "Neural Net on Iris with Split policy"
+}
+## Data Pipeline
+Best score: 0.893333333333 (0.0952190457139) [P] | Score: 0.893333333333 (0.0952190457139) [P]
+Best score: 0.893333333333 (0.0952190457139) [P] | Score: 0.666666666667 (1.11022302463e-16) [P]
+Best score: 0.953333333333 (0.030550504633) [P] | Score: 0.953333333333 (0.030550504633) [P]
+Best score: 0.953333333333 (0.030550504633) [P] | Score: 0.933333333333 (0.0516397779494) [P]
+Best score: 0.966666666667 (0.04472135955) [P] | Score: 0.966666666667 (0.04472135955) [P]
+Best score: 0.966666666667 (0.04472135955) [P] | Score: 0.933333333333 (0.0516397779494) [P]
+Best score: 0.966666666667 (0.04472135955) [P] | Score: 0.926666666667 (0.062893207547) [P]
+Best score: 0.966666666667 (0.04472135955) [P] | Score: 0.953333333333 (0.0669991708075) [P]
+Best score: 0.966666666667 (0.04472135955) [P] | Score: 0.946666666667 (0.049888765157) [P]
+Best score: 0.966666666667 (0.04472135955) [P] | Score: 0.86 (0.105198225587) [P]
+Best score: 0.966666666667 (0.04472135955) [P] | Score: 0.893333333333 (0.0904310664417) [P]
+Best score: 0.966666666667 (0.04472135955) [P] | Score: 0.926666666667 (0.0553774924195) [P]
+Best score: 0.966666666667 (0.04472135955) [P] | Score: 0.786666666667 (0.0979795897113) [P]
+Best score: 0.966666666667 (0.04472135955) [P] | Score: 0.94 (0.0553774924195) [P]
+#################### STEP RESULT ####################
+BEST PIPELINE:
+ {
+    "features": [
+        "features_FeatureUnion", 
+        {
+            "features__pca__n_components": 3, 
+            "features__selectkbest__k": 1
+        }
+    ], 
+    "normalizer": [
+        "normalizer_StandardScaler", 
+        {
+            "normalizer__with_mean": true, 
+            "normalizer__with_std": true
+        }
+    ], 
+    "rebalance": [
+        "rebalance_SMOTE", 
+        {
+            "rebalance__k_neighbors": 6
+        }
+    ]
+}
+BEST ALGO CONFIG:
+ {}
+BEST SCORE: 0.966666666667 (0.04472135955)
+##################################################
+## Algorithm
+Best score: 0.966666666667 (0.04472135955) [P] | Score: 0.66 (0.02) [A]
+Best score: 0.966666666667 (0.04472135955) [P] | Score: 0.333333333333 (5.55111512313e-17) [A]
+Best score: 0.973333333333 (0.0326598632371) [A] | Score: 0.973333333333 (0.0326598632371) [A]
+Best score: 0.973333333333 (0.0326598632371) [A] | Score: 0.333333333333 (5.55111512313e-17) [A]
+Best score: 0.973333333333 (0.0326598632371) [A] | Score: 0.96 (0.0442216638714) [A]
+Best score: 0.973333333333 (0.0326598632371) [A] | Score: 0.333333333333 (5.55111512313e-17) [A]
+Best score: 0.973333333333 (0.0326598632371) [A] | Score: 0.333333333333 (5.55111512313e-17) [A]
+Best score: 0.973333333333 (0.0326598632371) [A] | Score: 0.333333333333 (5.55111512313e-17) [A]
+Best score: 0.973333333333 (0.0326598632371) [A] | Score: 0.953333333333 (0.0426874949162) [A]
+Best score: 0.973333333333 (0.0326598632371) [A] | Score: 0.973333333333 (0.0442216638714) [A]
+#################### STEP RESULT ####################
+BEST PIPELINE:
+ {
+    "features": [
+        "features_FeatureUnion", 
+        {
+            "features__pca__n_components": 3, 
+            "features__selectkbest__k": 1
+        }
+    ], 
+    "normalizer": [
+        "normalizer_StandardScaler", 
+        {
+            "normalizer__with_mean": true, 
+            "normalizer__with_std": true
+        }
+    ], 
+    "rebalance": [
+        "rebalance_SMOTE", 
+        {
+            "rebalance__k_neighbors": 6
+        }
+    ]
+}
+BEST ALGO CONFIG:
+ {
+    "activation": "tanh", 
+    "alpha": 0.0001, 
+    "hidden_layer_sizes": [
+        10, 
+        10, 
+        10, 
+        10, 
+        10, 
+        10, 
+        10, 
+        10, 
+        10, 
+        10
+    ], 
+    "learning_rate": "constant", 
+    "solver": "adam"
+}
+BEST SCORE: 0.973333333333 (0.0326598632371)
+##################################################

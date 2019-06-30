@@ -1,0 +1,99 @@
+SCENARIO:
+ {
+    "control": {
+        "seed": 42
+    }, 
+    "file_name": "nn_breast_split_120", 
+    "policy": {
+        "step_pipeline": 120
+    }, 
+    "setup": {
+        "algorithm": "NeuralNet", 
+        "dataset": "breast", 
+        "policy": "split", 
+        "runtime": 300
+    }, 
+    "title": "Neural Net on Breast with Split policy"
+}
+## Data Pipeline
+Best score: 0.933293362717 (0.0287004259358) [P] | Score: 0.933293362717 (0.0287004259358) [P]
+Best score: 0.978975455881 (0.0152334222071) [P] | Score: 0.978975455881 (0.0152334222071) [P]
+Best score: 0.978975455881 (0.0152334222071) [P] | Score: 0.950868550687 (0.0317033933329) [P]
+Best score: 0.978975455881 (0.0152334222071) [P] | Score: 0.940402730965 (0.0340636225741) [P]
+Best score: 0.978975455881 (0.0152334222071) [P] | Score: 0.792019920491 (0.182433785611) [P]
+Best score: 0.978975455881 (0.0152334222071) [P] | Score: 0.677926497278 (0.249782728752) [P]
+Best score: 0.978975455881 (0.0152334222071) [P] | Score: 0.952530031976 (0.0285689918585) [P]
+Best score: 0.978975455881 (0.0152334222071) [P] | Score: 0.949023420621 (0.0199965310548) [P]
+Best score: 0.978975455881 (0.0152334222071) [P] | Score: 0.957981159796 (0.0247692313352) [P]
+Best score: 0.978975455881 (0.0152334222071) [P] | Score: 0.968448059805 (0.0201689742625) [P]
+Best score: 0.978975455881 (0.0152334222071) [P] | Score: 0.906972171809 (0.0405599998042) [P]
+Best score: 0.978975455881 (0.0152334222071) [P] | Score: 0.914022124276 (0.0382570981063) [P]
+#################### STEP RESULT ####################
+BEST PIPELINE:
+ {
+    "features": [
+        "features_NoneType", 
+        {}
+    ], 
+    "normalizer": [
+        "normalizer_StandardScaler", 
+        {
+            "normalizer__with_mean": true, 
+            "normalizer__with_std": true
+        }
+    ], 
+    "rebalance": [
+        "rebalance_NearMiss", 
+        {
+            "rebalance__n_neighbors": 1
+        }
+    ]
+}
+BEST ALGO CONFIG:
+ {}
+BEST SCORE: 0.978975455881 (0.0152334222071)
+##################################################
+## Algorithm
+Best score: 0.978975455881 (0.0152334222071) [P] | Score: 0.956348846254 (0.0338783725469) [A]
+Best score: 0.978975455881 (0.0152334222071) [P] | Score: 0.826003586553 (0.138065183497) [A]
+Best score: 0.978975455881 (0.0152334222071) [P] | Score: 0.372572595281 (0.00441189245975) [A]
+Best score: 0.978975455881 (0.0152334222071) [P] | Score: 0.965030031976 (0.0244715203261) [A]
+Best score: 0.978975455881 (0.0152334222071) [P] | Score: 0.96653919281 (0.0230591034435) [A]
+Best score: 0.978975455881 (0.0152334222071) [P] | Score: 0.968262250454 (0.0155830341852) [A]
+Best score: 0.978975455881 (0.0152334222071) [P] | Score: 0.627427404719 (0.00441189245975) [A]
+Best score: 0.978975455881 (0.0152334222071) [P] | Score: 0.81757518797 (0.0482962922188) [A]
+Best score: 0.980729841846 (0.0164915405929) [A] | Score: 0.980729841846 (0.0164915405929) [A]
+Best score: 0.980729841846 (0.0164915405929) [A] | Score: 0.372572595281 (0.00441189245975) [A]
+#################### STEP RESULT ####################
+BEST PIPELINE:
+ {
+    "features": [
+        "features_NoneType", 
+        {}
+    ], 
+    "normalizer": [
+        "normalizer_StandardScaler", 
+        {
+            "normalizer__with_mean": true, 
+            "normalizer__with_std": true
+        }
+    ], 
+    "rebalance": [
+        "rebalance_NearMiss", 
+        {
+            "rebalance__n_neighbors": 1
+        }
+    ]
+}
+BEST ALGO CONFIG:
+ {
+    "activation": "relu", 
+    "alpha": 0.01, 
+    "hidden_layer_sizes": [
+        100
+    ], 
+    "learning_rate": "invscaling", 
+    "solver": "adam"
+}
+BEST SCORE: 0.980729841846 (0.0164915405929)
+##################################################

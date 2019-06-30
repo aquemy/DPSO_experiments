@@ -1,0 +1,4435 @@
+{
+    "context": {
+        "best_config": {
+            "status": "ok", 
+            "score_std": 0.02687037459510562, 
+            "max_history_score_std": 0.02687037459510562, 
+            "iteration": 28, 
+            "start_time": 1559729429.052695, 
+            "step": "pipeline", 
+            "duration": 3.733428955078125, 
+            "loss": 0.021929824561403466, 
+            "pipeline": {
+                "normalizer": [
+                    "normalizer_StandardScaler", 
+                    {
+                        "normalizer__with_std": true, 
+                        "normalizer__with_mean": true
+                    }
+                ], 
+                "rebalance": [
+                    "rebalance_SMOTE", 
+                    {
+                        "rebalance__k_neighbors": 7
+                    }
+                ], 
+                "features": [
+                    "features_NoneType", 
+                    {}
+                ]
+            }, 
+            "algorithm": {}, 
+            "config_hash": {
+                "pipeline": "65c5647923e0274841ff2df8f41b9391d848e00d", 
+                "config": "4d2a1182bfff83f7b7ad487d5eeef67f0be7f49f", 
+                "algorithm": "bf21a9e8fbc5a3846fb05b4fa0859e0917b2202f"
+            }, 
+            "max_history_step": "pipeline", 
+            "score": 0.9780701754385965, 
+            "stop_time": 1559729432.786124, 
+            "type": "pipeline", 
+            "max_history_score": 0.9780701754385965
+        }, 
+        "baseline_score": 0.9005847953216375, 
+        "history_index": {
+            "1adbe557f0bef79fdf7048e17a71451e8207b171": 44, 
+            "94947e05d647ff8c8d22d931cbabafea96e77ce9": 31, 
+            "0575e558509e1cfbcbdef604b207478aebcf6e5c": 85, 
+            "7ef8175761c87c374f3423e4dd403a7f54456a12": 33, 
+            "e39f08a5d45344bdf4b272f27bfceb0a53376d42": 11, 
+            "d430ba15a9399c8849abe9786a04277ef81452ef": 94, 
+            "9b0592efa0674428e7ddecbaeb80983eff711b63": 100, 
+            "7fedb67f352d90f548fc464f4f6950f133d1cd2b": 42, 
+            "c6021fe380b5e5b7d7b4aa33e82837c766ef9d0b": 14, 
+            "4664bb2c124eaa0fa8583c1d8018a43c0f7546b3": 47, 
+            "af984c9e0ecc87f703cf9cf78c2573c1058648ae": 26, 
+            "944dda2f9103a78a727c545dbca4b71351a3dfa8": 89, 
+            "7c96f1a5d9853115bf6088aac93e0bf772ff4b54": 88, 
+            "ac7ddb454885edbeb3f6e4ea59686a1144a338a2": 13, 
+            "eac397894db8418bf3fa684fbf330aa4cc64e5b7": 17, 
+            "535501cf0230fc3004fee486ea7b07e99c3ab409": 84, 
+            "11adcfe0175250b807f969336bcc2f47659c9614": 9, 
+            "9d3bc1510ff8781fcc000cb61288309af9a532d4": 18, 
+            "783a818ddc2596a9cff6647c8762c58b06c8b2ed": 54, 
+            "99a87588d94244ca39abed7be893201fc5c3ee24": 68, 
+            "d010d5b450b5356a4de812368a214e1f285a7a49": 49, 
+            "739066cff7cf59cff8a8c2f16e9620ec5fe26e57": 69, 
+            "aa1f8ec0fb58919007bfc5aa9dc4cc1e812e11b9": 75, 
+            "a022eb5f065d82574b7a05998df7027469736dc1": 21, 
+            "d50c704a1ad589ffa90a02cb07d201fb38df051e": 96, 
+            "b7f8b5c6b1b6a79dc0254649233f4c2485dbf6ec": 86, 
+            "e6189967dff4b49b78c0b28d93ec185a601d61ce": 22, 
+            "faa58356cc89e33b13def03656ff43dfee806ddd": 50, 
+            "5bd68739ad74956a209b0a035c928476c9584082": 80, 
+            "7471510d339483a4bd2be40b37cfc2bd1ea237a4": 46, 
+            "6b1406435e4fa7b2c248039bf855139dd775a3a8": 39, 
+            "f6f57b9298222bf31c66c0960290c4e232735edc": 37, 
+            "a13014ff0d57aa52487de0b797111a54404a8248": 48, 
+            "7ba42e12b764927faf9ed3144925fad7683f2d2a": 16, 
+            "a92abdb82fffe3925f7c8e9bc73fde160ae6f6da": 3, 
+            "06900bef806f29c8778c1219a5e04d350ce00e28": 83, 
+            "a8eb1197cca39bb71e074d31cdcc01d4b52ff51d": 76, 
+            "8f5fae41050ea09e583719e6230405ef45902d4a": 12, 
+            "7a11ea8922f7816de5603b07bcd227c780cb209c": 35, 
+            "a34aa1aa76d4b1a043bbdb02e3db907609a5e85d": 23, 
+            "d2c804e80d7f1cfeaac4c95b70e6d38ad52f6893": 5, 
+            "a84b887b63cfb1a43ec0fb1f35e63fb22b799d0a": 66, 
+            "be7d8bfddc14e067fbdf82910d2c7100ddce5c45": 15, 
+            "2ee388f2a4fd2291cb12e7bf92d1d7b14ee60409": 95, 
+            "99f53d4eeedae9e860fe147dac2553f8a581bbde": 72, 
+            "2e5a4f0fad4cfd54813295d0eee75febf598421d": 97, 
+            "2c95a4e66179ab21ea462fd4f8c639f868c02d7a": 10, 
+            "9b98f49e8092f4bc2268e16b084afd08695556b9": 30, 
+            "ec958ce592a7b9c89ebf5add570765b9d924f1d8": 24, 
+            "8078daeafc590699541fbfbe14af012d3b2b1a6c": 61, 
+            "63d9a7ce7b40bbd437c01f4f85c3593a8d0674b6": 20, 
+            "d95ee88837cd917bf7e4d3f0e94f80d923b5a713": 34, 
+            "e0b9a588dc862c2ab18f73e58e76bd20865df247": 70, 
+            "62dd0d26081e8657059afe7baf66784240b30c9c": 52, 
+            "354f0e8df77a4b32e0af1d5826f8d89de87ebf44": 87, 
+            "65723b2ab9b63455704fe074bb33ce0acb55b020": 71, 
+            "a05614773b54a03bbb0bb675d0ea2c5cd2925c88": 98, 
+            "f9ae918b7ff1e8945e932a70915e0720a40f3137": 36, 
+            "b25d2345821d75c20e8719d43d2b1e1191098447": 73, 
+            "f850862289c126be50b33e1f2d83a0dc52f93da6": 40, 
+            "281bbacaa2e29f1df070072365424b16cdcaa9b7": 45, 
+            "4a05961e25625ef467366282e09409d0275fc21d": 79, 
+            "e747ed3a47d9c8311d31ae52285742ddade199ad": 59, 
+            "731af0665ca086582600107399a4533a96031f09": 4, 
+            "53c76ef39ed50b6fc33ae0bca4dfa27f3e51a7a6": 99, 
+            "dbd0b6c8b7a31e3344fd58945b5200133087b6aa": 25, 
+            "4e4aa591c1b26abb85d0cc2c7651be5fa0cb1be2": 60, 
+            "029975ba3585c9ae8633a44aeeefb91d8d09bffb": 57, 
+            "5446366e5b642ddf65416fa04d00308d2777ca43": 92, 
+            "16a5adb15ebfb1215ff116b71fe1527f86d9dc88": 27, 
+            "156330007da54010d776caa3e75eb15468031328": 8, 
+            "656990eaff68b822f1b497686c5836de9cb3b9da": 38, 
+            "ffc3c2bc1eb0de632034be3c7a2153f075f266f0": 43, 
+            "ec983edbc29145d51fef0e4189d3730fe719c367": 62, 
+            "b288c623a1299c38264d9f7d1ad0bdf63b8ac00f": 64, 
+            "50fca62b7a1914e88e9bbb2f370ebb6065f25892": 58, 
+            "d42db3c899e912dabed80fa82f55e7ee15eb3f6d": 91, 
+            "b20cf6be10218bf850600c7015dadb95cf4a2a8f": 19, 
+            "ef1581ce297980833bda6b61ef7d5ebff4e67d3c": 102, 
+            "7cb9198e3b87b369788b861e5f4c53870943a884": 82, 
+            "da45d3cb7a3fd26545ee9dd14a0915b242026d69": 101, 
+            "98a1d1105cc573141ef55a9f6d1d5c4f51effc65": 0, 
+            "e645a78e115fbaa4546be90254b75f3d4e57e658": 51, 
+            "ad91fecc6d4230b68c476bff640c1cf583d55180": 32, 
+            "7e58805600cd7154801d15296baa304b862ceeae": 77, 
+            "4d178fc79e275ce15601fb4ff890b6d969d2d1cc": 1, 
+            "46a9292b152af57b550735fd506d4b917241e24b": 6, 
+            "2b951fd86b59a05d0b71ba8921ca604329466c12": 81, 
+            "b4815913b22fc186ea8879fee2eba9eaad342062": 56, 
+            "4421d0fd9dc578ee7a0bf0bd4135674b8637fa43": 90, 
+            "72c299fa5b0d384a5ff8651cbe4b04cfa02c63d0": 93, 
+            "1eabae8e59d372b076035bdac59106753d4c3143": 7, 
+            "ce045bcbf6205aff12f1a7375f3ddb0bbd62f25d": 67, 
+            "7fd7eef02246299066375627e9197ac2c3300020": 78, 
+            "fb869bc66c866806ff1ac5909ec983eb944a4bb4": 41, 
+            "22fbd423f01f74106f48d2f8ef18d94d2f68db5e": 29, 
+            "4d2a1182bfff83f7b7ad487d5eeef67f0be7f49f": 28, 
+            "db8171befe19e8fdd1b7bba5827253261a7ef11d": 74, 
+            "072e0686994c6feacdad7638d35c65d11c973aeb": 53, 
+            "d30350177d12fb4a27100a9692295a9d22300a32": 65, 
+            "96b131d5bb14f6ab3392a3dba4cf6ae01450cbe1": 63, 
+            "c0c06a4a0151469ebcfb051444d2082381b5bb48": 55, 
+            "41156d3afb414e4bc6f83dea59e1ebd3a0fd22eb": 2
+        }, 
+        "baseline_score_std": 0.0852879419132968, 
+        "history_hash": [
+            "98a1d1105cc573141ef55a9f6d1d5c4f51effc65", 
+            "4d178fc79e275ce15601fb4ff890b6d969d2d1cc", 
+            "41156d3afb414e4bc6f83dea59e1ebd3a0fd22eb", 
+            "a92abdb82fffe3925f7c8e9bc73fde160ae6f6da", 
+            "731af0665ca086582600107399a4533a96031f09", 
+            "d2c804e80d7f1cfeaac4c95b70e6d38ad52f6893", 
+            "46a9292b152af57b550735fd506d4b917241e24b", 
+            "1eabae8e59d372b076035bdac59106753d4c3143", 
+            "156330007da54010d776caa3e75eb15468031328", 
+            "11adcfe0175250b807f969336bcc2f47659c9614", 
+            "2c95a4e66179ab21ea462fd4f8c639f868c02d7a", 
+            "e39f08a5d45344bdf4b272f27bfceb0a53376d42", 
+            "8f5fae41050ea09e583719e6230405ef45902d4a", 
+            "ac7ddb454885edbeb3f6e4ea59686a1144a338a2", 
+            "c6021fe380b5e5b7d7b4aa33e82837c766ef9d0b", 
+            "be7d8bfddc14e067fbdf82910d2c7100ddce5c45", 
+            "7ba42e12b764927faf9ed3144925fad7683f2d2a", 
+            "eac397894db8418bf3fa684fbf330aa4cc64e5b7", 
+            "9d3bc1510ff8781fcc000cb61288309af9a532d4", 
+            "b20cf6be10218bf850600c7015dadb95cf4a2a8f", 
+            "63d9a7ce7b40bbd437c01f4f85c3593a8d0674b6", 
+            "a022eb5f065d82574b7a05998df7027469736dc1", 
+            "e6189967dff4b49b78c0b28d93ec185a601d61ce", 
+            "a34aa1aa76d4b1a043bbdb02e3db907609a5e85d", 
+            "ec958ce592a7b9c89ebf5add570765b9d924f1d8", 
+            "dbd0b6c8b7a31e3344fd58945b5200133087b6aa", 
+            "af984c9e0ecc87f703cf9cf78c2573c1058648ae", 
+            "16a5adb15ebfb1215ff116b71fe1527f86d9dc88", 
+            "4d2a1182bfff83f7b7ad487d5eeef67f0be7f49f", 
+            "22fbd423f01f74106f48d2f8ef18d94d2f68db5e", 
+            "9b98f49e8092f4bc2268e16b084afd08695556b9", 
+            "94947e05d647ff8c8d22d931cbabafea96e77ce9", 
+            "ad91fecc6d4230b68c476bff640c1cf583d55180", 
+            "7ef8175761c87c374f3423e4dd403a7f54456a12", 
+            "d95ee88837cd917bf7e4d3f0e94f80d923b5a713", 
+            "7a11ea8922f7816de5603b07bcd227c780cb209c", 
+            "f9ae918b7ff1e8945e932a70915e0720a40f3137", 
+            "f6f57b9298222bf31c66c0960290c4e232735edc", 
+            "656990eaff68b822f1b497686c5836de9cb3b9da", 
+            "6b1406435e4fa7b2c248039bf855139dd775a3a8", 
+            "f850862289c126be50b33e1f2d83a0dc52f93da6", 
+            "fb869bc66c866806ff1ac5909ec983eb944a4bb4", 
+            "7fedb67f352d90f548fc464f4f6950f133d1cd2b", 
+            "ffc3c2bc1eb0de632034be3c7a2153f075f266f0", 
+            "1adbe557f0bef79fdf7048e17a71451e8207b171", 
+            "281bbacaa2e29f1df070072365424b16cdcaa9b7", 
+            "7471510d339483a4bd2be40b37cfc2bd1ea237a4", 
+            "4664bb2c124eaa0fa8583c1d8018a43c0f7546b3", 
+            "a13014ff0d57aa52487de0b797111a54404a8248", 
+            "d010d5b450b5356a4de812368a214e1f285a7a49", 
+            "faa58356cc89e33b13def03656ff43dfee806ddd", 
+            "e645a78e115fbaa4546be90254b75f3d4e57e658", 
+            "62dd0d26081e8657059afe7baf66784240b30c9c", 
+            "072e0686994c6feacdad7638d35c65d11c973aeb", 
+            "783a818ddc2596a9cff6647c8762c58b06c8b2ed", 
+            "c0c06a4a0151469ebcfb051444d2082381b5bb48", 
+            "b4815913b22fc186ea8879fee2eba9eaad342062", 
+            "029975ba3585c9ae8633a44aeeefb91d8d09bffb", 
+            "50fca62b7a1914e88e9bbb2f370ebb6065f25892", 
+            "e747ed3a47d9c8311d31ae52285742ddade199ad", 
+            "4e4aa591c1b26abb85d0cc2c7651be5fa0cb1be2", 
+            "8078daeafc590699541fbfbe14af012d3b2b1a6c", 
+            "ec983edbc29145d51fef0e4189d3730fe719c367", 
+            "96b131d5bb14f6ab3392a3dba4cf6ae01450cbe1", 
+            "b288c623a1299c38264d9f7d1ad0bdf63b8ac00f", 
+            "d30350177d12fb4a27100a9692295a9d22300a32", 
+            "a84b887b63cfb1a43ec0fb1f35e63fb22b799d0a", 
+            "ce045bcbf6205aff12f1a7375f3ddb0bbd62f25d", 
+            "99a87588d94244ca39abed7be893201fc5c3ee24", 
+            "739066cff7cf59cff8a8c2f16e9620ec5fe26e57", 
+            "e0b9a588dc862c2ab18f73e58e76bd20865df247", 
+            "65723b2ab9b63455704fe074bb33ce0acb55b020", 
+            "99f53d4eeedae9e860fe147dac2553f8a581bbde", 
+            "b25d2345821d75c20e8719d43d2b1e1191098447", 
+            "db8171befe19e8fdd1b7bba5827253261a7ef11d", 
+            "aa1f8ec0fb58919007bfc5aa9dc4cc1e812e11b9", 
+            "a8eb1197cca39bb71e074d31cdcc01d4b52ff51d", 
+            "7e58805600cd7154801d15296baa304b862ceeae", 
+            "7fd7eef02246299066375627e9197ac2c3300020", 
+            "4a05961e25625ef467366282e09409d0275fc21d", 
+            "5bd68739ad74956a209b0a035c928476c9584082", 
+            "2b951fd86b59a05d0b71ba8921ca604329466c12", 
+            "7cb9198e3b87b369788b861e5f4c53870943a884", 
+            "06900bef806f29c8778c1219a5e04d350ce00e28", 
+            "535501cf0230fc3004fee486ea7b07e99c3ab409", 
+            "0575e558509e1cfbcbdef604b207478aebcf6e5c", 
+            "b7f8b5c6b1b6a79dc0254649233f4c2485dbf6ec", 
+            "354f0e8df77a4b32e0af1d5826f8d89de87ebf44", 
+            "7c96f1a5d9853115bf6088aac93e0bf772ff4b54", 
+            "944dda2f9103a78a727c545dbca4b71351a3dfa8", 
+            "4421d0fd9dc578ee7a0bf0bd4135674b8637fa43", 
+            "d42db3c899e912dabed80fa82f55e7ee15eb3f6d", 
+            "5446366e5b642ddf65416fa04d00308d2777ca43", 
+            "72c299fa5b0d384a5ff8651cbe4b04cfa02c63d0", 
+            "d430ba15a9399c8849abe9786a04277ef81452ef", 
+            "2ee388f2a4fd2291cb12e7bf92d1d7b14ee60409", 
+            "d50c704a1ad589ffa90a02cb07d201fb38df051e", 
+            "2e5a4f0fad4cfd54813295d0eee75febf598421d", 
+            "a05614773b54a03bbb0bb675d0ea2c5cd2925c88", 
+            "53c76ef39ed50b6fc33ae0bca4dfa27f3e51a7a6", 
+            "9b0592efa0674428e7ddecbaeb80983eff711b63", 
+            "da45d3cb7a3fd26545ee9dd14a0915b242026d69", 
+            "ef1581ce297980833bda6b61ef7d5ebff4e67d3c"
+        ], 
+        "max_history_step": "pipeline", 
+        "max_history_score_std": 0.02687037459510562, 
+        "iteration": 102, 
+        "max_history_score": 0.9780701754385965, 
+        "history": [
+            {
+                "status": "ok", 
+                "score_std": 0.04999999999999999, 
+                "max_history_score_std": 0.04999999999999999, 
+                "iteration": 0, 
+                "start_time": 1559729358.39034, 
+                "step": "pipeline", 
+                "duration": 2.9693310260772705, 
+                "loss": 0.03888888888888897, 
+                "pipeline": {
+                    "normalizer": [
+                        "normalizer_MinMaxScaler", 
+                        {}
+                    ], 
+                    "rebalance": [
+                        "rebalance_NearMiss", 
+                        {
+                            "rebalance__n_neighbors": 3
+                        }
+                    ], 
+                    "features": [
+                        "features_NoneType", 
+                        {}
+                    ]
+                }, 
+                "algorithm": {}, 
+                "config_hash": {
+                    "pipeline": "c2523f03453187528efbff45ada534e1143f4d9e", 
+                    "config": "98a1d1105cc573141ef55a9f6d1d5c4f51effc65", 
+                    "algorithm": "bf21a9e8fbc5a3846fb05b4fa0859e0917b2202f"
+                }, 
+                "max_history_step": "pipeline", 
+                "score": 0.961111111111111, 
+                "stop_time": 1559729361.359671, 
+                "type": "pipeline", 
+                "max_history_score": 0.961111111111111
+            }, 
+            {
+                "status": "ok", 
+                "score_std": 0.0712778899892051, 
+                "max_history_score_std": 0.04999999999999999, 
+                "iteration": 1, 
+                "start_time": 1559729361.542846, 
+                "step": "pipeline", 
+                "duration": 2.156156063079834, 
+                "loss": 0.06549707602339194, 
+                "pipeline": {
+                    "normalizer": [
+                        "normalizer_MinMaxScaler", 
+                        {}
+                    ], 
+                    "rebalance": [
+                        "rebalance_NearMiss", 
+                        {
+                            "rebalance__n_neighbors": 1
+                        }
+                    ], 
+                    "features": [
+                        "features_SelectKBest", 
+                        {
+                            "features__k": 3
+                        }
+                    ]
+                }, 
+                "algorithm": {}, 
+                "config_hash": {
+                    "pipeline": "bc52deabf1f5ee60968ba541d9d2574353c30a9c", 
+                    "config": "4d178fc79e275ce15601fb4ff890b6d969d2d1cc", 
+                    "algorithm": "bf21a9e8fbc5a3846fb05b4fa0859e0917b2202f"
+                }, 
+                "max_history_step": "pipeline", 
+                "score": 0.9345029239766081, 
+                "stop_time": 1559729363.699002, 
+                "type": "pipeline", 
+                "max_history_score": 0.961111111111111
+            }, 
+            {
+                "status": "ok", 
+                "score_std": 0.036851386559504457, 
+                "max_history_score_std": 0.036851386559504457, 
+                "iteration": 2, 
+                "start_time": 1559729363.758115, 
+                "step": "pipeline", 
+                "duration": 2.3448169231414795, 
+                "loss": 0.03333333333333344, 
+                "pipeline": {
+                    "normalizer": [
+                        "normalizer_MinMaxScaler", 
+                        {}
+                    ], 
+                    "rebalance": [
+                        "rebalance_NoneType", 
+                        {}
+                    ], 
+                    "features": [
+                        "features_PCA", 
+                        {
+                            "features__n_components": 3
+                        }
+                    ]
+                }, 
+                "algorithm": {}, 
+                "config_hash": {
+                    "pipeline": "3e47444880d8367fbac2faaba2e52a917274aa58", 
+                    "config": "41156d3afb414e4bc6f83dea59e1ebd3a0fd22eb", 
+                    "algorithm": "bf21a9e8fbc5a3846fb05b4fa0859e0917b2202f"
+                }, 
+                "max_history_step": "pipeline", 
+                "score": 0.9666666666666666, 
+                "stop_time": 1559729366.102932, 
+                "type": "pipeline", 
+                "max_history_score": 0.9666666666666666
+            }, 
+            {
+                "status": "ok", 
+                "score_std": 0.02727987102774791, 
+                "max_history_score_std": 0.036851386559504457, 
+                "iteration": 3, 
+                "start_time": 1559729366.167662, 
+                "step": "pipeline", 
+                "duration": 3.991145133972168, 
+                "loss": 0.03336773305813556, 
+                "pipeline": {
+                    "normalizer": [
+                        "normalizer_PowerTransformer", 
+                        {}
+                    ], 
+                    "rebalance": [
+                        "rebalance_NoneType", 
+                        {}
+                    ], 
+                    "features": [
+                        "features_NoneType", 
+                        {}
+                    ]
+                }, 
+                "algorithm": {}, 
+                "config_hash": {
+                    "pipeline": "aaf976c7c663a31fa039582d42f9e07101556a7c", 
+                    "config": "a92abdb82fffe3925f7c8e9bc73fde160ae6f6da", 
+                    "algorithm": "bf21a9e8fbc5a3846fb05b4fa0859e0917b2202f"
+                }, 
+                "max_history_step": "pipeline", 
+                "score": 0.9666322669418644, 
+                "stop_time": 1559729370.158807, 
+                "type": "pipeline", 
+                "max_history_score": 0.9666666666666666
+            }, 
+            {
+                "status": "ok", 
+                "score_std": 0.038751335794879126, 
+                "max_history_score_std": 0.038751335794879126, 
+                "iteration": 4, 
+                "start_time": 1559729370.216564, 
+                "step": "pipeline", 
+                "duration": 2.070017099380493, 
+                "loss": 0.028431372549019507, 
+                "pipeline": {
+                    "normalizer": [
+                        "normalizer_MinMaxScaler", 
+                        {}
+                    ], 
+                    "rebalance": [
+                        "rebalance_NearMiss", 
+                        {
+                            "rebalance__n_neighbors": 3
+                        }
+                    ], 
+                    "features": [
+                        "features_PCA", 
+                        {
+                            "features__n_components": 3
+                        }
+                    ]
+                }, 
+                "algorithm": {}, 
+                "config_hash": {
+                    "pipeline": "58a94379ec0847f40fcd664517d430032a152045", 
+                    "config": "731af0665ca086582600107399a4533a96031f09", 
+                    "algorithm": "bf21a9e8fbc5a3846fb05b4fa0859e0917b2202f"
+                }, 
+                "max_history_step": "pipeline", 
+                "score": 0.9715686274509805, 
+                "stop_time": 1559729372.286581, 
+                "type": "pipeline", 
+                "max_history_score": 0.9715686274509805
+            }, 
+            {
+                "status": "ok", 
+                "score_std": 0.04999999999999999, 
+                "max_history_score_std": 0.038751335794879126, 
+                "iteration": 5, 
+                "start_time": 1559729372.340625, 
+                "step": "pipeline", 
+                "duration": 2.518627882003784, 
+                "loss": 0.03888888888888897, 
+                "pipeline": {
+                    "normalizer": [
+                        "normalizer_RobustScaler", 
+                        {
+                            "normalizer__quantile_range": [
+                                25.0, 
+                                75.0
+                            ], 
+                            "normalizer__with_centering": false, 
+                            "normalizer__with_scaling": true
+                        }
+                    ], 
+                    "rebalance": [
+                        "rebalance_NearMiss", 
+                        {
+                            "rebalance__n_neighbors": 3
+                        }
+                    ], 
+                    "features": [
+                        "features_FeatureUnion", 
+                        {
+                            "features__pca__n_components": 4, 
+                            "features__selectkbest__k": 3
+                        }
+                    ]
+                }, 
+                "algorithm": {}, 
+                "config_hash": {
+                    "pipeline": "26f40ae1816b8c20ff293d9a7c2f5ccb76a2c46d", 
+                    "config": "d2c804e80d7f1cfeaac4c95b70e6d38ad52f6893", 
+                    "algorithm": "bf21a9e8fbc5a3846fb05b4fa0859e0917b2202f"
+                }, 
+                "max_history_step": "pipeline", 
+                "score": 0.961111111111111, 
+                "stop_time": 1559729374.859253, 
+                "type": "pipeline", 
+                "max_history_score": 0.9715686274509805
+            }, 
+            {
+                "status": "ok", 
+                "score_std": 0.08574068246928014, 
+                "max_history_score_std": 0.038751335794879126, 
+                "iteration": 6, 
+                "start_time": 1559729374.93579, 
+                "step": "pipeline", 
+                "duration": 3.180508852005005, 
+                "loss": 0.4414323185414517, 
+                "pipeline": {
+                    "normalizer": [
+                        "normalizer_MinMaxScaler", 
+                        {}
+                    ], 
+                    "rebalance": [
+                        "rebalance_CondensedNearestNeighbour", 
+                        {
+                            "rebalance__n_neighbors": 1
+                        }
+                    ], 
+                    "features": [
+                        "features_SelectKBest", 
+                        {
+                            "features__k": 1
+                        }
+                    ]
+                }, 
+                "algorithm": {}, 
+                "config_hash": {
+                    "pipeline": "89a5d6acf7eb03647e5528373b96f9b46a6d1d53", 
+                    "config": "46a9292b152af57b550735fd506d4b917241e24b", 
+                    "algorithm": "bf21a9e8fbc5a3846fb05b4fa0859e0917b2202f"
+                }, 
+                "max_history_step": "pipeline", 
+                "score": 0.5585676814585483, 
+                "stop_time": 1559729378.116299, 
+                "type": "pipeline", 
+                "max_history_score": 0.9715686274509805
+            }, 
+            {
+                "status": "ok", 
+                "score_std": 0.016871583549832498, 
+                "max_history_score_std": 0.038751335794879126, 
+                "iteration": 7, 
+                "start_time": 1559729378.152124, 
+                "step": "pipeline", 
+                "duration": 0.29359912872314453, 
+                "loss": 0.6007460440316478, 
+                "pipeline": {
+                    "normalizer": [
+                        "normalizer_NoneType", 
+                        {}
+                    ], 
+                    "rebalance": [
+                        "rebalance_NearMiss", 
+                        {
+                            "rebalance__n_neighbors": 3
+                        }
+                    ], 
+                    "features": [
+                        "features_SelectKBest", 
+                        {
+                            "features__k": 4
+                        }
+                    ]
+                }, 
+                "algorithm": {}, 
+                "config_hash": {
+                    "pipeline": "f671e39c7c21287c35cc86282770be08920b7211", 
+                    "config": "1eabae8e59d372b076035bdac59106753d4c3143", 
+                    "algorithm": "bf21a9e8fbc5a3846fb05b4fa0859e0917b2202f"
+                }, 
+                "max_history_step": "pipeline", 
+                "score": 0.3992539559683522, 
+                "stop_time": 1559729378.445723, 
+                "type": "pipeline", 
+                "max_history_score": 0.9715686274509805
+            }, 
+            {
+                "status": "ok", 
+                "score_std": 0.08300071617773498, 
+                "max_history_score_std": 0.038751335794879126, 
+                "iteration": 8, 
+                "start_time": 1559729378.491666, 
+                "step": "pipeline", 
+                "duration": 0.3617839813232422, 
+                "loss": 0.3192896456828346, 
+                "pipeline": {
+                    "normalizer": [
+                        "normalizer_RobustScaler", 
+                        {
+                            "normalizer__quantile_range": [
+                                5.0, 
+                                95.0
+                            ], 
+                            "normalizer__with_centering": true, 
+                            "normalizer__with_scaling": false
+                        }
+                    ], 
+                    "rebalance": [
+                        "rebalance_NearMiss", 
+                        {
+                            "rebalance__n_neighbors": 3
+                        }
+                    ], 
+                    "features": [
+                        "features_SelectKBest", 
+                        {
+                            "features__k": 3
+                        }
+                    ]
+                }, 
+                "algorithm": {}, 
+                "config_hash": {
+                    "pipeline": "44ea867d6cdb38aceaf88f9194e64f72dbbbf35c", 
+                    "config": "156330007da54010d776caa3e75eb15468031328", 
+                    "algorithm": "bf21a9e8fbc5a3846fb05b4fa0859e0917b2202f"
+                }, 
+                "max_history_step": "pipeline", 
+                "score": 0.6807103543171654, 
+                "stop_time": 1559729378.85345, 
+                "type": "pipeline", 
+                "max_history_score": 0.9715686274509805
+            }, 
+            {
+                "status": "ok", 
+                "score_std": 0.027216552697590882, 
+                "max_history_score_std": 0.038751335794879126, 
+                "iteration": 9, 
+                "start_time": 1559729378.90341, 
+                "step": "pipeline", 
+                "duration": 2.4297969341278076, 
+                "loss": 0.03333333333333344, 
+                "pipeline": {
+                    "normalizer": [
+                        "normalizer_RobustScaler", 
+                        {
+                            "normalizer__quantile_range": [
+                                5.0, 
+                                95.0
+                            ], 
+                            "normalizer__with_centering": false, 
+                            "normalizer__with_scaling": true
+                        }
+                    ], 
+                    "rebalance": [
+                        "rebalance_NoneType", 
+                        {}
+                    ], 
+                    "features": [
+                        "features_PCA", 
+                        {
+                            "features__n_components": 4
+                        }
+                    ]
+                }, 
+                "algorithm": {}, 
+                "config_hash": {
+                    "pipeline": "70251e675f669ac3cabfef0533e74b12dc8f6cae", 
+                    "config": "11adcfe0175250b807f969336bcc2f47659c9614", 
+                    "algorithm": "bf21a9e8fbc5a3846fb05b4fa0859e0917b2202f"
+                }, 
+                "max_history_step": "pipeline", 
+                "score": 0.9666666666666666, 
+                "stop_time": 1559729381.333207, 
+                "type": "pipeline", 
+                "max_history_score": 0.9715686274509805
+            }, 
+            {
+                "status": "ok", 
+                "score_std": 0.07937531749204434, 
+                "max_history_score_std": 0.038751335794879126, 
+                "iteration": 10, 
+                "start_time": 1559729381.377627, 
+                "step": "pipeline", 
+                "duration": 2.536661148071289, 
+                "loss": 0.17148907808737524, 
+                "pipeline": {
+                    "normalizer": [
+                        "normalizer_PowerTransformer", 
+                        {}
+                    ], 
+                    "rebalance": [
+                        "rebalance_NearMiss", 
+                        {
+                            "rebalance__n_neighbors": 2
+                        }
+                    ], 
+                    "features": [
+                        "features_PCA", 
+                        {
+                            "features__n_components": 1
+                        }
+                    ]
+                }, 
+                "algorithm": {}, 
+                "config_hash": {
+                    "pipeline": "a86a30bb57b67e8b3e3765aca003a015a76b30e2", 
+                    "config": "2c95a4e66179ab21ea462fd4f8c639f868c02d7a", 
+                    "algorithm": "bf21a9e8fbc5a3846fb05b4fa0859e0917b2202f"
+                }, 
+                "max_history_step": "pipeline", 
+                "score": 0.8285109219126248, 
+                "stop_time": 1559729383.914288, 
+                "type": "pipeline", 
+                "max_history_score": 0.9715686274509805
+            }, 
+            {
+                "status": "ok", 
+                "score_std": 0.0918711619500562, 
+                "max_history_score_std": 0.038751335794879126, 
+                "iteration": 11, 
+                "start_time": 1559729383.978321, 
+                "step": "pipeline", 
+                "duration": 0.5548379421234131, 
+                "loss": 0.3085053319573443, 
+                "pipeline": {
+                    "normalizer": [
+                        "normalizer_NoneType", 
+                        {}
+                    ], 
+                    "rebalance": [
+                        "rebalance_NearMiss", 
+                        {
+                            "rebalance__n_neighbors": 3
+                        }
+                    ], 
+                    "features": [
+                        "features_PCA", 
+                        {
+                            "features__n_components": 3
+                        }
+                    ]
+                }, 
+                "algorithm": {}, 
+                "config_hash": {
+                    "pipeline": "8c1a0451938df0301ca76195ee3c5dd02029b727", 
+                    "config": "e39f08a5d45344bdf4b272f27bfceb0a53376d42", 
+                    "algorithm": "bf21a9e8fbc5a3846fb05b4fa0859e0917b2202f"
+                }, 
+                "max_history_step": "pipeline", 
+                "score": 0.6914946680426557, 
+                "stop_time": 1559729384.533159, 
+                "type": "pipeline", 
+                "max_history_score": 0.9715686274509805
+            }, 
+            {
+                "status": "ok", 
+                "score_std": 0.20212130205662016, 
+                "max_history_score_std": 0.038751335794879126, 
+                "iteration": 12, 
+                "start_time": 1559729384.588878, 
+                "step": "pipeline", 
+                "duration": 1.5467400550842285, 
+                "loss": 0.42590729274165817, 
+                "pipeline": {
+                    "normalizer": [
+                        "normalizer_NoneType", 
+                        {}
+                    ], 
+                    "rebalance": [
+                        "rebalance_NearMiss", 
+                        {
+                            "rebalance__n_neighbors": 1
+                        }
+                    ], 
+                    "features": [
+                        "features_SelectKBest", 
+                        {
+                            "features__k": 2
+                        }
+                    ]
+                }, 
+                "algorithm": {}, 
+                "config_hash": {
+                    "pipeline": "77189452469cef9c840643f2babe0f825c6667c8", 
+                    "config": "8f5fae41050ea09e583719e6230405ef45902d4a", 
+                    "algorithm": "bf21a9e8fbc5a3846fb05b4fa0859e0917b2202f"
+                }, 
+                "max_history_step": "pipeline", 
+                "score": 0.5740927072583418, 
+                "stop_time": 1559729386.135618, 
+                "type": "pipeline", 
+                "max_history_score": 0.9715686274509805
+            }, 
+            {
+                "status": "ok", 
+                "score_std": 0.04160626450366912, 
+                "max_history_score_std": 0.038751335794879126, 
+                "iteration": 13, 
+                "start_time": 1559729386.176015, 
+                "step": "pipeline", 
+                "duration": 3.8181381225585938, 
+                "loss": 0.044478844169246634, 
+                "pipeline": {
+                    "normalizer": [
+                        "normalizer_PowerTransformer", 
+                        {}
+                    ], 
+                    "rebalance": [
+                        "rebalance_CondensedNearestNeighbour", 
+                        {
+                            "rebalance__n_neighbors": 2
+                        }
+                    ], 
+                    "features": [
+                        "features_NoneType", 
+                        {}
+                    ]
+                }, 
+                "algorithm": {}, 
+                "config_hash": {
+                    "pipeline": "d2a68bfda6fcdec4ae0ffc7d7b6a2122bc1cd673", 
+                    "config": "ac7ddb454885edbeb3f6e4ea59686a1144a338a2", 
+                    "algorithm": "bf21a9e8fbc5a3846fb05b4fa0859e0917b2202f"
+                }, 
+                "max_history_step": "pipeline", 
+                "score": 0.9555211558307534, 
+                "stop_time": 1559729389.994153, 
+                "type": "pipeline", 
+                "max_history_score": 0.9715686274509805
+            }, 
+            {
+                "status": "ok", 
+                "score_std": 0.08187395568101666, 
+                "max_history_score_std": 0.038751335794879126, 
+                "iteration": 14, 
+                "start_time": 1559729390.248325, 
+                "step": "pipeline", 
+                "duration": 3.389746904373169, 
+                "loss": 0.059941520467836185, 
+                "pipeline": {
+                    "normalizer": [
+                        "normalizer_PowerTransformer", 
+                        {}
+                    ], 
+                    "rebalance": [
+                        "rebalance_SMOTE", 
+                        {
+                            "rebalance__k_neighbors": 6
+                        }
+                    ], 
+                    "features": [
+                        "features_SelectKBest", 
+                        {
+                            "features__k": 3
+                        }
+                    ]
+                }, 
+                "algorithm": {}, 
+                "config_hash": {
+                    "pipeline": "c40e12bded4f6ec1e2c3616967c592fd80a09ae9", 
+                    "config": "c6021fe380b5e5b7d7b4aa33e82837c766ef9d0b", 
+                    "algorithm": "bf21a9e8fbc5a3846fb05b4fa0859e0917b2202f"
+                }, 
+                "max_history_step": "pipeline", 
+                "score": 0.9400584795321638, 
+                "stop_time": 1559729393.638072, 
+                "type": "pipeline", 
+                "max_history_score": 0.9715686274509805
+            }, 
+            {
+                "status": "ok", 
+                "score_std": 0.1110601323642516, 
+                "max_history_score_std": 0.038751335794879126, 
+                "iteration": 15, 
+                "start_time": 1559729393.711722, 
+                "step": "pipeline", 
+                "duration": 2.0446221828460693, 
+                "loss": 0.286031561747506, 
+                "pipeline": {
+                    "normalizer": [
+                        "normalizer_RobustScaler", 
+                        {
+                            "normalizer__quantile_range": [
+                                5.0, 
+                                95.0
+                            ], 
+                            "normalizer__with_centering": true, 
+                            "normalizer__with_scaling": true
+                        }
+                    ], 
+                    "rebalance": [
+                        "rebalance_NearMiss", 
+                        {
+                            "rebalance__n_neighbors": 2
+                        }
+                    ], 
+                    "features": [
+                        "features_SelectKBest", 
+                        {
+                            "features__k": 1
+                        }
+                    ]
+                }, 
+                "algorithm": {}, 
+                "config_hash": {
+                    "pipeline": "040a2ae63677d17e37e17f7e58bd1279f80c0b95", 
+                    "config": "be7d8bfddc14e067fbdf82910d2c7100ddce5c45", 
+                    "algorithm": "bf21a9e8fbc5a3846fb05b4fa0859e0917b2202f"
+                }, 
+                "max_history_step": "pipeline", 
+                "score": 0.713968438252494, 
+                "stop_time": 1559729395.756344, 
+                "type": "pipeline", 
+                "max_history_score": 0.9715686274509805
+            }, 
+            {
+                "status": "ok", 
+                "score_std": 0.0852879419132968, 
+                "max_history_score_std": 0.038751335794879126, 
+                "iteration": 16, 
+                "start_time": 1559729395.798962, 
+                "step": "pipeline", 
+                "duration": 3.0162718296051025, 
+                "loss": 0.09941520467836251, 
+                "pipeline": {
+                    "normalizer": [
+                        "normalizer_StandardScaler", 
+                        {
+                            "normalizer__with_std": false, 
+                            "normalizer__with_mean": false
+                        }
+                    ], 
+                    "rebalance": [
+                        "rebalance_NoneType", 
+                        {}
+                    ], 
+                    "features": [
+                        "features_NoneType", 
+                        {}
+                    ]
+                }, 
+                "algorithm": {}, 
+                "config_hash": {
+                    "pipeline": "2157c0b40278196bf3989764ade27d19a4d69a4a", 
+                    "config": "7ba42e12b764927faf9ed3144925fad7683f2d2a", 
+                    "algorithm": "bf21a9e8fbc5a3846fb05b4fa0859e0917b2202f"
+                }, 
+                "max_history_step": "pipeline", 
+                "score": 0.9005847953216375, 
+                "stop_time": 1559729398.815234, 
+                "type": "pipeline", 
+                "max_history_score": 0.9715686274509805
+            }, 
+            {
+                "status": "ok", 
+                "score_std": 0.13256103410442172, 
+                "max_history_score_std": 0.038751335794879126, 
+                "iteration": 17, 
+                "start_time": 1559729398.850181, 
+                "step": "pipeline", 
+                "duration": 2.4949429035186768, 
+                "loss": 0.23047600619195052, 
+                "pipeline": {
+                    "normalizer": [
+                        "normalizer_RobustScaler", 
+                        {
+                            "normalizer__quantile_range": [
+                                10.0, 
+                                90.0
+                            ], 
+                            "normalizer__with_centering": false, 
+                            "normalizer__with_scaling": true
+                        }
+                    ], 
+                    "rebalance": [
+                        "rebalance_SMOTE", 
+                        {
+                            "rebalance__k_neighbors": 7
+                        }
+                    ], 
+                    "features": [
+                        "features_SelectKBest", 
+                        {
+                            "features__k": 1
+                        }
+                    ]
+                }, 
+                "algorithm": {}, 
+                "config_hash": {
+                    "pipeline": "ebc7ec1e1db20f5d11da506bf581eea128b355c3", 
+                    "config": "eac397894db8418bf3fa684fbf330aa4cc64e5b7", 
+                    "algorithm": "bf21a9e8fbc5a3846fb05b4fa0859e0917b2202f"
+                }, 
+                "max_history_step": "pipeline", 
+                "score": 0.7695239938080495, 
+                "stop_time": 1559729401.345124, 
+                "type": "pipeline", 
+                "max_history_score": 0.9715686274509805
+            }, 
+            {
+                "status": "ok", 
+                "score_std": 0.16143998300434956, 
+                "max_history_score_std": 0.038751335794879126, 
+                "iteration": 18, 
+                "start_time": 1559729401.393662, 
+                "step": "pipeline", 
+                "duration": 1.6875569820404053, 
+                "loss": 0.5324023907808737, 
+                "pipeline": {
+                    "normalizer": [
+                        "normalizer_NoneType", 
+                        {}
+                    ], 
+                    "rebalance": [
+                        "rebalance_CondensedNearestNeighbour", 
+                        {
+                            "rebalance__n_neighbors": 2
+                        }
+                    ], 
+                    "features": [
+                        "features_PCA", 
+                        {
+                            "features__n_components": 1
+                        }
+                    ]
+                }, 
+                "algorithm": {}, 
+                "config_hash": {
+                    "pipeline": "fdcefd03142a5b3552c86a5fc4620d18487ec901", 
+                    "config": "9d3bc1510ff8781fcc000cb61288309af9a532d4", 
+                    "algorithm": "bf21a9e8fbc5a3846fb05b4fa0859e0917b2202f"
+                }, 
+                "max_history_step": "pipeline", 
+                "score": 0.4675976092191263, 
+                "stop_time": 1559729403.081219, 
+                "type": "pipeline", 
+                "max_history_score": 0.9715686274509805
+            }, 
+            {
+                "status": "ok", 
+                "score_std": 0.027216552697590882, 
+                "max_history_score_std": 0.038751335794879126, 
+                "iteration": 19, 
+                "start_time": 1559729403.1712, 
+                "step": "pipeline", 
+                "duration": 2.609489917755127, 
+                "loss": 0.03333333333333344, 
+                "pipeline": {
+                    "normalizer": [
+                        "normalizer_StandardScaler", 
+                        {
+                            "normalizer__with_std": true, 
+                            "normalizer__with_mean": true
+                        }
+                    ], 
+                    "rebalance": [
+                        "rebalance_NoneType", 
+                        {}
+                    ], 
+                    "features": [
+                        "features_PCA", 
+                        {
+                            "features__n_components": 4
+                        }
+                    ]
+                }, 
+                "algorithm": {}, 
+                "config_hash": {
+                    "pipeline": "5a4eff34432253269415826be8e93ef15c6ec55b", 
+                    "config": "b20cf6be10218bf850600c7015dadb95cf4a2a8f", 
+                    "algorithm": "bf21a9e8fbc5a3846fb05b4fa0859e0917b2202f"
+                }, 
+                "max_history_step": "pipeline", 
+                "score": 0.9666666666666666, 
+                "stop_time": 1559729405.78069, 
+                "type": "pipeline", 
+                "max_history_score": 0.9715686274509805
+            }, 
+            {
+                "status": "ok", 
+                "score_std": 0.028119770933724135, 
+                "max_history_score_std": 0.028119770933724135, 
+                "iteration": 20, 
+                "start_time": 1559729405.870169, 
+                "step": "pipeline", 
+                "duration": 2.5855469703674316, 
+                "loss": 0.028104575163398815, 
+                "pipeline": {
+                    "normalizer": [
+                        "normalizer_StandardScaler", 
+                        {
+                            "normalizer__with_std": true, 
+                            "normalizer__with_mean": true
+                        }
+                    ], 
+                    "rebalance": [
+                        "rebalance_SMOTE", 
+                        {
+                            "rebalance__k_neighbors": 5
+                        }
+                    ], 
+                    "features": [
+                        "features_PCA", 
+                        {
+                            "features__n_components": 2
+                        }
+                    ]
+                }, 
+                "algorithm": {}, 
+                "config_hash": {
+                    "pipeline": "650d684a7a9e3965b47b60518278c013b99eca57", 
+                    "config": "63d9a7ce7b40bbd437c01f4f85c3593a8d0674b6", 
+                    "algorithm": "bf21a9e8fbc5a3846fb05b4fa0859e0917b2202f"
+                }, 
+                "max_history_step": "pipeline", 
+                "score": 0.9718954248366012, 
+                "stop_time": 1559729408.455716, 
+                "type": "pipeline", 
+                "max_history_score": 0.9718954248366012
+            }, 
+            {
+                "status": "ok", 
+                "score_std": 0.048517031496700475, 
+                "max_history_score_std": 0.028119770933724135, 
+                "iteration": 21, 
+                "start_time": 1559729408.555731, 
+                "step": "pipeline", 
+                "duration": 3.370615005493164, 
+                "loss": 0.04477124183006542, 
+                "pipeline": {
+                    "normalizer": [
+                        "normalizer_StandardScaler", 
+                        {
+                            "normalizer__with_std": true, 
+                            "normalizer__with_mean": true
+                        }
+                    ], 
+                    "rebalance": [
+                        "rebalance_SMOTE", 
+                        {
+                            "rebalance__k_neighbors": 5
+                        }
+                    ], 
+                    "features": [
+                        "features_FeatureUnion", 
+                        {
+                            "features__pca__n_components": 2, 
+                            "features__selectkbest__k": 4
+                        }
+                    ]
+                }, 
+                "algorithm": {}, 
+                "config_hash": {
+                    "pipeline": "43b6a16fbeb2c9154aceea0f16dccec22155a12c", 
+                    "config": "a022eb5f065d82574b7a05998df7027469736dc1", 
+                    "algorithm": "bf21a9e8fbc5a3846fb05b4fa0859e0917b2202f"
+                }, 
+                "max_history_step": "pipeline", 
+                "score": 0.9552287581699346, 
+                "stop_time": 1559729411.926346, 
+                "type": "pipeline", 
+                "max_history_score": 0.9718954248366012
+            }, 
+            {
+                "status": "ok", 
+                "score_std": 0.04339027597725921, 
+                "max_history_score_std": 0.028119770933724135, 
+                "iteration": 22, 
+                "start_time": 1559729412.223695, 
+                "step": "pipeline", 
+                "duration": 3.017941951751709, 
+                "loss": 0.03888888888888897, 
+                "pipeline": {
+                    "normalizer": [
+                        "normalizer_StandardScaler", 
+                        {
+                            "normalizer__with_std": true, 
+                            "normalizer__with_mean": true
+                        }
+                    ], 
+                    "rebalance": [
+                        "rebalance_SMOTE", 
+                        {
+                            "rebalance__k_neighbors": 5
+                        }
+                    ], 
+                    "features": [
+                        "features_FeatureUnion", 
+                        {
+                            "features__pca__n_components": 3, 
+                            "features__selectkbest__k": 1
+                        }
+                    ]
+                }, 
+                "algorithm": {}, 
+                "config_hash": {
+                    "pipeline": "271b376dc63b90feef224a019c455a6481625c96", 
+                    "config": "e6189967dff4b49b78c0b28d93ec185a601d61ce", 
+                    "algorithm": "bf21a9e8fbc5a3846fb05b4fa0859e0917b2202f"
+                }, 
+                "max_history_step": "pipeline", 
+                "score": 0.961111111111111, 
+                "stop_time": 1559729415.241637, 
+                "type": "pipeline", 
+                "max_history_score": 0.9718954248366012
+            }, 
+            {
+                "status": "ok", 
+                "score_std": 0.08192089552246741, 
+                "max_history_score_std": 0.028119770933724135, 
+                "iteration": 23, 
+                "start_time": 1559729415.501656, 
+                "step": "pipeline", 
+                "duration": 2.4250099658966064, 
+                "loss": 0.29081742346061223, 
+                "pipeline": {
+                    "normalizer": [
+                        "normalizer_StandardScaler", 
+                        {
+                            "normalizer__with_std": false, 
+                            "normalizer__with_mean": false
+                        }
+                    ], 
+                    "rebalance": [
+                        "rebalance_SMOTE", 
+                        {
+                            "rebalance__k_neighbors": 5
+                        }
+                    ], 
+                    "features": [
+                        "features_PCA", 
+                        {
+                            "features__n_components": 2
+                        }
+                    ]
+                }, 
+                "algorithm": {}, 
+                "config_hash": {
+                    "pipeline": "6ff473deedb18827e028140341eecfdef2de1728", 
+                    "config": "a34aa1aa76d4b1a043bbdb02e3db907609a5e85d", 
+                    "algorithm": "bf21a9e8fbc5a3846fb05b4fa0859e0917b2202f"
+                }, 
+                "max_history_step": "pipeline", 
+                "score": 0.7091825765393878, 
+                "stop_time": 1559729417.926666, 
+                "type": "pipeline", 
+                "max_history_score": 0.9718954248366012
+            }, 
+            {
+                "status": "ok", 
+                "score_std": 0.028119770933724135, 
+                "max_history_score_std": 0.028119770933724135, 
+                "iteration": 24, 
+                "start_time": 1559729417.988823, 
+                "step": "pipeline", 
+                "duration": 2.660928964614868, 
+                "loss": 0.028104575163398815, 
+                "pipeline": {
+                    "normalizer": [
+                        "normalizer_StandardScaler", 
+                        {
+                            "normalizer__with_std": true, 
+                            "normalizer__with_mean": true
+                        }
+                    ], 
+                    "rebalance": [
+                        "rebalance_SMOTE", 
+                        {
+                            "rebalance__k_neighbors": 7
+                        }
+                    ], 
+                    "features": [
+                        "features_PCA", 
+                        {
+                            "features__n_components": 2
+                        }
+                    ]
+                }, 
+                "algorithm": {}, 
+                "config_hash": {
+                    "pipeline": "8536ecfcc78dae016a07144dfbe2082b9bbaa75f", 
+                    "config": "ec958ce592a7b9c89ebf5add570765b9d924f1d8", 
+                    "algorithm": "bf21a9e8fbc5a3846fb05b4fa0859e0917b2202f"
+                }, 
+                "max_history_step": "pipeline", 
+                "score": 0.9718954248366012, 
+                "stop_time": 1559729420.649752, 
+                "type": "pipeline", 
+                "max_history_score": 0.9718954248366012
+            }, 
+            {
+                "status": "ok", 
+                "score_std": 0.08787115961619466, 
+                "max_history_score_std": 0.028119770933724135, 
+                "iteration": 25, 
+                "start_time": 1559729420.718731, 
+                "step": "pipeline", 
+                "duration": 2.6989030838012695, 
+                "loss": 0.1433092535259718, 
+                "pipeline": {
+                    "normalizer": [
+                        "normalizer_StandardScaler", 
+                        {
+                            "normalizer__with_std": true, 
+                            "normalizer__with_mean": true
+                        }
+                    ], 
+                    "rebalance": [
+                        "rebalance_SMOTE", 
+                        {
+                            "rebalance__k_neighbors": 7
+                        }
+                    ], 
+                    "features": [
+                        "features_FeatureUnion", 
+                        {
+                            "features__pca__n_components": 1, 
+                            "features__selectkbest__k": 2
+                        }
+                    ]
+                }, 
+                "algorithm": {}, 
+                "config_hash": {
+                    "pipeline": "58c7cbeadaa20e1c43365fc40925f6f2791a0a37", 
+                    "config": "dbd0b6c8b7a31e3344fd58945b5200133087b6aa", 
+                    "algorithm": "bf21a9e8fbc5a3846fb05b4fa0859e0917b2202f"
+                }, 
+                "max_history_step": "pipeline", 
+                "score": 0.8566907464740282, 
+                "stop_time": 1559729423.417634, 
+                "type": "pipeline", 
+                "max_history_score": 0.9718954248366012
+            }, 
+            {
+                "status": "ok", 
+                "score_std": 0.10757253772243848, 
+                "max_history_score_std": 0.028119770933724135, 
+                "iteration": 26, 
+                "start_time": 1559729423.50146, 
+                "step": "pipeline", 
+                "duration": 1.8651959896087646, 
+                "loss": 0.3656690746474027, 
+                "pipeline": {
+                    "normalizer": [
+                        "normalizer_StandardScaler", 
+                        {
+                            "normalizer__with_std": false, 
+                            "normalizer__with_mean": false
+                        }
+                    ], 
+                    "rebalance": [
+                        "rebalance_SMOTE", 
+                        {
+                            "rebalance__k_neighbors": 6
+                        }
+                    ], 
+                    "features": [
+                        "features_PCA", 
+                        {
+                            "features__n_components": 2
+                        }
+                    ]
+                }, 
+                "algorithm": {}, 
+                "config_hash": {
+                    "pipeline": "26cf0d6aca661e601b2862246638f0e360342a9e", 
+                    "config": "af984c9e0ecc87f703cf9cf78c2573c1058648ae", 
+                    "algorithm": "bf21a9e8fbc5a3846fb05b4fa0859e0917b2202f"
+                }, 
+                "max_history_step": "pipeline", 
+                "score": 0.6343309253525973, 
+                "stop_time": 1559729425.366656, 
+                "type": "pipeline", 
+                "max_history_score": 0.9718954248366012
+            }, 
+            {
+                "status": "ok", 
+                "score_std": 0.05307203451751844, 
+                "max_history_score_std": 0.028119770933724135, 
+                "iteration": 27, 
+                "start_time": 1559729425.455786, 
+                "step": "pipeline", 
+                "duration": 3.497131109237671, 
+                "loss": 0.0621667526659786, 
+                "pipeline": {
+                    "normalizer": [
+                        "normalizer_MinMaxScaler", 
+                        {}
+                    ], 
+                    "rebalance": [
+                        "rebalance_CondensedNearestNeighbour", 
+                        {
+                            "rebalance__n_neighbors": 3
+                        }
+                    ], 
+                    "features": [
+                        "features_PCA", 
+                        {
+                            "features__n_components": 2
+                        }
+                    ]
+                }, 
+                "algorithm": {}, 
+                "config_hash": {
+                    "pipeline": "beaf0cec031a862f2682326463ca120d96b96e1e", 
+                    "config": "16a5adb15ebfb1215ff116b71fe1527f86d9dc88", 
+                    "algorithm": "bf21a9e8fbc5a3846fb05b4fa0859e0917b2202f"
+                }, 
+                "max_history_step": "pipeline", 
+                "score": 0.9378332473340214, 
+                "stop_time": 1559729428.952917, 
+                "type": "pipeline", 
+                "max_history_score": 0.9718954248366012
+            }, 
+            {
+                "status": "ok", 
+                "score_std": 0.02687037459510562, 
+                "max_history_score_std": 0.02687037459510562, 
+                "iteration": 28, 
+                "start_time": 1559729429.052695, 
+                "step": "pipeline", 
+                "duration": 3.733428955078125, 
+                "loss": 0.021929824561403466, 
+                "pipeline": {
+                    "normalizer": [
+                        "normalizer_StandardScaler", 
+                        {
+                            "normalizer__with_std": true, 
+                            "normalizer__with_mean": true
+                        }
+                    ], 
+                    "rebalance": [
+                        "rebalance_SMOTE", 
+                        {
+                            "rebalance__k_neighbors": 7
+                        }
+                    ], 
+                    "features": [
+                        "features_NoneType", 
+                        {}
+                    ]
+                }, 
+                "algorithm": {}, 
+                "config_hash": {
+                    "pipeline": "65c5647923e0274841ff2df8f41b9391d848e00d", 
+                    "config": "4d2a1182bfff83f7b7ad487d5eeef67f0be7f49f", 
+                    "algorithm": "bf21a9e8fbc5a3846fb05b4fa0859e0917b2202f"
+                }, 
+                "max_history_step": "pipeline", 
+                "score": 0.9780701754385965, 
+                "stop_time": 1559729432.786124, 
+                "type": "pipeline", 
+                "max_history_score": 0.9780701754385965
+            }, 
+            {
+                "status": "ok", 
+                "score_std": 0.03689817494006776, 
+                "max_history_score_std": 0.02687037459510562, 
+                "iteration": 29, 
+                "start_time": 1559729432.867776, 
+                "step": "pipeline", 
+                "duration": 3.5591630935668945, 
+                "loss": 0.03336773305813556, 
+                "pipeline": {
+                    "normalizer": [
+                        "normalizer_MinMaxScaler", 
+                        {}
+                    ], 
+                    "rebalance": [
+                        "rebalance_SMOTE", 
+                        {
+                            "rebalance__k_neighbors": 7
+                        }
+                    ], 
+                    "features": [
+                        "features_NoneType", 
+                        {}
+                    ]
+                }, 
+                "algorithm": {}, 
+                "config_hash": {
+                    "pipeline": "b8c6433e8fcef261fda1f062b09be2d0444843da", 
+                    "config": "22fbd423f01f74106f48d2f8ef18d94d2f68db5e", 
+                    "algorithm": "bf21a9e8fbc5a3846fb05b4fa0859e0917b2202f"
+                }, 
+                "max_history_step": "pipeline", 
+                "score": 0.9666322669418644, 
+                "stop_time": 1559729436.426939, 
+                "type": "pipeline", 
+                "max_history_score": 0.9780701754385965
+            }, 
+            {
+                "status": "ok", 
+                "score_std": 0.04344442830727078, 
+                "max_history_score_std": 0.02687037459510562, 
+                "iteration": 30, 
+                "start_time": 1559729436.694606, 
+                "step": "pipeline", 
+                "duration": 3.8100240230560303, 
+                "loss": 0.03274853801169575, 
+                "pipeline": {
+                    "normalizer": [
+                        "normalizer_StandardScaler", 
+                        {
+                            "normalizer__with_std": true, 
+                            "normalizer__with_mean": true
+                        }
+                    ], 
+                    "rebalance": [
+                        "rebalance_CondensedNearestNeighbour", 
+                        {
+                            "rebalance__n_neighbors": 3
+                        }
+                    ], 
+                    "features": [
+                        "features_NoneType", 
+                        {}
+                    ]
+                }, 
+                "algorithm": {}, 
+                "config_hash": {
+                    "pipeline": "2b9dd2360847888565eb9aef8de754c578baec07", 
+                    "config": "9b98f49e8092f4bc2268e16b084afd08695556b9", 
+                    "algorithm": "bf21a9e8fbc5a3846fb05b4fa0859e0917b2202f"
+                }, 
+                "max_history_step": "pipeline", 
+                "score": 0.9672514619883043, 
+                "stop_time": 1559729440.50463, 
+                "type": "pipeline", 
+                "max_history_score": 0.9780701754385965
+            }, 
+            {
+                "status": "ok", 
+                "score_std": 0.08553868556521119, 
+                "max_history_score_std": 0.02687037459510562, 
+                "iteration": 31, 
+                "start_time": 1559729440.707201, 
+                "step": "pipeline", 
+                "duration": 3.4137139320373535, 
+                "loss": 0.1102339181286549, 
+                "pipeline": {
+                    "normalizer": [
+                        "normalizer_NoneType", 
+                        {}
+                    ], 
+                    "rebalance": [
+                        "rebalance_SMOTE", 
+                        {
+                            "rebalance__k_neighbors": 7
+                        }
+                    ], 
+                    "features": [
+                        "features_NoneType", 
+                        {}
+                    ]
+                }, 
+                "algorithm": {}, 
+                "config_hash": {
+                    "pipeline": "106891439a07cf47baa7abf73b48842e9aaa5c44", 
+                    "config": "94947e05d647ff8c8d22d931cbabafea96e77ce9", 
+                    "algorithm": "bf21a9e8fbc5a3846fb05b4fa0859e0917b2202f"
+                }, 
+                "max_history_step": "pipeline", 
+                "score": 0.8897660818713451, 
+                "stop_time": 1559729444.120915, 
+                "type": "pipeline", 
+                "max_history_score": 0.9780701754385965
+            }, 
+            {
+                "status": "ok", 
+                "score_std": 0.02687037459510562, 
+                "max_history_score_std": 0.02687037459510562, 
+                "iteration": 32, 
+                "start_time": 1559729444.212935, 
+                "step": "pipeline", 
+                "duration": 3.314177989959717, 
+                "loss": 0.021929824561403466, 
+                "pipeline": {
+                    "normalizer": [
+                        "normalizer_StandardScaler", 
+                        {
+                            "normalizer__with_std": true, 
+                            "normalizer__with_mean": true
+                        }
+                    ], 
+                    "rebalance": [
+                        "rebalance_NoneType", 
+                        {}
+                    ], 
+                    "features": [
+                        "features_NoneType", 
+                        {}
+                    ]
+                }, 
+                "algorithm": {}, 
+                "config_hash": {
+                    "pipeline": "c5cd9b8af915720cb46e4b568e6ad60706daf584", 
+                    "config": "ad91fecc6d4230b68c476bff640c1cf583d55180", 
+                    "algorithm": "bf21a9e8fbc5a3846fb05b4fa0859e0917b2202f"
+                }, 
+                "max_history_step": "pipeline", 
+                "score": 0.9780701754385965, 
+                "stop_time": 1559729447.527113, 
+                "type": "pipeline", 
+                "max_history_score": 0.9780701754385965
+            }, 
+            {
+                "status": "ok", 
+                "score_std": 0.05238734756482139, 
+                "max_history_score_std": 0.02687037459510562, 
+                "iteration": 33, 
+                "start_time": 1559729447.608208, 
+                "step": "pipeline", 
+                "duration": 2.9875380992889404, 
+                "loss": 0.049707602339181256, 
+                "pipeline": {
+                    "normalizer": [
+                        "normalizer_RobustScaler", 
+                        {
+                            "normalizer__quantile_range": [
+                                25.0, 
+                                75.0
+                            ], 
+                            "normalizer__with_centering": true, 
+                            "normalizer__with_scaling": false
+                        }
+                    ], 
+                    "rebalance": [
+                        "rebalance_NoneType", 
+                        {}
+                    ], 
+                    "features": [
+                        "features_NoneType", 
+                        {}
+                    ]
+                }, 
+                "algorithm": {}, 
+                "config_hash": {
+                    "pipeline": "8c0ebdebc4ba77f368842b6104de109e519ee0e1", 
+                    "config": "7ef8175761c87c374f3423e4dd403a7f54456a12", 
+                    "algorithm": "bf21a9e8fbc5a3846fb05b4fa0859e0917b2202f"
+                }, 
+                "max_history_step": "pipeline", 
+                "score": 0.9502923976608187, 
+                "stop_time": 1559729450.595746, 
+                "type": "pipeline", 
+                "max_history_score": 0.9780701754385965
+            }, 
+            {
+                "status": "ok", 
+                "score_std": 0.02763129388748755, 
+                "max_history_score_std": 0.02687037459510562, 
+                "iteration": 34, 
+                "start_time": 1559729450.785771, 
+                "step": "pipeline", 
+                "duration": 3.1449692249298096, 
+                "loss": 0.022549019607843057, 
+                "pipeline": {
+                    "normalizer": [
+                        "normalizer_MinMaxScaler", 
+                        {}
+                    ], 
+                    "rebalance": [
+                        "rebalance_NoneType", 
+                        {}
+                    ], 
+                    "features": [
+                        "features_NoneType", 
+                        {}
+                    ]
+                }, 
+                "algorithm": {}, 
+                "config_hash": {
+                    "pipeline": "3ee6a915db2d8d71f204c103803fb8eabea0d54f", 
+                    "config": "d95ee88837cd917bf7e4d3f0e94f80d923b5a713", 
+                    "algorithm": "bf21a9e8fbc5a3846fb05b4fa0859e0917b2202f"
+                }, 
+                "max_history_step": "pipeline", 
+                "score": 0.9774509803921569, 
+                "stop_time": 1559729453.93074, 
+                "type": "pipeline", 
+                "max_history_score": 0.9780701754385965
+            }, 
+            {
+                "status": "ok", 
+                "score_std": 0.0852879419132968, 
+                "max_history_score_std": 0.02687037459510562, 
+                "iteration": 35, 
+                "start_time": 1559729453.985852, 
+                "step": "pipeline", 
+                "duration": 3.1121230125427246, 
+                "loss": 0.09941520467836251, 
+                "pipeline": {
+                    "normalizer": [
+                        "normalizer_NoneType", 
+                        {}
+                    ], 
+                    "rebalance": [
+                        "rebalance_NoneType", 
+                        {}
+                    ], 
+                    "features": [
+                        "features_NoneType", 
+                        {}
+                    ]
+                }, 
+                "algorithm": {}, 
+                "config_hash": {
+                    "pipeline": "da227cd0f7245cef4f40c81aa10ef7664e50f062", 
+                    "config": "7a11ea8922f7816de5603b07bcd227c780cb209c", 
+                    "algorithm": "bf21a9e8fbc5a3846fb05b4fa0859e0917b2202f"
+                }, 
+                "max_history_step": "pipeline", 
+                "score": 0.9005847953216375, 
+                "stop_time": 1559729457.097975, 
+                "type": "pipeline", 
+                "max_history_score": 0.9780701754385965
+            }, 
+            {
+                "status": "ok", 
+                "score_std": 0.09259511221223765, 
+                "max_history_score_std": 0.02687037459510562, 
+                "iteration": 36, 
+                "start_time": 1559729457.252384, 
+                "step": "pipeline", 
+                "duration": 3.7406539916992188, 
+                "loss": 0.2886932404540763, 
+                "pipeline": {
+                    "normalizer": [
+                        "normalizer_PowerTransformer", 
+                        {}
+                    ], 
+                    "rebalance": [
+                        "rebalance_CondensedNearestNeighbour", 
+                        {
+                            "rebalance__n_neighbors": 1
+                        }
+                    ], 
+                    "features": [
+                        "features_FeatureUnion", 
+                        {
+                            "features__pca__n_components": 1, 
+                            "features__selectkbest__k": 2
+                        }
+                    ]
+                }, 
+                "algorithm": {}, 
+                "config_hash": {
+                    "pipeline": "60795e92222c602c4da97f5e65da8cfce33f5951", 
+                    "config": "f9ae918b7ff1e8945e932a70915e0720a40f3137", 
+                    "algorithm": "bf21a9e8fbc5a3846fb05b4fa0859e0917b2202f"
+                }, 
+                "max_history_step": "pipeline", 
+                "score": 0.7113067595459237, 
+                "stop_time": 1559729460.993038, 
+                "type": "pipeline", 
+                "max_history_score": 0.9780701754385965
+            }, 
+            {
+                "status": "ok", 
+                "score_std": 0.0784797435617843, 
+                "max_history_score_std": 0.02687037459510562, 
+                "iteration": 37, 
+                "start_time": 1559729461.076601, 
+                "step": "pipeline", 
+                "duration": 2.6017189025878906, 
+                "loss": 0.10471276229790161, 
+                "pipeline": {
+                    "normalizer": [
+                        "normalizer_RobustScaler", 
+                        {
+                            "normalizer__quantile_range": [
+                                10.0, 
+                                90.0
+                            ], 
+                            "normalizer__with_centering": false, 
+                            "normalizer__with_scaling": false
+                        }
+                    ], 
+                    "rebalance": [
+                        "rebalance_NearMiss", 
+                        {
+                            "rebalance__n_neighbors": 1
+                        }
+                    ], 
+                    "features": [
+                        "features_NoneType", 
+                        {}
+                    ]
+                }, 
+                "algorithm": {}, 
+                "config_hash": {
+                    "pipeline": "52f07bda29f9d3a95fabb87e591d0b2581ca8209", 
+                    "config": "f6f57b9298222bf31c66c0960290c4e232735edc", 
+                    "algorithm": "bf21a9e8fbc5a3846fb05b4fa0859e0917b2202f"
+                }, 
+                "max_history_step": "pipeline", 
+                "score": 0.8952872377020984, 
+                "stop_time": 1559729463.67832, 
+                "type": "pipeline", 
+                "max_history_score": 0.9780701754385965
+            }, 
+            {
+                "status": "ok", 
+                "score_std": 0.07027831153682294, 
+                "max_history_score_std": 0.02687037459510562, 
+                "iteration": 38, 
+                "start_time": 1559729463.952252, 
+                "step": "pipeline", 
+                "duration": 3.1826770305633545, 
+                "loss": 0.055263157894737014, 
+                "pipeline": {
+                    "normalizer": [
+                        "normalizer_PowerTransformer", 
+                        {}
+                    ], 
+                    "rebalance": [
+                        "rebalance_NoneType", 
+                        {}
+                    ], 
+                    "features": [
+                        "features_SelectKBest", 
+                        {
+                            "features__k": 4
+                        }
+                    ]
+                }, 
+                "algorithm": {}, 
+                "config_hash": {
+                    "pipeline": "85061af7b874940691fdd932446828ac2fa4c1bb", 
+                    "config": "656990eaff68b822f1b497686c5836de9cb3b9da", 
+                    "algorithm": "bf21a9e8fbc5a3846fb05b4fa0859e0917b2202f"
+                }, 
+                "max_history_step": "pipeline", 
+                "score": 0.944736842105263, 
+                "stop_time": 1559729467.134929, 
+                "type": "pipeline", 
+                "max_history_score": 0.9780701754385965
+            }, 
+            {
+                "status": "ok", 
+                "score_std": 0.08702090205506398, 
+                "max_history_score_std": 0.02687037459510562, 
+                "iteration": 39, 
+                "start_time": 1559729467.228302, 
+                "step": "pipeline", 
+                "duration": 0.539849042892456, 
+                "loss": 0.2532077743378053, 
+                "pipeline": {
+                    "normalizer": [
+                        "normalizer_RobustScaler", 
+                        {
+                            "normalizer__quantile_range": [
+                                25.0, 
+                                75.0
+                            ], 
+                            "normalizer__with_centering": true, 
+                            "normalizer__with_scaling": false
+                        }
+                    ], 
+                    "rebalance": [
+                        "rebalance_NearMiss", 
+                        {
+                            "rebalance__n_neighbors": 2
+                        }
+                    ], 
+                    "features": [
+                        "features_FeatureUnion", 
+                        {
+                            "features__pca__n_components": 2, 
+                            "features__selectkbest__k": 4
+                        }
+                    ]
+                }, 
+                "algorithm": {}, 
+                "config_hash": {
+                    "pipeline": "b82af9e41c3d788c72d6b7e0c324d59775574ba7", 
+                    "config": "6b1406435e4fa7b2c248039bf855139dd775a3a8", 
+                    "algorithm": "bf21a9e8fbc5a3846fb05b4fa0859e0917b2202f"
+                }, 
+                "max_history_step": "pipeline", 
+                "score": 0.7467922256621947, 
+                "stop_time": 1559729467.768151, 
+                "type": "pipeline", 
+                "max_history_score": 0.9780701754385965
+            }, 
+            {
+                "status": "ok", 
+                "score_std": 0.07486661499787885, 
+                "max_history_score_std": 0.02687037459510562, 
+                "iteration": 40, 
+                "start_time": 1559729467.970895, 
+                "step": "pipeline", 
+                "duration": 2.3934669494628906, 
+                "loss": 0.12141382868937056, 
+                "pipeline": {
+                    "normalizer": [
+                        "normalizer_StandardScaler", 
+                        {
+                            "normalizer__with_std": true, 
+                            "normalizer__with_mean": true
+                        }
+                    ], 
+                    "rebalance": [
+                        "rebalance_NoneType", 
+                        {}
+                    ], 
+                    "features": [
+                        "features_SelectKBest", 
+                        {
+                            "features__k": 2
+                        }
+                    ]
+                }, 
+                "algorithm": {}, 
+                "config_hash": {
+                    "pipeline": "db75fc81d354134ff7502f543570c646a4d8c0d5", 
+                    "config": "f850862289c126be50b33e1f2d83a0dc52f93da6", 
+                    "algorithm": "bf21a9e8fbc5a3846fb05b4fa0859e0917b2202f"
+                }, 
+                "max_history_step": "pipeline", 
+                "score": 0.8785861713106294, 
+                "stop_time": 1559729470.364362, 
+                "type": "pipeline", 
+                "max_history_score": 0.9780701754385965
+            }, 
+            {
+                "status": "ok", 
+                "score_std": 0.08605715461031856, 
+                "max_history_score_std": 0.02687037459510562, 
+                "iteration": 41, 
+                "start_time": 1559729470.449622, 
+                "step": "pipeline", 
+                "duration": 3.9398410320281982, 
+                "loss": 0.08278293773649814, 
+                "pipeline": {
+                    "normalizer": [
+                        "normalizer_NoneType", 
+                        {}
+                    ], 
+                    "rebalance": [
+                        "rebalance_CondensedNearestNeighbour", 
+                        {
+                            "rebalance__n_neighbors": 3
+                        }
+                    ], 
+                    "features": [
+                        "features_NoneType", 
+                        {}
+                    ]
+                }, 
+                "algorithm": {}, 
+                "config_hash": {
+                    "pipeline": "85acbc0d7e32c65a3be61e41e704748f6dbc45c1", 
+                    "config": "fb869bc66c866806ff1ac5909ec983eb944a4bb4", 
+                    "algorithm": "bf21a9e8fbc5a3846fb05b4fa0859e0917b2202f"
+                }, 
+                "max_history_step": "pipeline", 
+                "score": 0.9172170622635019, 
+                "stop_time": 1559729474.389463, 
+                "type": "pipeline", 
+                "max_history_score": 0.9780701754385965
+            }, 
+            {
+                "status": "ok", 
+                "score_std": 0.0443066886362752, 
+                "max_history_score_std": 0.02687037459510562, 
+                "iteration": 42, 
+                "start_time": 1559729474.494252, 
+                "step": "pipeline", 
+                "duration": 2.8845701217651367, 
+                "loss": 0.03304093567251465, 
+                "pipeline": {
+                    "normalizer": [
+                        "normalizer_StandardScaler", 
+                        {
+                            "normalizer__with_std": true, 
+                            "normalizer__with_mean": true
+                        }
+                    ], 
+                    "rebalance": [
+                        "rebalance_NearMiss", 
+                        {
+                            "rebalance__n_neighbors": 2
+                        }
+                    ], 
+                    "features": [
+                        "features_NoneType", 
+                        {}
+                    ]
+                }, 
+                "algorithm": {}, 
+                "config_hash": {
+                    "pipeline": "391dd5dbd10d523c6ec153f8052a7c93eba398ca", 
+                    "config": "7fedb67f352d90f548fc464f4f6950f133d1cd2b", 
+                    "algorithm": "bf21a9e8fbc5a3846fb05b4fa0859e0917b2202f"
+                }, 
+                "max_history_step": "pipeline", 
+                "score": 0.9669590643274854, 
+                "stop_time": 1559729477.378822, 
+                "type": "pipeline", 
+                "max_history_score": 0.9780701754385965
+            }, 
+            {
+                "status": "ok", 
+                "score_std": 0.0485170314967005, 
+                "max_history_score_std": 0.02687037459510562, 
+                "iteration": 43, 
+                "start_time": 1559729477.451509, 
+                "step": "pipeline", 
+                "duration": 3.3147220611572266, 
+                "loss": 0.04477124183006542, 
+                "pipeline": {
+                    "normalizer": [
+                        "normalizer_PowerTransformer", 
+                        {}
+                    ], 
+                    "rebalance": [
+                        "rebalance_NoneType", 
+                        {}
+                    ], 
+                    "features": [
+                        "features_FeatureUnion", 
+                        {
+                            "features__pca__n_components": 3, 
+                            "features__selectkbest__k": 3
+                        }
+                    ]
+                }, 
+                "algorithm": {}, 
+                "config_hash": {
+                    "pipeline": "848ee5726c42bf0fd02e7197307dccc0824f73d9", 
+                    "config": "ffc3c2bc1eb0de632034be3c7a2153f075f266f0", 
+                    "algorithm": "bf21a9e8fbc5a3846fb05b4fa0859e0917b2202f"
+                }, 
+                "max_history_step": "pipeline", 
+                "score": 0.9552287581699346, 
+                "stop_time": 1559729480.766231, 
+                "type": "pipeline", 
+                "max_history_score": 0.9780701754385965
+            }, 
+            {
+                "status": "ok", 
+                "score_std": 0.12921888174946008, 
+                "max_history_score_std": 0.02687037459510562, 
+                "iteration": 44, 
+                "start_time": 1559729480.851265, 
+                "step": "pipeline", 
+                "duration": 2.85612416267395, 
+                "loss": 0.2350103199174407, 
+                "pipeline": {
+                    "normalizer": [
+                        "normalizer_RobustScaler", 
+                        {
+                            "normalizer__quantile_range": [
+                                10.0, 
+                                90.0
+                            ], 
+                            "normalizer__with_centering": true, 
+                            "normalizer__with_scaling": false
+                        }
+                    ], 
+                    "rebalance": [
+                        "rebalance_CondensedNearestNeighbour", 
+                        {
+                            "rebalance__n_neighbors": 2
+                        }
+                    ], 
+                    "features": [
+                        "features_SelectKBest", 
+                        {
+                            "features__k": 2
+                        }
+                    ]
+                }, 
+                "algorithm": {}, 
+                "config_hash": {
+                    "pipeline": "0135d5a9413e629af6ac2c90541fea1310a26205", 
+                    "config": "1adbe557f0bef79fdf7048e17a71451e8207b171", 
+                    "algorithm": "bf21a9e8fbc5a3846fb05b4fa0859e0917b2202f"
+                }, 
+                "max_history_step": "pipeline", 
+                "score": 0.7649896800825593, 
+                "stop_time": 1559729483.707389, 
+                "type": "pipeline", 
+                "max_history_score": 0.9780701754385965
+            }, 
+            {
+                "status": "ok", 
+                "score_std": 0.0784797435617843, 
+                "max_history_score_std": 0.02687037459510562, 
+                "iteration": 45, 
+                "start_time": 1559729483.796151, 
+                "step": "pipeline", 
+                "duration": 2.6539909839630127, 
+                "loss": 0.10471276229790161, 
+                "pipeline": {
+                    "normalizer": [
+                        "normalizer_StandardScaler", 
+                        {
+                            "normalizer__with_std": false, 
+                            "normalizer__with_mean": false
+                        }
+                    ], 
+                    "rebalance": [
+                        "rebalance_NearMiss", 
+                        {
+                            "rebalance__n_neighbors": 1
+                        }
+                    ], 
+                    "features": [
+                        "features_NoneType", 
+                        {}
+                    ]
+                }, 
+                "algorithm": {}, 
+                "config_hash": {
+                    "pipeline": "1eae01a1128bee425c4d4ca0ee97a9afd409680e", 
+                    "config": "281bbacaa2e29f1df070072365424b16cdcaa9b7", 
+                    "algorithm": "bf21a9e8fbc5a3846fb05b4fa0859e0917b2202f"
+                }, 
+                "max_history_step": "pipeline", 
+                "score": 0.8952872377020984, 
+                "stop_time": 1559729486.450142, 
+                "type": "pipeline", 
+                "max_history_score": 0.9780701754385965
+            }, 
+            {
+                "status": "ok", 
+                "score_std": 0.02777777777777779, 
+                "max_history_score_std": 0.02687037459510562, 
+                "iteration": 46, 
+                "start_time": 1559729486.69552, 
+                "step": "pipeline", 
+                "duration": 2.468806028366089, 
+                "loss": 0.0277777777777779, 
+                "pipeline": {
+                    "normalizer": [
+                        "normalizer_StandardScaler", 
+                        {
+                            "normalizer__with_std": true, 
+                            "normalizer__with_mean": true
+                        }
+                    ], 
+                    "rebalance": [
+                        "rebalance_NoneType", 
+                        {}
+                    ], 
+                    "features": [
+                        "features_FeatureUnion", 
+                        {
+                            "features__pca__n_components": 4, 
+                            "features__selectkbest__k": 1
+                        }
+                    ]
+                }, 
+                "algorithm": {}, 
+                "config_hash": {
+                    "pipeline": "2e371baf27702c7038c233fd0b4c57d7fb3263b0", 
+                    "config": "7471510d339483a4bd2be40b37cfc2bd1ea237a4", 
+                    "algorithm": "bf21a9e8fbc5a3846fb05b4fa0859e0917b2202f"
+                }, 
+                "max_history_step": "pipeline", 
+                "score": 0.9722222222222221, 
+                "stop_time": 1559729489.164326, 
+                "type": "pipeline", 
+                "max_history_score": 0.9780701754385965
+            }, 
+            {
+                "status": "ok", 
+                "score_std": 0.07548391584920928, 
+                "max_history_score_std": 0.02687037459510562, 
+                "iteration": 47, 
+                "start_time": 1559729489.250402, 
+                "step": "pipeline", 
+                "duration": 2.4685521125793457, 
+                "loss": 0.06549707602339194, 
+                "pipeline": {
+                    "normalizer": [
+                        "normalizer_MinMaxScaler", 
+                        {}
+                    ], 
+                    "rebalance": [
+                        "rebalance_NoneType", 
+                        {}
+                    ], 
+                    "features": [
+                        "features_SelectKBest", 
+                        {
+                            "features__k": 4
+                        }
+                    ]
+                }, 
+                "algorithm": {}, 
+                "config_hash": {
+                    "pipeline": "13ea3359c453b8993fcec1e88bc0e19cd0a2b112", 
+                    "config": "4664bb2c124eaa0fa8583c1d8018a43c0f7546b3", 
+                    "algorithm": "bf21a9e8fbc5a3846fb05b4fa0859e0917b2202f"
+                }, 
+                "max_history_step": "pipeline", 
+                "score": 0.9345029239766081, 
+                "stop_time": 1559729491.718954, 
+                "type": "pipeline", 
+                "max_history_score": 0.9780701754385965
+            }, 
+            {
+                "status": "ok", 
+                "score_std": 0.05300917664655075, 
+                "max_history_score_std": 0.02687037459510562, 
+                "iteration": 48, 
+                "start_time": 1559729492.01601, 
+                "step": "pipeline", 
+                "duration": 3.8138530254364014, 
+                "loss": 0.09067337461300295, 
+                "pipeline": {
+                    "normalizer": [
+                        "normalizer_PowerTransformer", 
+                        {}
+                    ], 
+                    "rebalance": [
+                        "rebalance_CondensedNearestNeighbour", 
+                        {
+                            "rebalance__n_neighbors": 1
+                        }
+                    ], 
+                    "features": [
+                        "features_FeatureUnion", 
+                        {
+                            "features__pca__n_components": 2, 
+                            "features__selectkbest__k": 1
+                        }
+                    ]
+                }, 
+                "algorithm": {}, 
+                "config_hash": {
+                    "pipeline": "910bf59ada06189e591ee5240b5d748797eef0d1", 
+                    "config": "a13014ff0d57aa52487de0b797111a54404a8248", 
+                    "algorithm": "bf21a9e8fbc5a3846fb05b4fa0859e0917b2202f"
+                }, 
+                "max_history_step": "pipeline", 
+                "score": 0.909326625386997, 
+                "stop_time": 1559729495.829863, 
+                "type": "pipeline", 
+                "max_history_score": 0.9780701754385965
+            }, 
+            {
+                "status": "ok", 
+                "score_std": 0.06935682376254046, 
+                "max_history_score_std": 0.02687037459510562, 
+                "iteration": 49, 
+                "start_time": 1559729495.944506, 
+                "step": "pipeline", 
+                "duration": 2.702584981918335, 
+                "loss": 0.07134502923976616, 
+                "pipeline": {
+                    "normalizer": [
+                        "normalizer_RobustScaler", 
+                        {
+                            "normalizer__quantile_range": [
+                                25.0, 
+                                75.0
+                            ], 
+                            "normalizer__with_centering": false, 
+                            "normalizer__with_scaling": true
+                        }
+                    ], 
+                    "rebalance": [
+                        "rebalance_SMOTE", 
+                        {
+                            "rebalance__k_neighbors": 6
+                        }
+                    ], 
+                    "features": [
+                        "features_SelectKBest", 
+                        {
+                            "features__k": 4
+                        }
+                    ]
+                }, 
+                "algorithm": {}, 
+                "config_hash": {
+                    "pipeline": "e2b69e17c1279577c69bc6c5690bcf4f4cab5ede", 
+                    "config": "d010d5b450b5356a4de812368a214e1f285a7a49", 
+                    "algorithm": "bf21a9e8fbc5a3846fb05b4fa0859e0917b2202f"
+                }, 
+                "max_history_step": "pipeline", 
+                "score": 0.9286549707602338, 
+                "stop_time": 1559729498.647091, 
+                "type": "pipeline", 
+                "max_history_score": 0.9780701754385965
+            }, 
+            {
+                "status": "ok", 
+                "score_std": 0.08982130613618954, 
+                "max_history_score_std": 0.02687037459510562, 
+                "iteration": 50, 
+                "start_time": 1559729499.12988, 
+                "step": "pipeline", 
+                "duration": 3.5022659301757812, 
+                "loss": 0.11549707602339188, 
+                "pipeline": {
+                    "normalizer": [
+                        "normalizer_StandardScaler", 
+                        {
+                            "normalizer__with_std": false, 
+                            "normalizer__with_mean": false
+                        }
+                    ], 
+                    "rebalance": [
+                        "rebalance_SMOTE", 
+                        {
+                            "rebalance__k_neighbors": 7
+                        }
+                    ], 
+                    "features": [
+                        "features_NoneType", 
+                        {}
+                    ]
+                }, 
+                "algorithm": {}, 
+                "config_hash": {
+                    "pipeline": "24c68b7dbf6a3dae65bf338fe37dd05a8685aa57", 
+                    "config": "faa58356cc89e33b13def03656ff43dfee806ddd", 
+                    "algorithm": "bf21a9e8fbc5a3846fb05b4fa0859e0917b2202f"
+                }, 
+                "max_history_step": "pipeline", 
+                "score": 0.8845029239766081, 
+                "stop_time": 1559729502.632146, 
+                "type": "pipeline", 
+                "max_history_score": 0.9780701754385965
+            }, 
+            {
+                "status": "ok", 
+                "score_std": 0.02687037459510562, 
+                "max_history_score_std": 0.02687037459510562, 
+                "iteration": 51, 
+                "start_time": 1559729502.806783, 
+                "step": "pipeline", 
+                "duration": 3.7760541439056396, 
+                "loss": 0.021929824561403466, 
+                "pipeline": {
+                    "normalizer": [
+                        "normalizer_StandardScaler", 
+                        {
+                            "normalizer__with_std": true, 
+                            "normalizer__with_mean": true
+                        }
+                    ], 
+                    "rebalance": [
+                        "rebalance_SMOTE", 
+                        {
+                            "rebalance__k_neighbors": 6
+                        }
+                    ], 
+                    "features": [
+                        "features_NoneType", 
+                        {}
+                    ]
+                }, 
+                "algorithm": {}, 
+                "config_hash": {
+                    "pipeline": "37e72d4a97f5e784c9d3133e6379b91bfc3be803", 
+                    "config": "e645a78e115fbaa4546be90254b75f3d4e57e658", 
+                    "algorithm": "bf21a9e8fbc5a3846fb05b4fa0859e0917b2202f"
+                }, 
+                "max_history_step": "pipeline", 
+                "score": 0.9780701754385965, 
+                "stop_time": 1559729506.582837, 
+                "type": "pipeline", 
+                "max_history_score": 0.9780701754385965
+            }, 
+            {
+                "status": "ok", 
+                "score_std": 0.027846683464748417, 
+                "max_history_score_std": 0.02687037459510562, 
+                "iteration": 52, 
+                "start_time": 1559729506.989834, 
+                "step": "pipeline", 
+                "duration": 3.5473968982696533, 
+                "loss": 0.027812177502580027, 
+                "pipeline": {
+                    "normalizer": [
+                        "normalizer_MinMaxScaler", 
+                        {}
+                    ], 
+                    "rebalance": [
+                        "rebalance_SMOTE", 
+                        {
+                            "rebalance__k_neighbors": 6
+                        }
+                    ], 
+                    "features": [
+                        "features_NoneType", 
+                        {}
+                    ]
+                }, 
+                "algorithm": {}, 
+                "config_hash": {
+                    "pipeline": "d4575adc4eb61baa0a642310980e7a916a554ef8", 
+                    "config": "62dd0d26081e8657059afe7baf66784240b30c9c", 
+                    "algorithm": "bf21a9e8fbc5a3846fb05b4fa0859e0917b2202f"
+                }, 
+                "max_history_step": "pipeline", 
+                "score": 0.97218782249742, 
+                "stop_time": 1559729510.537231, 
+                "type": "pipeline", 
+                "max_history_score": 0.9780701754385965
+            }, 
+            {
+                "status": "ok", 
+                "score_std": 0.0443066886362752, 
+                "max_history_score_std": 0.02687037459510562, 
+                "iteration": 53, 
+                "start_time": 1559729510.726037, 
+                "step": "pipeline", 
+                "duration": 2.7918670177459717, 
+                "loss": 0.03304093567251465, 
+                "pipeline": {
+                    "normalizer": [
+                        "normalizer_StandardScaler", 
+                        {
+                            "normalizer__with_std": true, 
+                            "normalizer__with_mean": true
+                        }
+                    ], 
+                    "rebalance": [
+                        "rebalance_NearMiss", 
+                        {
+                            "rebalance__n_neighbors": 1
+                        }
+                    ], 
+                    "features": [
+                        "features_NoneType", 
+                        {}
+                    ]
+                }, 
+                "algorithm": {}, 
+                "config_hash": {
+                    "pipeline": "15ff3d6270ac899763bb3f72417c48bcd56aa7d8", 
+                    "config": "072e0686994c6feacdad7638d35c65d11c973aeb", 
+                    "algorithm": "bf21a9e8fbc5a3846fb05b4fa0859e0917b2202f"
+                }, 
+                "max_history_step": "pipeline", 
+                "score": 0.9669590643274854, 
+                "stop_time": 1559729513.517904, 
+                "type": "pipeline", 
+                "max_history_score": 0.9780701754385965
+            }, 
+            {
+                "status": "ok", 
+                "score_std": 0.11270336203446658, 
+                "max_history_score_std": 0.02687037459510562, 
+                "iteration": 54, 
+                "start_time": 1559729513.605913, 
+                "step": "pipeline", 
+                "duration": 0.612537145614624, 
+                "loss": 0.22374871001031993, 
+                "pipeline": {
+                    "normalizer": [
+                        "normalizer_NoneType", 
+                        {}
+                    ], 
+                    "rebalance": [
+                        "rebalance_NoneType", 
+                        {}
+                    ], 
+                    "features": [
+                        "features_PCA", 
+                        {
+                            "features__n_components": 4
+                        }
+                    ]
+                }, 
+                "algorithm": {}, 
+                "config_hash": {
+                    "pipeline": "eb7dbeec03da4842c6d88f3baf73e8c783312778", 
+                    "config": "783a818ddc2596a9cff6647c8762c58b06c8b2ed", 
+                    "algorithm": "bf21a9e8fbc5a3846fb05b4fa0859e0917b2202f"
+                }, 
+                "max_history_step": "pipeline", 
+                "score": 0.7762512899896801, 
+                "stop_time": 1559729514.21845, 
+                "type": "pipeline", 
+                "max_history_score": 0.9780701754385965
+            }, 
+            {
+                "status": "ok", 
+                "score_std": 0.054433105395181765, 
+                "max_history_score_std": 0.02687037459510562, 
+                "iteration": 55, 
+                "start_time": 1559729514.309089, 
+                "step": "pipeline", 
+                "duration": 3.3487069606781006, 
+                "loss": 0.04444444444444451, 
+                "pipeline": {
+                    "normalizer": [
+                        "normalizer_PowerTransformer", 
+                        {}
+                    ], 
+                    "rebalance": [
+                        "rebalance_NoneType", 
+                        {}
+                    ], 
+                    "features": [
+                        "features_FeatureUnion", 
+                        {
+                            "features__pca__n_components": 4, 
+                            "features__selectkbest__k": 4
+                        }
+                    ]
+                }, 
+                "algorithm": {}, 
+                "config_hash": {
+                    "pipeline": "808717dc2bf53bc68fc98d0c4986bd1a94e42774", 
+                    "config": "c0c06a4a0151469ebcfb051444d2082381b5bb48", 
+                    "algorithm": "bf21a9e8fbc5a3846fb05b4fa0859e0917b2202f"
+                }, 
+                "max_history_step": "pipeline", 
+                "score": 0.9555555555555555, 
+                "stop_time": 1559729517.657796, 
+                "type": "pipeline", 
+                "max_history_score": 0.9780701754385965
+            }, 
+            {
+                "status": "ok", 
+                "score_std": 0.14705137233007515, 
+                "max_history_score_std": 0.02687037459510562, 
+                "iteration": 56, 
+                "start_time": 1559729517.776672, 
+                "step": "pipeline", 
+                "duration": 2.142137050628662, 
+                "loss": 0.2911850705194359, 
+                "pipeline": {
+                    "normalizer": [
+                        "normalizer_RobustScaler", 
+                        {
+                            "normalizer__quantile_range": [
+                                10.0, 
+                                90.0
+                            ], 
+                            "normalizer__with_centering": true, 
+                            "normalizer__with_scaling": true
+                        }
+                    ], 
+                    "rebalance": [
+                        "rebalance_NoneType", 
+                        {}
+                    ], 
+                    "features": [
+                        "features_SelectKBest", 
+                        {
+                            "features__k": 1
+                        }
+                    ]
+                }, 
+                "algorithm": {}, 
+                "config_hash": {
+                    "pipeline": "2be15177491122ffc679cc88b986b3f3895783d6", 
+                    "config": "b4815913b22fc186ea8879fee2eba9eaad342062", 
+                    "algorithm": "bf21a9e8fbc5a3846fb05b4fa0859e0917b2202f"
+                }, 
+                "max_history_step": "pipeline", 
+                "score": 0.7088149294805641, 
+                "stop_time": 1559729519.918809, 
+                "type": "pipeline", 
+                "max_history_score": 0.9780701754385965
+            }, 
+            {
+                "status": "ok", 
+                "score_std": 0.08516568792433606, 
+                "max_history_score_std": 0.02687037459510562, 
+                "iteration": 57, 
+                "start_time": 1559729520.236955, 
+                "step": "pipeline", 
+                "duration": 2.2871999740600586, 
+                "loss": 0.154454764361885, 
+                "pipeline": {
+                    "normalizer": [
+                        "normalizer_MinMaxScaler", 
+                        {}
+                    ], 
+                    "rebalance": [
+                        "rebalance_NoneType", 
+                        {}
+                    ], 
+                    "features": [
+                        "features_PCA", 
+                        {
+                            "features__n_components": 1
+                        }
+                    ]
+                }, 
+                "algorithm": {}, 
+                "config_hash": {
+                    "pipeline": "fc9a40f401749c0306a76e6546921ee5770e47a2", 
+                    "config": "029975ba3585c9ae8633a44aeeefb91d8d09bffb", 
+                    "algorithm": "bf21a9e8fbc5a3846fb05b4fa0859e0917b2202f"
+                }, 
+                "max_history_step": "pipeline", 
+                "score": 0.845545235638115, 
+                "stop_time": 1559729522.524155, 
+                "type": "pipeline", 
+                "max_history_score": 0.9780701754385965
+            }, 
+            {
+                "status": "ok", 
+                "score_std": 0.18282157649292816, 
+                "max_history_score_std": 0.02687037459510562, 
+                "iteration": 58, 
+                "start_time": 1559729522.763982, 
+                "step": "pipeline", 
+                "duration": 1.2339959144592285, 
+                "loss": 0.2915118679050568, 
+                "pipeline": {
+                    "normalizer": [
+                        "normalizer_NoneType", 
+                        {}
+                    ], 
+                    "rebalance": [
+                        "rebalance_NearMiss", 
+                        {
+                            "rebalance__n_neighbors": 2
+                        }
+                    ], 
+                    "features": [
+                        "features_FeatureUnion", 
+                        {
+                            "features__pca__n_components": 3, 
+                            "features__selectkbest__k": 2
+                        }
+                    ]
+                }, 
+                "algorithm": {}, 
+                "config_hash": {
+                    "pipeline": "dbf301976f189b41e5f1d34a290c3e45dc17fa06", 
+                    "config": "50fca62b7a1914e88e9bbb2f370ebb6065f25892", 
+                    "algorithm": "bf21a9e8fbc5a3846fb05b4fa0859e0917b2202f"
+                }, 
+                "max_history_step": "pipeline", 
+                "score": 0.7084881320949432, 
+                "stop_time": 1559729523.997978, 
+                "type": "pipeline", 
+                "max_history_score": 0.9780701754385965
+            }, 
+            {
+                "status": "ok", 
+                "score_std": 0.02687037459510562, 
+                "max_history_score_std": 0.02687037459510562, 
+                "iteration": 59, 
+                "start_time": 1559729524.095624, 
+                "step": "pipeline", 
+                "duration": 4.229046106338501, 
+                "loss": 0.021929824561403466, 
+                "pipeline": {
+                    "normalizer": [
+                        "normalizer_PowerTransformer", 
+                        {}
+                    ], 
+                    "rebalance": [
+                        "rebalance_SMOTE", 
+                        {
+                            "rebalance__k_neighbors": 7
+                        }
+                    ], 
+                    "features": [
+                        "features_NoneType", 
+                        {}
+                    ]
+                }, 
+                "algorithm": {}, 
+                "config_hash": {
+                    "pipeline": "d6190364e847447858af0bc9c9202ee742300423", 
+                    "config": "e747ed3a47d9c8311d31ae52285742ddade199ad", 
+                    "algorithm": "bf21a9e8fbc5a3846fb05b4fa0859e0917b2202f"
+                }, 
+                "max_history_step": "pipeline", 
+                "score": 0.9780701754385965, 
+                "stop_time": 1559729528.32467, 
+                "type": "pipeline", 
+                "max_history_score": 0.9780701754385965
+            }, 
+            {
+                "status": "ok", 
+                "score_std": 0.0732077325332738, 
+                "max_history_score_std": 0.02687037459510562, 
+                "iteration": 60, 
+                "start_time": 1559729528.407971, 
+                "step": "pipeline", 
+                "duration": 2.9078431129455566, 
+                "loss": 0.088046095631235, 
+                "pipeline": {
+                    "normalizer": [
+                        "normalizer_PowerTransformer", 
+                        {}
+                    ], 
+                    "rebalance": [
+                        "rebalance_NoneType", 
+                        {}
+                    ], 
+                    "features": [
+                        "features_SelectKBest", 
+                        {
+                            "features__k": 3
+                        }
+                    ]
+                }, 
+                "algorithm": {}, 
+                "config_hash": {
+                    "pipeline": "1dc1dd5d7adf7161e71035202e0e925140797728", 
+                    "config": "4e4aa591c1b26abb85d0cc2c7651be5fa0cb1be2", 
+                    "algorithm": "bf21a9e8fbc5a3846fb05b4fa0859e0917b2202f"
+                }, 
+                "max_history_step": "pipeline", 
+                "score": 0.911953904368765, 
+                "stop_time": 1559729531.315814, 
+                "type": "pipeline", 
+                "max_history_score": 0.9780701754385965
+            }, 
+            {
+                "status": "ok", 
+                "score_std": 0.08824607103410759, 
+                "max_history_score_std": 0.02687037459510562, 
+                "iteration": 61, 
+                "start_time": 1559729531.484097, 
+                "step": "pipeline", 
+                "duration": 3.376436948776245, 
+                "loss": 0.10442036463708282, 
+                "pipeline": {
+                    "normalizer": [
+                        "normalizer_RobustScaler", 
+                        {
+                            "normalizer__quantile_range": [
+                                5.0, 
+                                95.0
+                            ], 
+                            "normalizer__with_centering": false, 
+                            "normalizer__with_scaling": false
+                        }
+                    ], 
+                    "rebalance": [
+                        "rebalance_CondensedNearestNeighbour", 
+                        {
+                            "rebalance__n_neighbors": 1
+                        }
+                    ], 
+                    "features": [
+                        "features_NoneType", 
+                        {}
+                    ]
+                }, 
+                "algorithm": {}, 
+                "config_hash": {
+                    "pipeline": "9bb53096fcb76fce9fd697d7262a0c7bbbffeea3", 
+                    "config": "8078daeafc590699541fbfbe14af012d3b2b1a6c", 
+                    "algorithm": "bf21a9e8fbc5a3846fb05b4fa0859e0917b2202f"
+                }, 
+                "max_history_step": "pipeline", 
+                "score": 0.8955796353629172, 
+                "stop_time": 1559729534.860534, 
+                "type": "pipeline", 
+                "max_history_score": 0.9780701754385965
+            }, 
+            {
+                "status": "ok", 
+                "score_std": 0.08553868556521119, 
+                "max_history_score_std": 0.02687037459510562, 
+                "iteration": 62, 
+                "start_time": 1559729535.033104, 
+                "step": "pipeline", 
+                "duration": 3.5388269424438477, 
+                "loss": 0.1102339181286549, 
+                "pipeline": {
+                    "normalizer": [
+                        "normalizer_StandardScaler", 
+                        {
+                            "normalizer__with_std": false, 
+                            "normalizer__with_mean": false
+                        }
+                    ], 
+                    "rebalance": [
+                        "rebalance_SMOTE", 
+                        {
+                            "rebalance__k_neighbors": 6
+                        }
+                    ], 
+                    "features": [
+                        "features_NoneType", 
+                        {}
+                    ]
+                }, 
+                "algorithm": {}, 
+                "config_hash": {
+                    "pipeline": "a17c716a291fc95519db4dd812e4cbf5c31fff15", 
+                    "config": "ec983edbc29145d51fef0e4189d3730fe719c367", 
+                    "algorithm": "bf21a9e8fbc5a3846fb05b4fa0859e0917b2202f"
+                }, 
+                "max_history_step": "pipeline", 
+                "score": 0.8897660818713451, 
+                "stop_time": 1559729538.571931, 
+                "type": "pipeline", 
+                "max_history_score": 0.9780701754385965
+            }, 
+            {
+                "status": "ok", 
+                "score_std": 0.05010505020676486, 
+                "max_history_score_std": 0.02687037459510562, 
+                "iteration": 63, 
+                "start_time": 1559729538.786351, 
+                "step": "pipeline", 
+                "duration": 0.7068400382995605, 
+                "loss": 0.9280701754385965, 
+                "pipeline": {
+                    "normalizer": [
+                        "normalizer_NoneType", 
+                        {}
+                    ], 
+                    "rebalance": [
+                        "rebalance_NearMiss", 
+                        {
+                            "rebalance__n_neighbors": 2
+                        }
+                    ], 
+                    "features": [
+                        "features_FeatureUnion", 
+                        {
+                            "features__pca__n_components": 1, 
+                            "features__selectkbest__k": 3
+                        }
+                    ]
+                }, 
+                "algorithm": {}, 
+                "config_hash": {
+                    "pipeline": "d656c2785faf3d4cdfa7dd71d9e746ae5935f671", 
+                    "config": "96b131d5bb14f6ab3392a3dba4cf6ae01450cbe1", 
+                    "algorithm": "bf21a9e8fbc5a3846fb05b4fa0859e0917b2202f"
+                }, 
+                "max_history_step": "pipeline", 
+                "score": 0.07192982456140351, 
+                "stop_time": 1559729539.493191, 
+                "type": "pipeline", 
+                "max_history_score": 0.9780701754385965
+            }, 
+            {
+                "status": "ok", 
+                "score_std": 0.05430615436501488, 
+                "max_history_score_std": 0.02687037459510562, 
+                "iteration": 64, 
+                "start_time": 1559729539.726004, 
+                "step": "pipeline", 
+                "duration": 3.444974184036255, 
+                "loss": 0.07167182662538707, 
+                "pipeline": {
+                    "normalizer": [
+                        "normalizer_RobustScaler", 
+                        {
+                            "normalizer__quantile_range": [
+                                5.0, 
+                                95.0
+                            ], 
+                            "normalizer__with_centering": false, 
+                            "normalizer__with_scaling": true
+                        }
+                    ], 
+                    "rebalance": [
+                        "rebalance_SMOTE", 
+                        {
+                            "rebalance__k_neighbors": 6
+                        }
+                    ], 
+                    "features": [
+                        "features_NoneType", 
+                        {}
+                    ]
+                }, 
+                "algorithm": {}, 
+                "config_hash": {
+                    "pipeline": "ef8ded2c1a3737a0298f9cba8bf3e3f3cd0c28ea", 
+                    "config": "b288c623a1299c38264d9f7d1ad0bdf63b8ac00f", 
+                    "algorithm": "bf21a9e8fbc5a3846fb05b4fa0859e0917b2202f"
+                }, 
+                "max_history_step": "pipeline", 
+                "score": 0.9283281733746129, 
+                "stop_time": 1559729543.170978, 
+                "type": "pipeline", 
+                "max_history_score": 0.9780701754385965
+            }, 
+            {
+                "status": "ok", 
+                "score_std": 0.041573970964154924, 
+                "max_history_score_std": 0.02687037459510562, 
+                "iteration": 65, 
+                "start_time": 1559729543.25636, 
+                "step": "pipeline", 
+                "duration": 2.449319839477539, 
+                "loss": 0.04444444444444451, 
+                "pipeline": {
+                    "normalizer": [
+                        "normalizer_StandardScaler", 
+                        {
+                            "normalizer__with_std": true, 
+                            "normalizer__with_mean": true
+                        }
+                    ], 
+                    "rebalance": [
+                        "rebalance_NoneType", 
+                        {}
+                    ], 
+                    "features": [
+                        "features_PCA", 
+                        {
+                            "features__n_components": 3
+                        }
+                    ]
+                }, 
+                "algorithm": {}, 
+                "config_hash": {
+                    "pipeline": "d943f0fb097835c96c0464397368c531c286f390", 
+                    "config": "d30350177d12fb4a27100a9692295a9d22300a32", 
+                    "algorithm": "bf21a9e8fbc5a3846fb05b4fa0859e0917b2202f"
+                }, 
+                "max_history_step": "pipeline", 
+                "score": 0.9555555555555555, 
+                "stop_time": 1559729545.70568, 
+                "type": "pipeline", 
+                "max_history_score": 0.9780701754385965
+            }, 
+            {
+                "status": "ok", 
+                "score_std": 0.06514876735104556, 
+                "max_history_score_std": 0.02687037459510562, 
+                "iteration": 66, 
+                "start_time": 1559729545.912131, 
+                "step": "pipeline", 
+                "duration": 2.3099098205566406, 
+                "loss": 0.16658711730306164, 
+                "pipeline": {
+                    "normalizer": [
+                        "normalizer_MinMaxScaler", 
+                        {}
+                    ], 
+                    "rebalance": [
+                        "rebalance_NoneType", 
+                        {}
+                    ], 
+                    "features": [
+                        "features_FeatureUnion", 
+                        {
+                            "features__pca__n_components": 1, 
+                            "features__selectkbest__k": 1
+                        }
+                    ]
+                }, 
+                "algorithm": {}, 
+                "config_hash": {
+                    "pipeline": "eeb882603fb78a4053964b91540c35e636480944", 
+                    "config": "a84b887b63cfb1a43ec0fb1f35e63fb22b799d0a", 
+                    "algorithm": "bf21a9e8fbc5a3846fb05b4fa0859e0917b2202f"
+                }, 
+                "max_history_step": "pipeline", 
+                "score": 0.8334128826969384, 
+                "stop_time": 1559729548.222041, 
+                "type": "pipeline", 
+                "max_history_score": 0.9780701754385965
+            }, 
+            {
+                "status": "ok", 
+                "score_std": 0.08800727062049697, 
+                "max_history_score_std": 0.02687037459510562, 
+                "iteration": 67, 
+                "start_time": 1559729548.324747, 
+                "step": "pipeline", 
+                "duration": 3.098011016845703, 
+                "loss": 0.09360165118679054, 
+                "pipeline": {
+                    "normalizer": [
+                        "normalizer_StandardScaler", 
+                        {
+                            "normalizer__with_std": false, 
+                            "normalizer__with_mean": false
+                        }
+                    ], 
+                    "rebalance": [
+                        "rebalance_CondensedNearestNeighbour", 
+                        {
+                            "rebalance__n_neighbors": 2
+                        }
+                    ], 
+                    "features": [
+                        "features_NoneType", 
+                        {}
+                    ]
+                }, 
+                "algorithm": {}, 
+                "config_hash": {
+                    "pipeline": "167b3c7952df3cf77a9a8d03c779157bb5e7be36", 
+                    "config": "ce045bcbf6205aff12f1a7375f3ddb0bbd62f25d", 
+                    "algorithm": "bf21a9e8fbc5a3846fb05b4fa0859e0917b2202f"
+                }, 
+                "max_history_step": "pipeline", 
+                "score": 0.9063983488132095, 
+                "stop_time": 1559729551.422758, 
+                "type": "pipeline", 
+                "max_history_score": 0.9780701754385965
+            }, 
+            {
+                "status": "ok", 
+                "score_std": 0.06392014917990235, 
+                "max_history_score_std": 0.02687037459510562, 
+                "iteration": 68, 
+                "start_time": 1559729551.87359, 
+                "step": "pipeline", 
+                "duration": 2.4593420028686523, 
+                "loss": 0.17247592019263835, 
+                "pipeline": {
+                    "normalizer": [
+                        "normalizer_StandardScaler", 
+                        {
+                            "normalizer__with_std": true, 
+                            "normalizer__with_mean": true
+                        }
+                    ], 
+                    "rebalance": [
+                        "rebalance_SMOTE", 
+                        {
+                            "rebalance__k_neighbors": 6
+                        }
+                    ], 
+                    "features": [
+                        "features_PCA", 
+                        {
+                            "features__n_components": 1
+                        }
+                    ]
+                }, 
+                "algorithm": {}, 
+                "config_hash": {
+                    "pipeline": "e23681a3ba4c5e49c2052bafe3edd4bb32216d55", 
+                    "config": "99a87588d94244ca39abed7be893201fc5c3ee24", 
+                    "algorithm": "bf21a9e8fbc5a3846fb05b4fa0859e0917b2202f"
+                }, 
+                "max_history_step": "pipeline", 
+                "score": 0.8275240798073616, 
+                "stop_time": 1559729554.332932, 
+                "type": "pipeline", 
+                "max_history_score": 0.9780701754385965
+            }, 
+            {
+                "status": "ok", 
+                "score_std": 0.03885699787223444, 
+                "max_history_score_std": 0.02687037459510562, 
+                "iteration": 69, 
+                "start_time": 1559729554.438545, 
+                "step": "pipeline", 
+                "duration": 3.51255202293396, 
+                "loss": 0.049707602339181256, 
+                "pipeline": {
+                    "normalizer": [
+                        "normalizer_RobustScaler", 
+                        {
+                            "normalizer__quantile_range": [
+                                25.0, 
+                                75.0
+                            ], 
+                            "normalizer__with_centering": true, 
+                            "normalizer__with_scaling": false
+                        }
+                    ], 
+                    "rebalance": [
+                        "rebalance_SMOTE", 
+                        {
+                            "rebalance__k_neighbors": 5
+                        }
+                    ], 
+                    "features": [
+                        "features_NoneType", 
+                        {}
+                    ]
+                }, 
+                "algorithm": {}, 
+                "config_hash": {
+                    "pipeline": "bb8b8f35dd9a5af3c4eb8335fe61dcaf0df27267", 
+                    "config": "739066cff7cf59cff8a8c2f16e9620ec5fe26e57", 
+                    "algorithm": "bf21a9e8fbc5a3846fb05b4fa0859e0917b2202f"
+                }, 
+                "max_history_step": "pipeline", 
+                "score": 0.9502923976608187, 
+                "stop_time": 1559729557.951097, 
+                "type": "pipeline", 
+                "max_history_score": 0.9780701754385965
+            }, 
+            {
+                "status": "ok", 
+                "score_std": 0.041672753624335215, 
+                "max_history_score_std": 0.02687037459510562, 
+                "iteration": 70, 
+                "start_time": 1559729558.034007, 
+                "step": "pipeline", 
+                "duration": 3.6249499320983887, 
+                "loss": 0.04477124183006542, 
+                "pipeline": {
+                    "normalizer": [
+                        "normalizer_StandardScaler", 
+                        {
+                            "normalizer__with_std": true, 
+                            "normalizer__with_mean": true
+                        }
+                    ], 
+                    "rebalance": [
+                        "rebalance_CondensedNearestNeighbour", 
+                        {
+                            "rebalance__n_neighbors": 1
+                        }
+                    ], 
+                    "features": [
+                        "features_FeatureUnion", 
+                        {
+                            "features__pca__n_components": 4, 
+                            "features__selectkbest__k": 4
+                        }
+                    ]
+                }, 
+                "algorithm": {}, 
+                "config_hash": {
+                    "pipeline": "ca2be785d5dd5d5dacc51812fc0de5756b880d9c", 
+                    "config": "e0b9a588dc862c2ab18f73e58e76bd20865df247", 
+                    "algorithm": "bf21a9e8fbc5a3846fb05b4fa0859e0917b2202f"
+                }, 
+                "max_history_step": "pipeline", 
+                "score": 0.9552287581699346, 
+                "stop_time": 1559729561.658957, 
+                "type": "pipeline", 
+                "max_history_score": 0.9780701754385965
+            }, 
+            {
+                "status": "ok", 
+                "score_std": 0.0370596012111225, 
+                "max_history_score_std": 0.02687037459510562, 
+                "iteration": 71, 
+                "start_time": 1559729561.969371, 
+                "step": "pipeline", 
+                "duration": 2.9548189640045166, 
+                "loss": 0.027485380116959113, 
+                "pipeline": {
+                    "normalizer": [
+                        "normalizer_StandardScaler", 
+                        {
+                            "normalizer__with_std": true, 
+                            "normalizer__with_mean": true
+                        }
+                    ], 
+                    "rebalance": [
+                        "rebalance_NearMiss", 
+                        {
+                            "rebalance__n_neighbors": 3
+                        }
+                    ], 
+                    "features": [
+                        "features_NoneType", 
+                        {}
+                    ]
+                }, 
+                "algorithm": {}, 
+                "config_hash": {
+                    "pipeline": "edbddb2560ce924fc70238e4ab75f68cfb8ee514", 
+                    "config": "65723b2ab9b63455704fe074bb33ce0acb55b020", 
+                    "algorithm": "bf21a9e8fbc5a3846fb05b4fa0859e0917b2202f"
+                }, 
+                "max_history_step": "pipeline", 
+                "score": 0.9725146198830409, 
+                "stop_time": 1559729564.92419, 
+                "type": "pipeline", 
+                "max_history_score": 0.9780701754385965
+            }, 
+            {
+                "status": "ok", 
+                "score_std": 0.016871583549832498, 
+                "max_history_score_std": 0.02687037459510562, 
+                "iteration": 72, 
+                "start_time": 1559729565.024332, 
+                "step": "pipeline", 
+                "duration": 0.30594491958618164, 
+                "loss": 0.6007460440316478, 
+                "pipeline": {
+                    "normalizer": [
+                        "normalizer_StandardScaler", 
+                        {
+                            "normalizer__with_std": false, 
+                            "normalizer__with_mean": false
+                        }
+                    ], 
+                    "rebalance": [
+                        "rebalance_SMOTE", 
+                        {
+                            "rebalance__k_neighbors": 6
+                        }
+                    ], 
+                    "features": [
+                        "features_SelectKBest", 
+                        {
+                            "features__k": 4
+                        }
+                    ]
+                }, 
+                "algorithm": {}, 
+                "config_hash": {
+                    "pipeline": "5b5a40532ecdb152a4d2004161a1e6694ff4ad2b", 
+                    "config": "99f53d4eeedae9e860fe147dac2553f8a581bbde", 
+                    "algorithm": "bf21a9e8fbc5a3846fb05b4fa0859e0917b2202f"
+                }, 
+                "max_history_step": "pipeline", 
+                "score": 0.3992539559683522, 
+                "stop_time": 1559729565.330277, 
+                "type": "pipeline", 
+                "max_history_score": 0.9780701754385965
+            }, 
+            {
+                "status": "ok", 
+                "score_std": 0.07968895793065262, 
+                "max_history_score_std": 0.02687037459510562, 
+                "iteration": 73, 
+                "start_time": 1559729565.419825, 
+                "step": "pipeline", 
+                "duration": 3.4763569831848145, 
+                "loss": 0.10467836257309959, 
+                "pipeline": {
+                    "normalizer": [
+                        "normalizer_NoneType", 
+                        {}
+                    ], 
+                    "rebalance": [
+                        "rebalance_SMOTE", 
+                        {
+                            "rebalance__k_neighbors": 5
+                        }
+                    ], 
+                    "features": [
+                        "features_NoneType", 
+                        {}
+                    ]
+                }, 
+                "algorithm": {}, 
+                "config_hash": {
+                    "pipeline": "cfef88e895db321122f2f7b813d9267b973c2468", 
+                    "config": "b25d2345821d75c20e8719d43d2b1e1191098447", 
+                    "algorithm": "bf21a9e8fbc5a3846fb05b4fa0859e0917b2202f"
+                }, 
+                "max_history_step": "pipeline", 
+                "score": 0.8953216374269004, 
+                "stop_time": 1559729568.896182, 
+                "type": "pipeline", 
+                "max_history_score": 0.9780701754385965
+            }, 
+            {
+                "status": "ok", 
+                "score_std": 0.06758947526296505, 
+                "max_history_score_std": 0.02687037459510562, 
+                "iteration": 74, 
+                "start_time": 1559729569.066032, 
+                "step": "pipeline", 
+                "duration": 2.9223339557647705, 
+                "loss": 0.19469814241486072, 
+                "pipeline": {
+                    "normalizer": [
+                        "normalizer_PowerTransformer", 
+                        {}
+                    ], 
+                    "rebalance": [
+                        "rebalance_SMOTE", 
+                        {
+                            "rebalance__k_neighbors": 7
+                        }
+                    ], 
+                    "features": [
+                        "features_PCA", 
+                        {
+                            "features__n_components": 1
+                        }
+                    ]
+                }, 
+                "algorithm": {}, 
+                "config_hash": {
+                    "pipeline": "8f9ba529dab2049c0e4cd25d276fe68b2ebf2d6f", 
+                    "config": "db8171befe19e8fdd1b7bba5827253261a7ef11d", 
+                    "algorithm": "bf21a9e8fbc5a3846fb05b4fa0859e0917b2202f"
+                }, 
+                "max_history_step": "pipeline", 
+                "score": 0.8053018575851393, 
+                "stop_time": 1559729571.988366, 
+                "type": "pipeline", 
+                "max_history_score": 0.9780701754385965
+            }, 
+            {
+                "status": "ok", 
+                "score_std": 0.07453559924999299, 
+                "max_history_score_std": 0.02687037459510562, 
+                "iteration": 75, 
+                "start_time": 1559729572.068946, 
+                "step": "pipeline", 
+                "duration": 2.6865601539611816, 
+                "loss": 0.05555555555555558, 
+                "pipeline": {
+                    "normalizer": [
+                        "normalizer_RobustScaler", 
+                        {
+                            "normalizer__quantile_range": [
+                                10.0, 
+                                90.0
+                            ], 
+                            "normalizer__with_centering": true, 
+                            "normalizer__with_scaling": false
+                        }
+                    ], 
+                    "rebalance": [
+                        "rebalance_NearMiss", 
+                        {
+                            "rebalance__n_neighbors": 2
+                        }
+                    ], 
+                    "features": [
+                        "features_NoneType", 
+                        {}
+                    ]
+                }, 
+                "algorithm": {}, 
+                "config_hash": {
+                    "pipeline": "d88feb143bfa9a2e79a5c1c3c23ff68ea421dd1a", 
+                    "config": "aa1f8ec0fb58919007bfc5aa9dc4cc1e812e11b9", 
+                    "algorithm": "bf21a9e8fbc5a3846fb05b4fa0859e0917b2202f"
+                }, 
+                "max_history_step": "pipeline", 
+                "score": 0.9444444444444444, 
+                "stop_time": 1559729574.755506, 
+                "type": "pipeline", 
+                "max_history_score": 0.9780701754385965
+            }, 
+            {
+                "status": "ok", 
+                "score_std": 0.0558326423395605, 
+                "max_history_score_std": 0.02687037459510562, 
+                "iteration": 76, 
+                "start_time": 1559729574.845569, 
+                "step": "pipeline", 
+                "duration": 2.6526131629943848, 
+                "loss": 0.03888888888888897, 
+                "pipeline": {
+                    "normalizer": [
+                        "normalizer_StandardScaler", 
+                        {
+                            "normalizer__with_std": true, 
+                            "normalizer__with_mean": true
+                        }
+                    ], 
+                    "rebalance": [
+                        "rebalance_NoneType", 
+                        {}
+                    ], 
+                    "features": [
+                        "features_FeatureUnion", 
+                        {
+                            "features__pca__n_components": 3, 
+                            "features__selectkbest__k": 2
+                        }
+                    ]
+                }, 
+                "algorithm": {}, 
+                "config_hash": {
+                    "pipeline": "63040b39b48626a8232e847e8327bdca5cd88611", 
+                    "config": "a8eb1197cca39bb71e074d31cdcc01d4b52ff51d", 
+                    "algorithm": "bf21a9e8fbc5a3846fb05b4fa0859e0917b2202f"
+                }, 
+                "max_history_step": "pipeline", 
+                "score": 0.961111111111111, 
+                "stop_time": 1559729577.498182, 
+                "type": "pipeline", 
+                "max_history_score": 0.9780701754385965
+            }, 
+            {
+                "status": "ok", 
+                "score_std": 0.14288271226059682, 
+                "max_history_score_std": 0.02687037459510562, 
+                "iteration": 77, 
+                "start_time": 1559729577.721594, 
+                "step": "pipeline", 
+                "duration": 2.531003952026367, 
+                "loss": 0.2526982284141728, 
+                "pipeline": {
+                    "normalizer": [
+                        "normalizer_MinMaxScaler", 
+                        {}
+                    ], 
+                    "rebalance": [
+                        "rebalance_SMOTE", 
+                        {
+                            "rebalance__k_neighbors": 7
+                        }
+                    ], 
+                    "features": [
+                        "features_SelectKBest", 
+                        {
+                            "features__k": 1
+                        }
+                    ]
+                }, 
+                "algorithm": {}, 
+                "config_hash": {
+                    "pipeline": "6888407ca8359218e99b0c48cf6a3e7b653b6d53", 
+                    "config": "7e58805600cd7154801d15296baa304b862ceeae", 
+                    "algorithm": "bf21a9e8fbc5a3846fb05b4fa0859e0917b2202f"
+                }, 
+                "max_history_step": "pipeline", 
+                "score": 0.7473017715858272, 
+                "stop_time": 1559729580.252598, 
+                "type": "pipeline", 
+                "max_history_score": 0.9780701754385965
+            }, 
+            {
+                "status": "ok", 
+                "score_std": 0.05443310539518174, 
+                "max_history_score_std": 0.02687037459510562, 
+                "iteration": 78, 
+                "start_time": 1559729580.518553, 
+                "step": "pipeline", 
+                "duration": 3.354090929031372, 
+                "loss": 0.04444444444444451, 
+                "pipeline": {
+                    "normalizer": [
+                        "normalizer_PowerTransformer", 
+                        {}
+                    ], 
+                    "rebalance": [
+                        "rebalance_CondensedNearestNeighbour", 
+                        {
+                            "rebalance__n_neighbors": 2
+                        }
+                    ], 
+                    "features": [
+                        "features_PCA", 
+                        {
+                            "features__n_components": 3
+                        }
+                    ]
+                }, 
+                "algorithm": {}, 
+                "config_hash": {
+                    "pipeline": "c0155cc2dd76102accf972e065c08cfeb494312c", 
+                    "config": "7fd7eef02246299066375627e9197ac2c3300020", 
+                    "algorithm": "bf21a9e8fbc5a3846fb05b4fa0859e0917b2202f"
+                }, 
+                "max_history_step": "pipeline", 
+                "score": 0.9555555555555555, 
+                "stop_time": 1559729583.872644, 
+                "type": "pipeline", 
+                "max_history_score": 0.9780701754385965
+            }, 
+            {
+                "status": "ok", 
+                "score_std": 0.07957019409491331, 
+                "max_history_score_std": 0.02687037459510562, 
+                "iteration": 79, 
+                "start_time": 1559729584.080083, 
+                "step": "pipeline", 
+                "duration": 3.362403154373169, 
+                "loss": 0.11611627106983136, 
+                "pipeline": {
+                    "normalizer": [
+                        "normalizer_StandardScaler", 
+                        {
+                            "normalizer__with_std": false, 
+                            "normalizer__with_mean": false
+                        }
+                    ], 
+                    "rebalance": [
+                        "rebalance_SMOTE", 
+                        {
+                            "rebalance__k_neighbors": 5
+                        }
+                    ], 
+                    "features": [
+                        "features_NoneType", 
+                        {}
+                    ]
+                }, 
+                "algorithm": {}, 
+                "config_hash": {
+                    "pipeline": "d82c7b5d0383af6f38ed34ea0e3320e70f2766e1", 
+                    "config": "4a05961e25625ef467366282e09409d0275fc21d", 
+                    "algorithm": "bf21a9e8fbc5a3846fb05b4fa0859e0917b2202f"
+                }, 
+                "max_history_step": "pipeline", 
+                "score": 0.8838837289301686, 
+                "stop_time": 1559729587.442486, 
+                "type": "pipeline", 
+                "max_history_score": 0.9780701754385965
+            }, 
+            {
+                "status": "ok", 
+                "score_std": 0.058041276534100204, 
+                "max_history_score_std": 0.02687037459510562, 
+                "iteration": 80, 
+                "start_time": 1559729587.537024, 
+                "step": "pipeline", 
+                "duration": 2.373386859893799, 
+                "loss": 0.05032679738562096, 
+                "pipeline": {
+                    "normalizer": [
+                        "normalizer_RobustScaler", 
+                        {
+                            "normalizer__quantile_range": [
+                                5.0, 
+                                95.0
+                            ], 
+                            "normalizer__with_centering": false, 
+                            "normalizer__with_scaling": true
+                        }
+                    ], 
+                    "rebalance": [
+                        "rebalance_NearMiss", 
+                        {
+                            "rebalance__n_neighbors": 1
+                        }
+                    ], 
+                    "features": [
+                        "features_FeatureUnion", 
+                        {
+                            "features__pca__n_components": 2, 
+                            "features__selectkbest__k": 3
+                        }
+                    ]
+                }, 
+                "algorithm": {}, 
+                "config_hash": {
+                    "pipeline": "0b8a1f89a5348fb1f1d635e111d96e88f6a83384", 
+                    "config": "5bd68739ad74956a209b0a035c928476c9584082", 
+                    "algorithm": "bf21a9e8fbc5a3846fb05b4fa0859e0917b2202f"
+                }, 
+                "max_history_step": "pipeline", 
+                "score": 0.949673202614379, 
+                "stop_time": 1559729589.910411, 
+                "type": "pipeline", 
+                "max_history_score": 0.9780701754385965
+            }, 
+            {
+                "status": "ok", 
+                "score_std": 0.0712778899892051, 
+                "max_history_score_std": 0.02687037459510562, 
+                "iteration": 81, 
+                "start_time": 1559729590.12266, 
+                "step": "pipeline", 
+                "duration": 2.6253700256347656, 
+                "loss": 0.06549707602339194, 
+                "pipeline": {
+                    "normalizer": [
+                        "normalizer_StandardScaler", 
+                        {
+                            "normalizer__with_std": true, 
+                            "normalizer__with_mean": true
+                        }
+                    ], 
+                    "rebalance": [
+                        "rebalance_SMOTE", 
+                        {
+                            "rebalance__k_neighbors": 7
+                        }
+                    ], 
+                    "features": [
+                        "features_SelectKBest", 
+                        {
+                            "features__k": 3
+                        }
+                    ]
+                }, 
+                "algorithm": {}, 
+                "config_hash": {
+                    "pipeline": "081cc9c1f29721632ccb4dc599c8be41a4169263", 
+                    "config": "2b951fd86b59a05d0b71ba8921ca604329466c12", 
+                    "algorithm": "bf21a9e8fbc5a3846fb05b4fa0859e0917b2202f"
+                }, 
+                "max_history_step": "pipeline", 
+                "score": 0.9345029239766081, 
+                "stop_time": 1559729592.74803, 
+                "type": "pipeline", 
+                "max_history_score": 0.9780701754385965
+            }, 
+            {
+                "status": "ok", 
+                "score_std": 0.04917933951128517, 
+                "max_history_score_std": 0.02687037459510562, 
+                "iteration": 82, 
+                "start_time": 1559729592.943383, 
+                "step": "pipeline", 
+                "duration": 3.5800790786743164, 
+                "loss": 0.03830409356725151, 
+                "pipeline": {
+                    "normalizer": [
+                        "normalizer_StandardScaler", 
+                        {
+                            "normalizer__with_std": true, 
+                            "normalizer__with_mean": true
+                        }
+                    ], 
+                    "rebalance": [
+                        "rebalance_CondensedNearestNeighbour", 
+                        {
+                            "rebalance__n_neighbors": 1
+                        }
+                    ], 
+                    "features": [
+                        "features_NoneType", 
+                        {}
+                    ]
+                }, 
+                "algorithm": {}, 
+                "config_hash": {
+                    "pipeline": "cac8b7e3c0b95a3a796606de08acaff053faf9f3", 
+                    "config": "7cb9198e3b87b369788b861e5f4c53870943a884", 
+                    "algorithm": "bf21a9e8fbc5a3846fb05b4fa0859e0917b2202f"
+                }, 
+                "max_history_step": "pipeline", 
+                "score": 0.9616959064327485, 
+                "stop_time": 1559729596.523462, 
+                "type": "pipeline", 
+                "max_history_score": 0.9780701754385965
+            }, 
+            {
+                "status": "ok", 
+                "score_std": 0.12468821720155973, 
+                "max_history_score_std": 0.02687037459510562, 
+                "iteration": 83, 
+                "start_time": 1559729596.630166, 
+                "step": "pipeline", 
+                "duration": 0.926192045211792, 
+                "loss": 0.2188531991744067, 
+                "pipeline": {
+                    "normalizer": [
+                        "normalizer_NoneType", 
+                        {}
+                    ], 
+                    "rebalance": [
+                        "rebalance_NearMiss", 
+                        {
+                            "rebalance__n_neighbors": 3
+                        }
+                    ], 
+                    "features": [
+                        "features_PCA", 
+                        {
+                            "features__n_components": 4
+                        }
+                    ]
+                }, 
+                "algorithm": {}, 
+                "config_hash": {
+                    "pipeline": "6c70d291e4d54a4b5b376c68664048c193c5d7a9", 
+                    "config": "06900bef806f29c8778c1219a5e04d350ce00e28", 
+                    "algorithm": "bf21a9e8fbc5a3846fb05b4fa0859e0917b2202f"
+                }, 
+                "max_history_step": "pipeline", 
+                "score": 0.7811468008255933, 
+                "stop_time": 1559729597.556358, 
+                "type": "pipeline", 
+                "max_history_score": 0.9780701754385965
+            }, 
+            {
+                "status": "ok", 
+                "score_std": 0.07641128406393591, 
+                "max_history_score_std": 0.02687037459510562, 
+                "iteration": 84, 
+                "start_time": 1559729597.869058, 
+                "step": "pipeline", 
+                "duration": 2.6366782188415527, 
+                "loss": 0.16684511523907797, 
+                "pipeline": {
+                    "normalizer": [
+                        "normalizer_RobustScaler", 
+                        {
+                            "normalizer__quantile_range": [
+                                10.0, 
+                                90.0
+                            ], 
+                            "normalizer__with_centering": false, 
+                            "normalizer__with_scaling": true
+                        }
+                    ], 
+                    "rebalance": [
+                        "rebalance_SMOTE", 
+                        {
+                            "rebalance__k_neighbors": 5
+                        }
+                    ], 
+                    "features": [
+                        "features_FeatureUnion", 
+                        {
+                            "features__pca__n_components": 1, 
+                            "features__selectkbest__k": 1
+                        }
+                    ]
+                }, 
+                "algorithm": {}, 
+                "config_hash": {
+                    "pipeline": "0d592a6284d0c6446bb70377ad43e0d1e8bb1998", 
+                    "config": "535501cf0230fc3004fee486ea7b07e99c3ab409", 
+                    "algorithm": "bf21a9e8fbc5a3846fb05b4fa0859e0917b2202f"
+                }, 
+                "max_history_step": "pipeline", 
+                "score": 0.833154884760922, 
+                "stop_time": 1559729600.505736, 
+                "type": "pipeline", 
+                "max_history_score": 0.9780701754385965
+            }, 
+            {
+                "status": "ok", 
+                "score_std": 0.19184749965929826, 
+                "max_history_score_std": 0.02687037459510562, 
+                "iteration": 85, 
+                "start_time": 1559729600.602725, 
+                "step": "pipeline", 
+                "duration": 2.6419079303741455, 
+                "loss": 0.3092406260749915, 
+                "pipeline": {
+                    "normalizer": [
+                        "normalizer_StandardScaler", 
+                        {
+                            "normalizer__with_std": false, 
+                            "normalizer__with_mean": false
+                        }
+                    ], 
+                    "rebalance": [
+                        "rebalance_SMOTE", 
+                        {
+                            "rebalance__k_neighbors": 6
+                        }
+                    ], 
+                    "features": [
+                        "features_SelectKBest", 
+                        {
+                            "features__k": 2
+                        }
+                    ]
+                }, 
+                "algorithm": {}, 
+                "config_hash": {
+                    "pipeline": "d621c07b7450a72c3c6b7df54744fec04892e232", 
+                    "config": "0575e558509e1cfbcbdef604b207478aebcf6e5c", 
+                    "algorithm": "bf21a9e8fbc5a3846fb05b4fa0859e0917b2202f"
+                }, 
+                "max_history_step": "pipeline", 
+                "score": 0.6907593739250085, 
+                "stop_time": 1559729603.244633, 
+                "type": "pipeline", 
+                "max_history_score": 0.9780701754385965
+            }, 
+            {
+                "status": "ok", 
+                "score_std": 0.0370596012111225, 
+                "max_history_score_std": 0.02687037459510562, 
+                "iteration": 86, 
+                "start_time": 1559729603.352192, 
+                "step": "pipeline", 
+                "duration": 4.316395044326782, 
+                "loss": 0.027485380116959113, 
+                "pipeline": {
+                    "normalizer": [
+                        "normalizer_PowerTransformer", 
+                        {}
+                    ], 
+                    "rebalance": [
+                        "rebalance_CondensedNearestNeighbour", 
+                        {
+                            "rebalance__n_neighbors": 3
+                        }
+                    ], 
+                    "features": [
+                        "features_NoneType", 
+                        {}
+                    ]
+                }, 
+                "algorithm": {}, 
+                "config_hash": {
+                    "pipeline": "dfeec050790db966540bafff96a4236c8d4471b1", 
+                    "config": "b7f8b5c6b1b6a79dc0254649233f4c2485dbf6ec", 
+                    "algorithm": "bf21a9e8fbc5a3846fb05b4fa0859e0917b2202f"
+                }, 
+                "max_history_step": "pipeline", 
+                "score": 0.9725146198830409, 
+                "stop_time": 1559729607.668587, 
+                "type": "pipeline", 
+                "max_history_score": 0.9780701754385965
+            }, 
+            {
+                "status": "ok", 
+                "score_std": 0.03726779962499651, 
+                "max_history_score_std": 0.02687037459510562, 
+                "iteration": 87, 
+                "start_time": 1559729608.220605, 
+                "step": "pipeline", 
+                "duration": 2.9169681072235107, 
+                "loss": 0.0277777777777779, 
+                "pipeline": {
+                    "normalizer": [
+                        "normalizer_StandardScaler", 
+                        {
+                            "normalizer__with_std": true, 
+                            "normalizer__with_mean": true
+                        }
+                    ], 
+                    "rebalance": [
+                        "rebalance_NoneType", 
+                        {}
+                    ], 
+                    "features": [
+                        "features_FeatureUnion", 
+                        {
+                            "features__pca__n_components": 4, 
+                            "features__selectkbest__k": 3
+                        }
+                    ]
+                }, 
+                "algorithm": {}, 
+                "config_hash": {
+                    "pipeline": "cfc23d6cf42c4d4465320fb47dc9a31e6369022d", 
+                    "config": "354f0e8df77a4b32e0af1d5826f8d89de87ebf44", 
+                    "algorithm": "bf21a9e8fbc5a3846fb05b4fa0859e0917b2202f"
+                }, 
+                "max_history_step": "pipeline", 
+                "score": 0.9722222222222221, 
+                "stop_time": 1559729611.137573, 
+                "type": "pipeline", 
+                "max_history_score": 0.9780701754385965
+            }, 
+            {
+                "status": "ok", 
+                "score_std": 0.036851386559504457, 
+                "max_history_score_std": 0.02687037459510562, 
+                "iteration": 88, 
+                "start_time": 1559729611.282943, 
+                "step": "pipeline", 
+                "duration": 3.775209903717041, 
+                "loss": 0.022222222222222143, 
+                "pipeline": {
+                    "normalizer": [
+                        "normalizer_StandardScaler", 
+                        {
+                            "normalizer__with_std": true, 
+                            "normalizer__with_mean": true
+                        }
+                    ], 
+                    "rebalance": [
+                        "rebalance_SMOTE", 
+                        {
+                            "rebalance__k_neighbors": 5
+                        }
+                    ], 
+                    "features": [
+                        "features_NoneType", 
+                        {}
+                    ]
+                }, 
+                "algorithm": {}, 
+                "config_hash": {
+                    "pipeline": "604c3211364a9927b9796634546e472d88f8674f", 
+                    "config": "7c96f1a5d9853115bf6088aac93e0bf772ff4b54", 
+                    "algorithm": "bf21a9e8fbc5a3846fb05b4fa0859e0917b2202f"
+                }, 
+                "max_history_step": "pipeline", 
+                "score": 0.9777777777777779, 
+                "stop_time": 1559729615.058153, 
+                "type": "pipeline", 
+                "max_history_score": 0.9780701754385965
+            }, 
+            {
+                "status": "ok", 
+                "score_std": 0.14657624674253067, 
+                "max_history_score_std": 0.02687037459510562, 
+                "iteration": 89, 
+                "start_time": 1559729615.145335, 
+                "step": "pipeline", 
+                "duration": 2.356269121170044, 
+                "loss": 0.27451840385276927, 
+                "pipeline": {
+                    "normalizer": [
+                        "normalizer_RobustScaler", 
+                        {
+                            "normalizer__quantile_range": [
+                                25.0, 
+                                75.0
+                            ], 
+                            "normalizer__with_centering": true, 
+                            "normalizer__with_scaling": false
+                        }
+                    ], 
+                    "rebalance": [
+                        "rebalance_NoneType", 
+                        {}
+                    ], 
+                    "features": [
+                        "features_SelectKBest", 
+                        {
+                            "features__k": 1
+                        }
+                    ]
+                }, 
+                "algorithm": {}, 
+                "config_hash": {
+                    "pipeline": "50afed0691ce3683c83b5eed4ae41355036b5483", 
+                    "config": "944dda2f9103a78a727c545dbca4b71351a3dfa8", 
+                    "algorithm": "bf21a9e8fbc5a3846fb05b4fa0859e0917b2202f"
+                }, 
+                "max_history_step": "pipeline", 
+                "score": 0.7254815961472307, 
+                "stop_time": 1559729617.501604, 
+                "type": "pipeline", 
+                "max_history_score": 0.9780701754385965
+            }, 
+            {
+                "status": "ok", 
+                "score_std": 0.12097787727318032, 
+                "max_history_score_std": 0.02687037459510562, 
+                "iteration": 90, 
+                "start_time": 1559729617.735847, 
+                "step": "pipeline", 
+                "duration": 1.2292509078979492, 
+                "loss": 0.20708204334365332, 
+                "pipeline": {
+                    "normalizer": [
+                        "normalizer_StandardScaler", 
+                        {
+                            "normalizer__with_std": false, 
+                            "normalizer__with_mean": false
+                        }
+                    ], 
+                    "rebalance": [
+                        "rebalance_SMOTE", 
+                        {
+                            "rebalance__k_neighbors": 7
+                        }
+                    ], 
+                    "features": [
+                        "features_PCA", 
+                        {
+                            "features__n_components": 4
+                        }
+                    ]
+                }, 
+                "algorithm": {}, 
+                "config_hash": {
+                    "pipeline": "6e60a6de3e6c4df8664af80389cb29bf560cd51e", 
+                    "config": "4421d0fd9dc578ee7a0bf0bd4135674b8637fa43", 
+                    "algorithm": "bf21a9e8fbc5a3846fb05b4fa0859e0917b2202f"
+                }, 
+                "max_history_step": "pipeline", 
+                "score": 0.7929179566563467, 
+                "stop_time": 1559729618.965098, 
+                "type": "pipeline", 
+                "max_history_score": 0.9780701754385965
+            }, 
+            {
+                "status": "ok", 
+                "score_std": 0.08553868556521119, 
+                "max_history_score_std": 0.02687037459510562, 
+                "iteration": 91, 
+                "start_time": 1559729619.40073, 
+                "step": "pipeline", 
+                "duration": 3.620082139968872, 
+                "loss": 0.1102339181286549, 
+                "pipeline": {
+                    "normalizer": [
+                        "normalizer_NoneType", 
+                        {}
+                    ], 
+                    "rebalance": [
+                        "rebalance_SMOTE", 
+                        {
+                            "rebalance__k_neighbors": 6
+                        }
+                    ], 
+                    "features": [
+                        "features_NoneType", 
+                        {}
+                    ]
+                }, 
+                "algorithm": {}, 
+                "config_hash": {
+                    "pipeline": "19b249664c5bf067de1fed4334a296f947ce774a", 
+                    "config": "d42db3c899e912dabed80fa82f55e7ee15eb3f6d", 
+                    "algorithm": "bf21a9e8fbc5a3846fb05b4fa0859e0917b2202f"
+                }, 
+                "max_history_step": "pipeline", 
+                "score": 0.8897660818713451, 
+                "stop_time": 1559729623.020812, 
+                "type": "pipeline", 
+                "max_history_score": 0.9780701754385965
+            }, 
+            {
+                "status": "ok", 
+                "score_std": 0.07840456673529429, 
+                "max_history_score_std": 0.02687037459510562, 
+                "iteration": 92, 
+                "start_time": 1559729623.117713, 
+                "step": "pipeline", 
+                "duration": 3.090259075164795, 
+                "loss": 0.07690058479532169, 
+                "pipeline": {
+                    "normalizer": [
+                        "normalizer_StandardScaler", 
+                        {
+                            "normalizer__with_std": true, 
+                            "normalizer__with_mean": true
+                        }
+                    ], 
+                    "rebalance": [
+                        "rebalance_SMOTE", 
+                        {
+                            "rebalance__k_neighbors": 6
+                        }
+                    ], 
+                    "features": [
+                        "features_SelectKBest", 
+                        {
+                            "features__k": 4
+                        }
+                    ]
+                }, 
+                "algorithm": {}, 
+                "config_hash": {
+                    "pipeline": "39609bba4a6c7c343cf187e5e87b2b8ba5723c0e", 
+                    "config": "5446366e5b642ddf65416fa04d00308d2777ca43", 
+                    "algorithm": "bf21a9e8fbc5a3846fb05b4fa0859e0917b2202f"
+                }, 
+                "max_history_step": "pipeline", 
+                "score": 0.9230994152046783, 
+                "stop_time": 1559729626.207972, 
+                "type": "pipeline", 
+                "max_history_score": 0.9780701754385965
+            }, 
+            {
+                "status": "ok", 
+                "score_std": 0.04545554956213804, 
+                "max_history_score_std": 0.02687037459510562, 
+                "iteration": 93, 
+                "start_time": 1559729627.471732, 
+                "step": "pipeline", 
+                "duration": 3.278463125228882, 
+                "loss": 0.04974200206398349, 
+                "pipeline": {
+                    "normalizer": [
+                        "normalizer_StandardScaler", 
+                        {
+                            "normalizer__with_std": true, 
+                            "normalizer__with_mean": true
+                        }
+                    ], 
+                    "rebalance": [
+                        "rebalance_CondensedNearestNeighbour", 
+                        {
+                            "rebalance__n_neighbors": 2
+                        }
+                    ], 
+                    "features": [
+                        "features_NoneType", 
+                        {}
+                    ]
+                }, 
+                "algorithm": {}, 
+                "config_hash": {
+                    "pipeline": "d928e69bbfdce814a04b1aae1e238bddd3cba9e9", 
+                    "config": "72c299fa5b0d384a5ff8651cbe4b04cfa02c63d0", 
+                    "algorithm": "bf21a9e8fbc5a3846fb05b4fa0859e0917b2202f"
+                }, 
+                "max_history_step": "pipeline", 
+                "score": 0.9502579979360165, 
+                "stop_time": 1559729630.750195, 
+                "type": "pipeline", 
+                "max_history_score": 0.9780701754385965
+            }, 
+            {
+                "status": "ok", 
+                "score_std": 0.0443066886362752, 
+                "max_history_score_std": 0.02687037459510562, 
+                "iteration": 94, 
+                "start_time": 1559729630.905836, 
+                "step": "pipeline", 
+                "duration": 3.3687639236450195, 
+                "loss": 0.03304093567251465, 
+                "pipeline": {
+                    "normalizer": [
+                        "normalizer_PowerTransformer", 
+                        {}
+                    ], 
+                    "rebalance": [
+                        "rebalance_NearMiss", 
+                        {
+                            "rebalance__n_neighbors": 1
+                        }
+                    ], 
+                    "features": [
+                        "features_NoneType", 
+                        {}
+                    ]
+                }, 
+                "algorithm": {}, 
+                "config_hash": {
+                    "pipeline": "64c9a1ca9d53ae67244bdd942f4db36a3c05218c", 
+                    "config": "d430ba15a9399c8849abe9786a04277ef81452ef", 
+                    "algorithm": "bf21a9e8fbc5a3846fb05b4fa0859e0917b2202f"
+                }, 
+                "max_history_step": "pipeline", 
+                "score": 0.9669590643274854, 
+                "stop_time": 1559729634.2746, 
+                "type": "pipeline", 
+                "max_history_score": 0.9780701754385965
+            }, 
+            {
+                "status": "ok", 
+                "score_std": 0.0852879419132968, 
+                "max_history_score_std": 0.02687037459510562, 
+                "iteration": 95, 
+                "start_time": 1559729634.381117, 
+                "step": "pipeline", 
+                "duration": 2.987734794616699, 
+                "loss": 0.09941520467836251, 
+                "pipeline": {
+                    "normalizer": [
+                        "normalizer_RobustScaler", 
+                        {
+                            "normalizer__quantile_range": [
+                                5.0, 
+                                95.0
+                            ], 
+                            "normalizer__with_centering": false, 
+                            "normalizer__with_scaling": false
+                        }
+                    ], 
+                    "rebalance": [
+                        "rebalance_NoneType", 
+                        {}
+                    ], 
+                    "features": [
+                        "features_NoneType", 
+                        {}
+                    ]
+                }, 
+                "algorithm": {}, 
+                "config_hash": {
+                    "pipeline": "2b1154ceb03dd143682449d271ae97a40a08f835", 
+                    "config": "2ee388f2a4fd2291cb12e7bf92d1d7b14ee60409", 
+                    "algorithm": "bf21a9e8fbc5a3846fb05b4fa0859e0917b2202f"
+                }, 
+                "max_history_step": "pipeline", 
+                "score": 0.9005847953216375, 
+                "stop_time": 1559729637.368852, 
+                "type": "pipeline", 
+                "max_history_score": 0.9780701754385965
+            }, 
+            {
+                "status": "ok", 
+                "score_std": 0.028119770933724135, 
+                "max_history_score_std": 0.02687037459510562, 
+                "iteration": 96, 
+                "start_time": 1559729637.866254, 
+                "step": "pipeline", 
+                "duration": 3.581702947616577, 
+                "loss": 0.028104575163398815, 
+                "pipeline": {
+                    "normalizer": [
+                        "normalizer_PowerTransformer", 
+                        {}
+                    ], 
+                    "rebalance": [
+                        "rebalance_SMOTE", 
+                        {
+                            "rebalance__k_neighbors": 7
+                        }
+                    ], 
+                    "features": [
+                        "features_FeatureUnion", 
+                        {
+                            "features__pca__n_components": 2, 
+                            "features__selectkbest__k": 4
+                        }
+                    ]
+                }, 
+                "algorithm": {}, 
+                "config_hash": {
+                    "pipeline": "3ca2957edb8d1fdec5afacd86f56138e9536308e", 
+                    "config": "d50c704a1ad589ffa90a02cb07d201fb38df051e", 
+                    "algorithm": "bf21a9e8fbc5a3846fb05b4fa0859e0917b2202f"
+                }, 
+                "max_history_step": "pipeline", 
+                "score": 0.9718954248366012, 
+                "stop_time": 1559729641.447957, 
+                "type": "pipeline", 
+                "max_history_score": 0.9780701754385965
+            }, 
+            {
+                "status": "ok", 
+                "score_std": 0.08187395568101666, 
+                "max_history_score_std": 0.02687037459510562, 
+                "iteration": 97, 
+                "start_time": 1559729641.795958, 
+                "step": "pipeline", 
+                "duration": 3.3512580394744873, 
+                "loss": 0.059941520467836185, 
+                "pipeline": {
+                    "normalizer": [
+                        "normalizer_PowerTransformer", 
+                        {}
+                    ], 
+                    "rebalance": [
+                        "rebalance_SMOTE", 
+                        {
+                            "rebalance__k_neighbors": 5
+                        }
+                    ], 
+                    "features": [
+                        "features_SelectKBest", 
+                        {
+                            "features__k": 3
+                        }
+                    ]
+                }, 
+                "algorithm": {}, 
+                "config_hash": {
+                    "pipeline": "c4c3bc64c9ac56578cc766ddfa339d3107592ad3", 
+                    "config": "2e5a4f0fad4cfd54813295d0eee75febf598421d", 
+                    "algorithm": "bf21a9e8fbc5a3846fb05b4fa0859e0917b2202f"
+                }, 
+                "max_history_step": "pipeline", 
+                "score": 0.9400584795321638, 
+                "stop_time": 1559729645.147216, 
+                "type": "pipeline", 
+                "max_history_score": 0.9780701754385965
+            }, 
+            {
+                "status": "ok", 
+                "score_std": 0.05575219125246825, 
+                "max_history_score_std": 0.02687037459510562, 
+                "iteration": 98, 
+                "start_time": 1559729645.251232, 
+                "step": "pipeline", 
+                "duration": 3.169661045074463, 
+                "loss": 0.038596491228070184, 
+                "pipeline": {
+                    "normalizer": [
+                        "normalizer_PowerTransformer", 
+                        {}
+                    ], 
+                    "rebalance": [
+                        "rebalance_NearMiss", 
+                        {
+                            "rebalance__n_neighbors": 2
+                        }
+                    ], 
+                    "features": [
+                        "features_NoneType", 
+                        {}
+                    ]
+                }, 
+                "algorithm": {}, 
+                "config_hash": {
+                    "pipeline": "12c89200a558b2f3b91332566f41050143aecbe7", 
+                    "config": "a05614773b54a03bbb0bb675d0ea2c5cd2925c88", 
+                    "algorithm": "bf21a9e8fbc5a3846fb05b4fa0859e0917b2202f"
+                }, 
+                "max_history_step": "pipeline", 
+                "score": 0.9614035087719298, 
+                "stop_time": 1559729648.420893, 
+                "type": "pipeline", 
+                "max_history_score": 0.9780701754385965
+            }, 
+            {
+                "status": "ok", 
+                "score_std": 0.036811547176303076, 
+                "max_history_score_std": 0.02687037459510562, 
+                "iteration": 99, 
+                "start_time": 1559729648.612801, 
+                "step": "pipeline", 
+                "duration": 2.6142308712005615, 
+                "loss": 0.03925008599931201, 
+                "pipeline": {
+                    "normalizer": [
+                        "normalizer_MinMaxScaler", 
+                        {}
+                    ], 
+                    "rebalance": [
+                        "rebalance_SMOTE", 
+                        {
+                            "rebalance__k_neighbors": 7
+                        }
+                    ], 
+                    "features": [
+                        "features_PCA", 
+                        {
+                            "features__n_components": 3
+                        }
+                    ]
+                }, 
+                "algorithm": {}, 
+                "config_hash": {
+                    "pipeline": "cdd353a15529b3902394427b7ec25705e8ba7fdc", 
+                    "config": "53c76ef39ed50b6fc33ae0bca4dfa27f3e51a7a6", 
+                    "algorithm": "bf21a9e8fbc5a3846fb05b4fa0859e0917b2202f"
+                }, 
+                "max_history_step": "pipeline", 
+                "score": 0.960749914000688, 
+                "stop_time": 1559729651.227032, 
+                "type": "pipeline", 
+                "max_history_score": 0.9780701754385965
+            }, 
+            {
+                "status": "ok", 
+                "score_std": 0.08805642559496059, 
+                "max_history_score_std": 0.02687037459510562, 
+                "iteration": 100, 
+                "start_time": 1559729651.470011, 
+                "step": "pipeline", 
+                "duration": 1.131983995437622, 
+                "loss": 0.2679760061919505, 
+                "pipeline": {
+                    "normalizer": [
+                        "normalizer_NoneType", 
+                        {}
+                    ], 
+                    "rebalance": [
+                        "rebalance_SMOTE", 
+                        {
+                            "rebalance__k_neighbors": 6
+                        }
+                    ], 
+                    "features": [
+                        "features_FeatureUnion", 
+                        {
+                            "features__pca__n_components": 4, 
+                            "features__selectkbest__k": 2
+                        }
+                    ]
+                }, 
+                "algorithm": {}, 
+                "config_hash": {
+                    "pipeline": "d9848328838b274738f0b1e70d2e0ac1240983b8", 
+                    "config": "9b0592efa0674428e7ddecbaeb80983eff711b63", 
+                    "algorithm": "bf21a9e8fbc5a3846fb05b4fa0859e0917b2202f"
+                }, 
+                "max_history_step": "pipeline", 
+                "score": 0.7320239938080495, 
+                "stop_time": 1559729652.601995, 
+                "type": "pipeline", 
+                "max_history_score": 0.9780701754385965
+            }, 
+            {
+                "status": "ok", 
+                "score_std": 0.0712778899892051, 
+                "max_history_score_std": 0.02687037459510562, 
+                "iteration": 101, 
+                "start_time": 1559729652.835881, 
+                "step": "pipeline", 
+                "duration": 2.475274085998535, 
+                "loss": 0.06549707602339194, 
+                "pipeline": {
+                    "normalizer": [
+                        "normalizer_RobustScaler", 
+                        {
+                            "normalizer__quantile_range": [
+                                25.0, 
+                                75.0
+                            ], 
+                            "normalizer__with_centering": true, 
+                            "normalizer__with_scaling": true
+                        }
+                    ], 
+                    "rebalance": [
+                        "rebalance_NoneType", 
+                        {}
+                    ], 
+                    "features": [
+                        "features_SelectKBest", 
+                        {
+                            "features__k": 3
+                        }
+                    ]
+                }, 
+                "algorithm": {}, 
+                "config_hash": {
+                    "pipeline": "bb81c01dcce5a50b6917e1951a91cbc9d9ef681a", 
+                    "config": "da45d3cb7a3fd26545ee9dd14a0915b242026d69", 
+                    "algorithm": "bf21a9e8fbc5a3846fb05b4fa0859e0917b2202f"
+                }, 
+                "max_history_step": "pipeline", 
+                "score": 0.9345029239766081, 
+                "stop_time": 1559729655.311155, 
+                "type": "pipeline", 
+                "max_history_score": 0.9780701754385965
+            }, 
+            {
+                "status": "ok", 
+                "score_std": 0.02777777777777779, 
+                "max_history_score_std": 0.02687037459510562, 
+                "iteration": 102, 
+                "start_time": 1559729655.705562, 
+                "step": "pipeline", 
+                "duration": 3.2773277759552, 
+                "loss": 0.0277777777777779, 
+                "pipeline": {
+                    "normalizer": [
+                        "normalizer_PowerTransformer", 
+                        {}
+                    ], 
+                    "rebalance": [
+                        "rebalance_SMOTE", 
+                        {
+                            "rebalance__k_neighbors": 6
+                        }
+                    ], 
+                    "features": [
+                        "features_PCA", 
+                        {
+                            "features__n_components": 3
+                        }
+                    ]
+                }, 
+                "algorithm": {}, 
+                "config_hash": {
+                    "pipeline": "e8e9d1d67d5f6a93e9bf5bf4c516ceaab543e99c", 
+                    "config": "ef1581ce297980833bda6b61ef7d5ebff4e67d3c", 
+                    "algorithm": "bf21a9e8fbc5a3846fb05b4fa0859e0917b2202f"
+                }, 
+                "max_history_step": "pipeline", 
+                "score": 0.9722222222222221, 
+                "stop_time": 1559729658.98289, 
+                "type": "pipeline", 
+                "max_history_score": 0.9780701754385965
+            }
+        ]
+    }, 
+    "scenario": {
+        "control": {
+            "seed": 42
+        }, 
+        "policy": {
+            "step_pipeline": 300
+        }, 
+        "setup": {
+            "policy": "split", 
+            "runtime": 300, 
+            "algorithm": "NeuralNet", 
+            "dataset": "wine"
+        }, 
+        "file_name": "nn_wine_split_300", 
+        "title": "Neural Net on Wine with Split policy"
+    }
+}

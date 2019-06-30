@@ -1,0 +1,627 @@
+SCENARIO:
+ {
+    "control": {
+        "seed": 42
+    }, 
+    "file_name": "nn_iris_iterative", 
+    "policy": {
+        "reset_trial": false, 
+        "step_algorithm": 15, 
+        "step_pipeline": 15
+    }, 
+    "setup": {
+        "algorithm": "NeuralNet", 
+        "dataset": "iris", 
+        "policy": "iterative", 
+        "runtime": 300
+    }, 
+    "title": "Neural Net on Iris with Iterative policy"
+}
+## Data Pipeline
+Best score: 0.953333333333 (0.06) [P] | Score: 0.953333333333 (0.06) [P]
+Best score: 0.966666666667 (0.04472135955) [P] | Score: 0.966666666667 (0.04472135955) [P]
+Best score: 0.966666666667 (0.04472135955) [P] | Score: 0.953333333333 (0.06) [P]
+Best score: 0.966666666667 (0.04472135955) [P] | Score: 0.906666666667 (0.0742368581711) [P]
+Best score: 0.966666666667 (0.04472135955) [P] | Score: 0.906666666667 (0.0742368581711) [P]
+Best score: 0.966666666667 (0.04472135955) [P] | Score: 0.94 (0.0466666666667) [P]
+#################### STEP RESULT ####################
+BEST PIPELINE:
+ {
+    "features": [
+        "features_SelectKBest", 
+        {
+            "features__k": 3
+        }
+    ], 
+    "normalizer": [
+        "normalizer_NoneType", 
+        {}
+    ], 
+    "rebalance": [
+        "rebalance_NearMiss", 
+        {
+            "rebalance__n_neighbors": 3
+        }
+    ]
+}
+BEST ALGO CONFIG:
+ {}
+BEST SCORE: 0.966666666667 (0.04472135955)
+##################################################
+## Algorithm
+Best score: 0.973333333333 (0.0442216638714) [A] | Score: 0.973333333333 (0.0442216638714) [A]
+Best score: 0.973333333333 (0.0442216638714) [A] | Score: 0.926666666667 (0.062893207547) [A]
+Best score: 0.973333333333 (0.0442216638714) [A] | Score: 0.953333333333 (0.06) [A]
+Best score: 0.973333333333 (0.0442216638714) [A] | Score: 0.973333333333 (0.0442216638714) [A]
+Best score: 0.973333333333 (0.0442216638714) [A] | Score: 0.966666666667 (0.04472135955) [A]
+#################### STEP RESULT ####################
+BEST PIPELINE:
+ {
+    "features": [
+        "features_SelectKBest", 
+        {
+            "features__k": 3
+        }
+    ], 
+    "normalizer": [
+        "normalizer_NoneType", 
+        {}
+    ], 
+    "rebalance": [
+        "rebalance_NearMiss", 
+        {
+            "rebalance__n_neighbors": 3
+        }
+    ]
+}
+BEST ALGO CONFIG:
+ {
+    "activation": "relu", 
+    "alpha": 1e-05, 
+    "hidden_layer_sizes": [
+        50, 
+        50
+    ], 
+    "learning_rate": "adaptive", 
+    "solver": "sgd"
+}
+BEST SCORE: 0.973333333333 (0.0442216638714)
+##################################################
+## Data Pipeline
+Best score: 0.973333333333 (0.0442216638714) [A] | Score: 0.853333333333 (0.114697670227) [P]
+Best score: 0.973333333333 (0.0442216638714) [A] | Score: 0.653333333333 (0.049888765157) [P]
+Best score: 0.973333333333 (0.0442216638714) [A] | Score: 0.753333333333 (0.126666666667) [P]
+Best score: 0.973333333333 (0.0442216638714) [A] | Score: 0.713333333333 (0.0669991708075) [P]
+Best score: 0.973333333333 (0.0442216638714) [A] | Score: 0.906666666667 (0.08) [P]
+Best score: 0.973333333333 (0.0442216638714) [A] | Score: 0.88 (0.0933333333333) [P]
+Best score: 0.973333333333 (0.0442216638714) [A] | Score: 0.906666666667 (0.08) [P]
+#################### STEP RESULT ####################
+BEST PIPELINE:
+ {
+    "features": [
+        "features_SelectKBest", 
+        {
+            "features__k": 3
+        }
+    ], 
+    "normalizer": [
+        "normalizer_NoneType", 
+        {}
+    ], 
+    "rebalance": [
+        "rebalance_NearMiss", 
+        {
+            "rebalance__n_neighbors": 3
+        }
+    ]
+}
+BEST ALGO CONFIG:
+ {
+    "activation": "relu", 
+    "alpha": 1e-05, 
+    "hidden_layer_sizes": [
+        50, 
+        50
+    ], 
+    "learning_rate": "adaptive", 
+    "solver": "sgd"
+}
+BEST SCORE: 0.973333333333 (0.0442216638714)
+##################################################
+## Algorithm
+Best score: 0.973333333333 (0.0442216638714) [A] | Score: 0.973333333333 (0.0442216638714) [A]
+#################### STEP RESULT ####################
+BEST PIPELINE:
+ {
+    "features": [
+        "features_SelectKBest", 
+        {
+            "features__k": 3
+        }
+    ], 
+    "normalizer": [
+        "normalizer_NoneType", 
+        {}
+    ], 
+    "rebalance": [
+        "rebalance_NearMiss", 
+        {
+            "rebalance__n_neighbors": 3
+        }
+    ]
+}
+BEST ALGO CONFIG:
+ {
+    "activation": "relu", 
+    "alpha": 1e-05, 
+    "hidden_layer_sizes": [
+        50, 
+        50
+    ], 
+    "learning_rate": "adaptive", 
+    "solver": "sgd"
+}
+BEST SCORE: 0.973333333333 (0.0442216638714)
+##################################################
+## Data Pipeline
+Best score: 0.973333333333 (0.0442216638714) [A] | Score: 0.946666666667 (0.049888765157) [P]
+Best score: 0.973333333333 (0.0442216638714) [A] | Score: 0.96 (0.0442216638714) [P]
+Best score: 0.973333333333 (0.0442216638714) [A] | Score: 0.913333333333 (0.06) [P]
+Best score: 0.973333333333 (0.0442216638714) [A] | Score: 0.94 (0.0553774924195) [P]
+Best score: 0.973333333333 (0.0442216638714) [A] | Score: 0.94 (0.0466666666667) [P]
+Best score: 0.973333333333 (0.0442216638714) [A] | Score: 0.926666666667 (0.062893207547) [P]
+Best score: 0.973333333333 (0.0442216638714) [A] | Score: 0.966666666667 (0.0333333333333) [P]
+#################### STEP RESULT ####################
+BEST PIPELINE:
+ {
+    "features": [
+        "features_SelectKBest", 
+        {
+            "features__k": 3
+        }
+    ], 
+    "normalizer": [
+        "normalizer_NoneType", 
+        {}
+    ], 
+    "rebalance": [
+        "rebalance_NearMiss", 
+        {
+            "rebalance__n_neighbors": 3
+        }
+    ]
+}
+BEST ALGO CONFIG:
+ {
+    "activation": "relu", 
+    "alpha": 1e-05, 
+    "hidden_layer_sizes": [
+        50, 
+        50
+    ], 
+    "learning_rate": "adaptive", 
+    "solver": "sgd"
+}
+BEST SCORE: 0.973333333333 (0.0442216638714)
+##################################################
+## Algorithm
+Best score: 0.973333333333 (0.0442216638714) [A] | Score: 0.966666666667 (0.04472135955) [A]
+#################### STEP RESULT ####################
+BEST PIPELINE:
+ {
+    "features": [
+        "features_SelectKBest", 
+        {
+            "features__k": 3
+        }
+    ], 
+    "normalizer": [
+        "normalizer_NoneType", 
+        {}
+    ], 
+    "rebalance": [
+        "rebalance_NearMiss", 
+        {
+            "rebalance__n_neighbors": 3
+        }
+    ]
+}
+BEST ALGO CONFIG:
+ {
+    "activation": "relu", 
+    "alpha": 1e-05, 
+    "hidden_layer_sizes": [
+        50, 
+        50
+    ], 
+    "learning_rate": "adaptive", 
+    "solver": "sgd"
+}
+BEST SCORE: 0.973333333333 (0.0442216638714)
+##################################################
+## Data Pipeline
+Best score: 0.98 (0.0426874949162) [P] | Score: 0.98 (0.0426874949162) [P]
+Best score: 0.98 (0.0426874949162) [P] | Score: 0.98 (0.0426874949162) [P]
+Best score: 0.98 (0.0426874949162) [P] | Score: 0.953333333333 (0.030550504633) [P]
+Best score: 0.98 (0.0426874949162) [P] | Score: 0.98 (0.0426874949162) [P]
+Best score: 0.98 (0.0426874949162) [P] | Score: 0.953333333333 (0.030550504633) [P]
+Best score: 0.98 (0.0426874949162) [P] | Score: 0.953333333333 (0.030550504633) [P]
+#################### STEP RESULT ####################
+BEST PIPELINE:
+ {
+    "features": [
+        "features_NoneType", 
+        {}
+    ], 
+    "normalizer": [
+        "normalizer_NoneType", 
+        {}
+    ], 
+    "rebalance": [
+        "rebalance_NearMiss", 
+        {
+            "rebalance__n_neighbors": 3
+        }
+    ]
+}
+BEST ALGO CONFIG:
+ {}
+BEST SCORE: 0.98 (0.0426874949162)
+##################################################
+## Algorithm
+Best score: 0.98 (0.0426874949162) [P] | Score: 0.973333333333 (0.0533333333333) [A]
+Best score: 0.98 (0.0426874949162) [P] | Score: 0.966666666667 (0.0537483849887) [A]
+Best score: 0.98 (0.0426874949162) [P] | Score: 0.933333333333 (0.0596284794) [A]
+Best score: 0.98 (0.0426874949162) [P] | Score: 0.966666666667 (0.0537483849887) [A]
+Best score: 0.98 (0.0426874949162) [P] | Score: 0.966666666667 (0.0537483849887) [A]
+#################### STEP RESULT ####################
+BEST PIPELINE:
+ {
+    "features": [
+        "features_NoneType", 
+        {}
+    ], 
+    "normalizer": [
+        "normalizer_NoneType", 
+        {}
+    ], 
+    "rebalance": [
+        "rebalance_NearMiss", 
+        {
+            "rebalance__n_neighbors": 3
+        }
+    ]
+}
+BEST ALGO CONFIG:
+ {}
+BEST SCORE: 0.98 (0.0426874949162)
+##################################################
+## Data Pipeline
+Best score: 0.98 (0.0426874949162) [P] | Score: 0.98 (0.030550504633) [P]
+Best score: 0.98 (0.0426874949162) [P] | Score: 0.94 (0.0466666666667) [P]
+Best score: 0.98 (0.0426874949162) [P] | Score: 0.853333333333 (0.114697670227) [P]
+Best score: 0.98 (0.0426874949162) [P] | Score: 0.98 (0.0426874949162) [P]
+Best score: 0.98 (0.0426874949162) [P] | Score: 0.98 (0.030550504633) [P]
+Best score: 0.98 (0.0426874949162) [P] | Score: 0.953333333333 (0.0426874949162) [P]
+#################### STEP RESULT ####################
+BEST PIPELINE:
+ {
+    "features": [
+        "features_NoneType", 
+        {}
+    ], 
+    "normalizer": [
+        "normalizer_NoneType", 
+        {}
+    ], 
+    "rebalance": [
+        "rebalance_NearMiss", 
+        {
+            "rebalance__n_neighbors": 3
+        }
+    ]
+}
+BEST ALGO CONFIG:
+ {}
+BEST SCORE: 0.98 (0.0426874949162)
+##################################################
+## Algorithm
+Best score: 0.98 (0.0426874949162) [P] | Score: 0.973333333333 (0.0533333333333) [A]
+Best score: 0.98 (0.0426874949162) [P] | Score: 0.333333333333 (5.55111512313e-17) [A]
+Best score: 0.98 (0.0426874949162) [P] | Score: 0.333333333333 (5.55111512313e-17) [A]
+Best score: 0.98 (0.0426874949162) [P] | Score: 0.333333333333 (5.55111512313e-17) [A]
+Best score: 0.98 (0.0426874949162) [P] | Score: 0.333333333333 (5.55111512313e-17) [A]
+#################### STEP RESULT ####################
+BEST PIPELINE:
+ {
+    "features": [
+        "features_NoneType", 
+        {}
+    ], 
+    "normalizer": [
+        "normalizer_NoneType", 
+        {}
+    ], 
+    "rebalance": [
+        "rebalance_NearMiss", 
+        {
+            "rebalance__n_neighbors": 3
+        }
+    ]
+}
+BEST ALGO CONFIG:
+ {}
+BEST SCORE: 0.98 (0.0426874949162)
+##################################################
+## Data Pipeline
+Best score: 0.98 (0.0426874949162) [P] | Score: 0.94 (0.0466666666667) [P]
+Best score: 0.98 (0.0426874949162) [P] | Score: 0.833333333333 (0.0802772971919) [P]
+Best score: 0.98 (0.0426874949162) [P] | Score: 0.98 (0.0426874949162) [P]
+Best score: 0.98 (0.0426874949162) [P] | Score: 0.953333333333 (0.0520683311727) [P]
+Best score: 0.98 (0.0426874949162) [P] | Score: 0.773333333333 (0.08) [P]
+Best score: 0.98 (0.0426874949162) [P] | Score: 0.94 (0.0553774924195) [P]
+Best score: 0.98 (0.0426874949162) [P] | Score: 0.906666666667 (0.0742368581711) [P]
+#################### STEP RESULT ####################
+BEST PIPELINE:
+ {
+    "features": [
+        "features_NoneType", 
+        {}
+    ], 
+    "normalizer": [
+        "normalizer_NoneType", 
+        {}
+    ], 
+    "rebalance": [
+        "rebalance_NearMiss", 
+        {
+            "rebalance__n_neighbors": 3
+        }
+    ]
+}
+BEST ALGO CONFIG:
+ {}
+BEST SCORE: 0.98 (0.0426874949162)
+##################################################
+## Algorithm
+Best score: 0.98 (0.0426874949162) [P] | Score: 0.946666666667 (0.102415276638) [A]
+#################### STEP RESULT ####################
+BEST PIPELINE:
+ {
+    "features": [
+        "features_NoneType", 
+        {}
+    ], 
+    "normalizer": [
+        "normalizer_NoneType", 
+        {}
+    ], 
+    "rebalance": [
+        "rebalance_NearMiss", 
+        {
+            "rebalance__n_neighbors": 3
+        }
+    ]
+}
+BEST ALGO CONFIG:
+ {}
+BEST SCORE: 0.98 (0.0426874949162)
+##################################################
+## Data Pipeline
+Best score: 0.98 (0.0426874949162) [P] | Score: 0.953333333333 (0.030550504633) [P]
+Best score: 0.98 (0.0426874949162) [P] | Score: 0.68 (0.0653197264742) [P]
+Best score: 0.98 (0.0426874949162) [P] | Score: 0.96 (0.0442216638714) [P]
+Best score: 0.98 (0.0426874949162) [P] | Score: 0.953333333333 (0.0426874949162) [P]
+Best score: 0.98 (0.0426874949162) [P] | Score: 0.98 (0.0426874949162) [P]
+Best score: 0.98 (0.0426874949162) [P] | Score: 0.96 (0.0442216638714) [P]
+#################### STEP RESULT ####################
+BEST PIPELINE:
+ {
+    "features": [
+        "features_NoneType", 
+        {}
+    ], 
+    "normalizer": [
+        "normalizer_NoneType", 
+        {}
+    ], 
+    "rebalance": [
+        "rebalance_NearMiss", 
+        {
+            "rebalance__n_neighbors": 3
+        }
+    ]
+}
+BEST ALGO CONFIG:
+ {}
+BEST SCORE: 0.98 (0.0426874949162)
+##################################################
+## Algorithm
+Best score: 0.98 (0.0426874949162) [P] | Score: 0.6 (0.133333333333) [A]
+#################### STEP RESULT ####################
+BEST PIPELINE:
+ {
+    "features": [
+        "features_NoneType", 
+        {}
+    ], 
+    "normalizer": [
+        "normalizer_NoneType", 
+        {}
+    ], 
+    "rebalance": [
+        "rebalance_NearMiss", 
+        {
+            "rebalance__n_neighbors": 3
+        }
+    ]
+}
+BEST ALGO CONFIG:
+ {}
+BEST SCORE: 0.98 (0.0426874949162)
+##################################################
+## Data Pipeline
+Best score: 0.98 (0.0426874949162) [P] | Score: 0.82 (0.0733333333333) [P]
+Best score: 0.98 (0.0426874949162) [P] | Score: 0.953333333333 (0.0426874949162) [P]
+Best score: 0.98 (0.0426874949162) [P] | Score: 0.94 (0.0553774924195) [P]
+Best score: 0.98 (0.0426874949162) [P] | Score: 0.86 (0.120922380981) [P]
+Best score: 0.98 (0.0426874949162) [P] | Score: 0.92 (0.0832666399786) [P]
+Best score: 0.98 (0.0426874949162) [P] | Score: 0.953333333333 (0.0669991708075) [P]
+Best score: 0.98 (0.0426874949162) [P] | Score: 0.96 (0.0533333333333) [P]
+#################### STEP RESULT ####################
+BEST PIPELINE:
+ {
+    "features": [
+        "features_NoneType", 
+        {}
+    ], 
+    "normalizer": [
+        "normalizer_NoneType", 
+        {}
+    ], 
+    "rebalance": [
+        "rebalance_NearMiss", 
+        {
+            "rebalance__n_neighbors": 3
+        }
+    ]
+}
+BEST ALGO CONFIG:
+ {}
+BEST SCORE: 0.98 (0.0426874949162)
+##################################################
+## Algorithm
+Best score: 0.98 (0.0426874949162) [P] | Score: 0.333333333333 (5.55111512313e-17) [A]
+Best score: 0.98 (0.0426874949162) [P] | Score: 0.953333333333 (0.06) [A]
+Best score: 0.98 (0.0426874949162) [P] | Score: 0.333333333333 (5.55111512313e-17) [A]
+Best score: 0.98 (0.0426874949162) [P] | Score: 0.96 (0.0442216638714) [A]
+#################### STEP RESULT ####################
+BEST PIPELINE:
+ {
+    "features": [
+        "features_NoneType", 
+        {}
+    ], 
+    "normalizer": [
+        "normalizer_NoneType", 
+        {}
+    ], 
+    "rebalance": [
+        "rebalance_NearMiss", 
+        {
+            "rebalance__n_neighbors": 3
+        }
+    ]
+}
+BEST ALGO CONFIG:
+ {}
+BEST SCORE: 0.98 (0.0426874949162)
+##################################################
+## Data Pipeline
+Best score: 0.98 (0.0426874949162) [P] | Score: 0.973333333333 (0.0326598632371) [P]
+Best score: 0.98 (0.0426874949162) [P] | Score: 0.953333333333 (0.06) [P]
+Best score: 0.98 (0.0426874949162) [P] | Score: 0.973333333333 (0.0326598632371) [P]
+Best score: 0.98 (0.0426874949162) [P] | Score: 0.966666666667 (0.0333333333333) [P]
+Best score: 0.98 (0.0426874949162) [P] | Score: 0.953333333333 (0.0520683311727) [P]
+Best score: 0.98 (0.0426874949162) [P] | Score: 0.953333333333 (0.0426874949162) [P]
+#################### STEP RESULT ####################
+BEST PIPELINE:
+ {
+    "features": [
+        "features_NoneType", 
+        {}
+    ], 
+    "normalizer": [
+        "normalizer_NoneType", 
+        {}
+    ], 
+    "rebalance": [
+        "rebalance_NearMiss", 
+        {
+            "rebalance__n_neighbors": 3
+        }
+    ]
+}
+BEST ALGO CONFIG:
+ {}
+BEST SCORE: 0.98 (0.0426874949162)
+##################################################
+## Algorithm
+Best score: 0.98 (0.0426874949162) [P] | Score: 0.333333333333 (5.55111512313e-17) [A]
+#################### STEP RESULT ####################
+BEST PIPELINE:
+ {
+    "features": [
+        "features_NoneType", 
+        {}
+    ], 
+    "normalizer": [
+        "normalizer_NoneType", 
+        {}
+    ], 
+    "rebalance": [
+        "rebalance_NearMiss", 
+        {
+            "rebalance__n_neighbors": 3
+        }
+    ]
+}
+BEST ALGO CONFIG:
+ {}
+BEST SCORE: 0.98 (0.0426874949162)
+##################################################
+## Data Pipeline
+Best score: 0.98 (0.0426874949162) [P] | Score: 0.946666666667 (0.049888765157) [P]
+Best score: 0.98 (0.0426874949162) [P] | Score: 0.946666666667 (0.049888765157) [P]
+Best score: 0.98 (0.0426874949162) [P] | Score: 0.953333333333 (0.0426874949162) [P]
+Best score: 0.98 (0.0426874949162) [P] | Score: 0.906666666667 (0.08) [P]
+Best score: 0.98 (0.0426874949162) [P] | Score: 0.613333333333 (0.0653197264742) [P]
+Best score: 0.98 (0.0426874949162) [P] | Score: 0.94 (0.0553774924195) [P]
+#################### STEP RESULT ####################
+BEST PIPELINE:
+ {
+    "features": [
+        "features_NoneType", 
+        {}
+    ], 
+    "normalizer": [
+        "normalizer_NoneType", 
+        {}
+    ], 
+    "rebalance": [
+        "rebalance_NearMiss", 
+        {
+            "rebalance__n_neighbors": 3
+        }
+    ]
+}
+BEST ALGO CONFIG:
+ {}
+BEST SCORE: 0.98 (0.0426874949162)
+##################################################
+## Algorithm
+Best score: 0.98 (0.0426874949162) [P] | Score: 0.946666666667 (0.0718021974285) [A]
+Best score: 0.98 (0.0426874949162) [P] | Score: 0.333333333333 (5.55111512313e-17) [A]
+Best score: 0.98 (0.0426874949162) [P] | Score: 0.846666666667 (0.06) [A]
+#################### STEP RESULT ####################
+BEST PIPELINE:
+ {
+    "features": [
+        "features_NoneType", 
+        {}
+    ], 
+    "normalizer": [
+        "normalizer_NoneType", 
+        {}
+    ], 
+    "rebalance": [
+        "rebalance_NearMiss", 
+        {
+            "rebalance__n_neighbors": 3
+        }
+    ]
+}
+BEST ALGO CONFIG:
+ {}
+BEST SCORE: 0.98 (0.0426874949162)
+##################################################

@@ -1,0 +1,61 @@
+SCENARIO:
+ {
+    "control": {
+        "seed": 42
+    }, 
+    "file_name": "nn_breast_joint", 
+    "policy": null, 
+    "setup": {
+        "algorithm": "NeuralNet", 
+        "dataset": "breast", 
+        "policy": "joint", 
+        "runtime": 300
+    }, 
+    "title": "Neural Net on Breast with Joint policy"
+}
+Best score: 0.885883890761 (0.03751881909) [J] | Score: 0.885883890761 (0.03751881909) [J]
+Best score: 0.907094244231 (0.0377907498127) [J] | Score: 0.907094244231 (0.0377907498127) [J]
+Best score: 0.907094244231 (0.0377907498127) [J] | Score: 0.627427404719 (0.00441189245975) [J]
+Best score: 0.907094244231 (0.0377907498127) [J] | Score: 0.879052156253 (0.0393510311151) [J]
+Best score: 0.907094244231 (0.0377907498127) [J] | Score: 0.627427404719 (0.00441189245975) [J]
+Best score: 0.94397307925 (0.0285851955023) [J] | Score: 0.94397307925 (0.0285851955023) [J]
+Best score: 0.94397307925 (0.0285851955023) [J] | Score: 0.372572595281 (0.00441189245975) [J]
+Best score: 0.94397307925 (0.0285851955023) [J] | Score: 0.372572595281 (0.00441189245975) [J]
+Best score: 0.94397307925 (0.0285851955023) [J] | Score: 0.778884711779 (0.0419475640245) [J]
+Best score: 0.94397307925 (0.0285851955023) [J] | Score: 0.575204174229 (0.247646294665) [J]
+Best score: 0.970140869415 (0.0112036983461) [J] | Score: 0.970140869415 (0.0112036983461) [J]
+Best score: 0.970140869415 (0.0112036983461) [J] | Score: 0.936831302394 (0.023503060171) [J]
+Best score: 0.970140869415 (0.0112036983461) [J] | Score: 0.627427404719 (0.00441189245975) [J]
+Best score: 0.970140869415 (0.0112036983461) [J] | Score: 0.450204174229 (0.117377953655) [J]
+#################### STEP RESULT ####################
+BEST PIPELINE:
+ {
+    "features": [
+        "features_NoneType", 
+        {}
+    ], 
+    "normalizer": [
+        "normalizer_PowerTransformer", 
+        {}
+    ], 
+    "rebalance": [
+        "rebalance_NoneType", 
+        {}
+    ]
+}
+BEST ALGO CONFIG:
+ {
+    "activation": "tanh", 
+    "alpha": 0.01, 
+    "hidden_layer_sizes": [
+        10, 
+        10, 
+        10, 
+        10, 
+        10
+    ], 
+    "learning_rate": "constant", 
+    "solver": "lbfgs"
+}
+BEST SCORE: 0.970140869415 (0.0112036983461)
+##################################################

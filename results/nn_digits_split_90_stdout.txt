@@ -1,0 +1,94 @@
+SCENARIO:
+ {
+    "control": {
+        "seed": 42
+    }, 
+    "file_name": "nn_digits_split_90", 
+    "policy": {
+        "step_pipeline": 90
+    }, 
+    "setup": {
+        "algorithm": "NeuralNet", 
+        "dataset": "digits", 
+        "policy": "split", 
+        "runtime": 300
+    }, 
+    "title": "Neural Net on Digits with Split policy"
+}
+## Data Pipeline
+Best score: 0.728917897248 (0.0472323962057) [P] | Score: 0.728917897248 (0.0472323962057) [P]
+Best score: 0.728917897248 (0.0472323962057) [P] | Score: 0.260636184544 (0.0327124390235) [P]
+Best score: 0.728917897248 (0.0472323962057) [P] | Score: 0.480684496264 (0.0625748645963) [P]
+#################### STEP RESULT ####################
+BEST PIPELINE:
+ {
+    "features": [
+        "features_FeatureUnion", 
+        {
+            "features__pca__n_components": 2, 
+            "features__selectkbest__k": 3
+        }
+    ], 
+    "normalizer": [
+        "normalizer_RobustScaler", 
+        {
+            "normalizer__quantile_range": [
+                10.0, 
+                90.0
+            ], 
+            "normalizer__with_centering": false, 
+            "normalizer__with_scaling": false
+        }
+    ], 
+    "rebalance": [
+        "rebalance_NoneType", 
+        {}
+    ]
+}
+BEST ALGO CONFIG:
+ {}
+BEST SCORE: 0.728917897248 (0.0472323962057)
+##################################################
+## Algorithm
+Best score: 0.735177610858 (0.0382410691508) [A] | Score: 0.735177610858 (0.0382410691508) [A]
+Best score: 0.735177610858 (0.0382410691508) [A] | Score: 0.69446883042 (0.0500891951167) [A]
+Best score: 0.735177610858 (0.0382410691508) [A] | Score: 0.101274256881 (0.00127440186725) [A]
+#################### STEP RESULT ####################
+BEST PIPELINE:
+ {
+    "features": [
+        "features_FeatureUnion", 
+        {
+            "features__pca__n_components": 2, 
+            "features__selectkbest__k": 3
+        }
+    ], 
+    "normalizer": [
+        "normalizer_RobustScaler", 
+        {
+            "normalizer__quantile_range": [
+                10.0, 
+                90.0
+            ], 
+            "normalizer__with_centering": false, 
+            "normalizer__with_scaling": false
+        }
+    ], 
+    "rebalance": [
+        "rebalance_NoneType", 
+        {}
+    ]
+}
+BEST ALGO CONFIG:
+ {
+    "activation": "relu", 
+    "alpha": 0.0001, 
+    "hidden_layer_sizes": [
+        50, 
+        50
+    ], 
+    "learning_rate": "invscaling", 
+    "solver": "lbfgs"
+}
+BEST SCORE: 0.735177610858 (0.0382410691508)
+##################################################

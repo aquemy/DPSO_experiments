@@ -1,0 +1,390 @@
+/home/aquemy/.local/lib/python2.7/site-packages/sklearn/svm/base.py:196: FutureWarning: The default value of gamma will change from 'auto' to 'scale' in version 0.22 to account better for unscaled features. Set gamma explicitly to 'auto' or 'scale' to avoid this warning.
+  "avoid this warning.", FutureWarning)
+/home/aquemy/.local/lib/python2.7/site-packages/sklearn/svm/base.py:196: FutureWarning: The default value of gamma will change from 'auto' to 'scale' in version 0.22 to account better for unscaled features. Set gamma explicitly to 'auto' or 'scale' to avoid this warning.
+  "avoid this warning.", FutureWarning)
+/home/aquemy/.local/lib/python2.7/site-packages/sklearn/svm/base.py:196: FutureWarning: The default value of gamma will change from 'auto' to 'scale' in version 0.22 to account better for unscaled features. Set gamma explicitly to 'auto' or 'scale' to avoid this warning.
+  "avoid this warning.", FutureWarning)
+/home/aquemy/.local/lib/python2.7/site-packages/sklearn/svm/base.py:196: FutureWarning: The default value of gamma will change from 'auto' to 'scale' in version 0.22 to account better for unscaled features. Set gamma explicitly to 'auto' or 'scale' to avoid this warning.
+  "avoid this warning.", FutureWarning)
+/home/aquemy/.local/lib/python2.7/site-packages/sklearn/preprocessing/data.py:2778: RuntimeWarning: divide by zero encountered in log
+  loglike = -n_samples / 2 * np.log(x_trans.var())
+/home/aquemy/.local/lib/python2.7/site-packages/sklearn/preprocessing/data.py:2778: RuntimeWarning: divide by zero encountered in log
+  loglike = -n_samples / 2 * np.log(x_trans.var())
+/home/aquemy/.local/lib/python2.7/site-packages/sklearn/preprocessing/data.py:2778: RuntimeWarning: divide by zero encountered in log
+  loglike = -n_samples / 2 * np.log(x_trans.var())
+/home/aquemy/.local/lib/python2.7/site-packages/sklearn/preprocessing/data.py:2778: RuntimeWarning: divide by zero encountered in log
+  loglike = -n_samples / 2 * np.log(x_trans.var())
+/home/aquemy/.local/lib/python2.7/site-packages/sklearn/feature_selection/univariate_selection.py:114: UserWarning: Features [ 0 32 39] are constant.
+  UserWarning)
+/home/aquemy/.local/lib/python2.7/site-packages/sklearn/feature_selection/univariate_selection.py:115: RuntimeWarning: invalid value encountered in divide
+  f = msb / msw
+/home/aquemy/.local/lib/python2.7/site-packages/sklearn/feature_selection/univariate_selection.py:114: UserWarning: Features [ 0 32 39] are constant.
+  UserWarning)
+/home/aquemy/.local/lib/python2.7/site-packages/sklearn/feature_selection/univariate_selection.py:115: RuntimeWarning: invalid value encountered in divide
+  f = msb / msw
+/home/aquemy/.local/lib/python2.7/site-packages/sklearn/feature_selection/univariate_selection.py:114: UserWarning: Features [ 0 32 39 56] are constant.
+  UserWarning)
+/home/aquemy/.local/lib/python2.7/site-packages/sklearn/feature_selection/univariate_selection.py:115: RuntimeWarning: invalid value encountered in divide
+  f = msb / msw
+/home/aquemy/.local/lib/python2.7/site-packages/sklearn/feature_selection/univariate_selection.py:114: UserWarning: Features [ 0 32 39] are constant.
+  UserWarning)
+/home/aquemy/.local/lib/python2.7/site-packages/sklearn/feature_selection/univariate_selection.py:115: RuntimeWarning: invalid value encountered in divide
+  f = msb / msw
+/home/aquemy/.local/lib/python2.7/site-packages/sklearn/feature_selection/univariate_selection.py:114: UserWarning: Features [ 0 32 39] are constant.
+  UserWarning)
+/home/aquemy/.local/lib/python2.7/site-packages/sklearn/feature_selection/univariate_selection.py:114: UserWarning: Features [ 0 32 39 56] are constant.
+  UserWarning)
+/home/aquemy/.local/lib/python2.7/site-packages/sklearn/feature_selection/univariate_selection.py:114: UserWarning: Features [ 0 32 39 56] are constant.
+  UserWarning)
+/home/aquemy/.local/lib/python2.7/site-packages/sklearn/feature_selection/univariate_selection.py:114: UserWarning: Features [ 0 32 39 56] are constant.
+  UserWarning)
+/home/aquemy/.local/lib/python2.7/site-packages/sklearn/svm/base.py:196: FutureWarning: The default value of gamma will change from 'auto' to 'scale' in version 0.22 to account better for unscaled features. Set gamma explicitly to 'auto' or 'scale' to avoid this warning.
+  "avoid this warning.", FutureWarning)
+/home/aquemy/.local/lib/python2.7/site-packages/sklearn/svm/base.py:196: FutureWarning: The default value of gamma will change from 'auto' to 'scale' in version 0.22 to account better for unscaled features. Set gamma explicitly to 'auto' or 'scale' to avoid this warning.
+  "avoid this warning.", FutureWarning)
+/home/aquemy/.local/lib/python2.7/site-packages/sklearn/svm/base.py:196: FutureWarning: The default value of gamma will change from 'auto' to 'scale' in version 0.22 to account better for unscaled features. Set gamma explicitly to 'auto' or 'scale' to avoid this warning.
+  "avoid this warning.", FutureWarning)
+/home/aquemy/.local/lib/python2.7/site-packages/sklearn/svm/base.py:196: FutureWarning: The default value of gamma will change from 'auto' to 'scale' in version 0.22 to account better for unscaled features. Set gamma explicitly to 'auto' or 'scale' to avoid this warning.
+  "avoid this warning.", FutureWarning)
+/home/aquemy/.local/lib/python2.7/site-packages/sklearn/feature_selection/univariate_selection.py:114: UserWarning: Features [ 0 24 31 32 39 40 47] are constant.
+  UserWarning)
+/home/aquemy/.local/lib/python2.7/site-packages/sklearn/feature_selection/univariate_selection.py:115: RuntimeWarning: invalid value encountered in divide
+  f = msb / msw
+/home/aquemy/.local/lib/python2.7/site-packages/sklearn/feature_selection/univariate_selection.py:114: UserWarning: Features [ 0 24 31 32 39 40 47 48 56] are constant.
+  UserWarning)
+/home/aquemy/.local/lib/python2.7/site-packages/sklearn/feature_selection/univariate_selection.py:115: RuntimeWarning: invalid value encountered in divide
+  f = msb / msw
+/home/aquemy/.local/lib/python2.7/site-packages/sklearn/feature_selection/univariate_selection.py:114: UserWarning: Features [ 0 23 31 32 39 40 47 48 56] are constant.
+  UserWarning)
+/home/aquemy/.local/lib/python2.7/site-packages/sklearn/feature_selection/univariate_selection.py:115: RuntimeWarning: invalid value encountered in divide
+  f = msb / msw
+/home/aquemy/.local/lib/python2.7/site-packages/sklearn/feature_selection/univariate_selection.py:114: UserWarning: Features [ 0 31 32 39 40 48 56] are constant.
+  UserWarning)
+/home/aquemy/.local/lib/python2.7/site-packages/sklearn/feature_selection/univariate_selection.py:115: RuntimeWarning: invalid value encountered in divide
+  f = msb / msw
+/home/aquemy/.local/lib/python2.7/site-packages/sklearn/feature_selection/univariate_selection.py:114: UserWarning: Features [ 0 24 32 39 40 47 48 56] are constant.
+  UserWarning)
+/home/aquemy/.local/lib/python2.7/site-packages/sklearn/feature_selection/univariate_selection.py:114: UserWarning: Features [ 0 23 24 31 32 39 40 47 48 56] are constant.
+  UserWarning)
+/home/aquemy/.local/lib/python2.7/site-packages/sklearn/feature_selection/univariate_selection.py:114: UserWarning: Features [ 0 31 32 39 40 47 48 56] are constant.
+  UserWarning)
+/home/aquemy/.local/lib/python2.7/site-packages/sklearn/feature_selection/univariate_selection.py:114: UserWarning: Features [ 0 31 32 39 40 47 48 56] are constant.
+  UserWarning)
+/home/aquemy/.local/lib/python2.7/site-packages/sklearn/feature_selection/univariate_selection.py:114: UserWarning: Features [ 0 24 31 32 39 40 48 56] are constant.
+  UserWarning)
+/home/aquemy/.local/lib/python2.7/site-packages/sklearn/feature_selection/univariate_selection.py:114: UserWarning: Features [ 0 24 31 32 39 40 56] are constant.
+  UserWarning)
+/home/aquemy/.local/lib/python2.7/site-packages/sklearn/feature_selection/univariate_selection.py:114: UserWarning: Features [ 0 32 39] are constant.
+  UserWarning)
+/home/aquemy/.local/lib/python2.7/site-packages/sklearn/feature_selection/univariate_selection.py:114: UserWarning: Features [ 0 32 39] are constant.
+  UserWarning)
+/home/aquemy/.local/lib/python2.7/site-packages/sklearn/feature_selection/univariate_selection.py:114: UserWarning: Features [ 0 32 39 56] are constant.
+  UserWarning)
+/home/aquemy/.local/lib/python2.7/site-packages/sklearn/feature_selection/univariate_selection.py:114: UserWarning: Features [ 0 32 39] are constant.
+  UserWarning)
+/home/aquemy/.local/lib/python2.7/site-packages/sklearn/feature_selection/univariate_selection.py:114: UserWarning: Features [ 0 32 39] are constant.
+  UserWarning)
+/home/aquemy/.local/lib/python2.7/site-packages/sklearn/preprocessing/data.py:2778: RuntimeWarning: divide by zero encountered in log
+  loglike = -n_samples / 2 * np.log(x_trans.var())
+/home/aquemy/.local/lib/python2.7/site-packages/sklearn/preprocessing/data.py:2778: RuntimeWarning: divide by zero encountered in log
+  loglike = -n_samples / 2 * np.log(x_trans.var())
+/home/aquemy/.local/lib/python2.7/site-packages/sklearn/preprocessing/data.py:2778: RuntimeWarning: divide by zero encountered in log
+  loglike = -n_samples / 2 * np.log(x_trans.var())
+/home/aquemy/.local/lib/python2.7/site-packages/sklearn/preprocessing/data.py:2778: RuntimeWarning: divide by zero encountered in log
+  loglike = -n_samples / 2 * np.log(x_trans.var())
+/home/aquemy/.local/lib/python2.7/site-packages/sklearn/feature_selection/univariate_selection.py:114: UserWarning: Features [ 0 31 32 39 40 47 48 56] are constant.
+  UserWarning)
+/home/aquemy/.local/lib/python2.7/site-packages/sklearn/feature_selection/univariate_selection.py:114: UserWarning: Features [ 0 24 31 32 39 40 47] are constant.
+  UserWarning)
+/home/aquemy/.local/lib/python2.7/site-packages/sklearn/feature_selection/univariate_selection.py:114: UserWarning: Features [ 0 32 39 47 56] are constant.
+  UserWarning)
+/home/aquemy/.local/lib/python2.7/site-packages/sklearn/feature_selection/univariate_selection.py:114: UserWarning: Features [ 0 31 32 39 40 47 56] are constant.
+  UserWarning)
+/home/aquemy/.local/lib/python2.7/site-packages/sklearn/feature_selection/univariate_selection.py:114: UserWarning: Features [ 0 23 24 31 32 39 40 48 56] are constant.
+  UserWarning)
+/home/aquemy/.local/lib/python2.7/site-packages/sklearn/feature_selection/univariate_selection.py:114: UserWarning: Features [ 0 31 32 39 40 47 56] are constant.
+  UserWarning)
+/home/aquemy/.local/lib/python2.7/site-packages/sklearn/feature_selection/univariate_selection.py:114: UserWarning: Features [ 0 23 24 31 32 39 40 47 48 56] are constant.
+  UserWarning)
+/home/aquemy/.local/lib/python2.7/site-packages/sklearn/feature_selection/univariate_selection.py:114: UserWarning: Features [ 0 23 31 32 39 40 47 56] are constant.
+  UserWarning)
+/home/aquemy/.local/lib/python2.7/site-packages/sklearn/feature_selection/univariate_selection.py:114: UserWarning: Features [ 0 24 31 32 39 40 47 48 56] are constant.
+  UserWarning)
+/home/aquemy/.local/lib/python2.7/site-packages/sklearn/feature_selection/univariate_selection.py:114: UserWarning: Features [ 0 24 31 32 39 40 47 56] are constant.
+  UserWarning)
+/home/aquemy/.local/lib/python2.7/site-packages/sklearn/feature_selection/univariate_selection.py:114: UserWarning: Features [ 0  7 23 31 32 39 40 47 48 56] are constant.
+  UserWarning)
+/home/aquemy/.local/lib/python2.7/site-packages/sklearn/feature_selection/univariate_selection.py:114: UserWarning: Features [ 0 23 24 31 32 39 40 47 56] are constant.
+  UserWarning)
+/home/aquemy/.local/lib/python2.7/site-packages/sklearn/feature_selection/univariate_selection.py:114: UserWarning: Features [ 0 23 31 32 39 40 47 56] are constant.
+  UserWarning)
+/home/aquemy/.local/lib/python2.7/site-packages/sklearn/feature_selection/univariate_selection.py:114: UserWarning: Features [ 0 31 32 39 40 47 56] are constant.
+  UserWarning)
+/home/aquemy/.local/lib/python2.7/site-packages/sklearn/feature_selection/univariate_selection.py:114: UserWarning: Features [ 0 23 24 31 32 39 40 47 48 56] are constant.
+  UserWarning)
+/home/aquemy/.local/lib/python2.7/site-packages/sklearn/feature_selection/univariate_selection.py:114: UserWarning: Features [ 0 31 32 39 47 48 56] are constant.
+  UserWarning)
+/home/aquemy/.local/lib/python2.7/site-packages/sklearn/feature_selection/univariate_selection.py:114: UserWarning: Features [ 0 32 39 56] are constant.
+  UserWarning)
+Traceback (most recent call last):
+  File "<string>", line 1, in <module>
+Traceback (most recent call last):
+  File "/usr/lib/python2.7/runpy.py", line 163, in _run_module_as_main
+  File "/home/aquemy/.local/lib/python2.7/site-packages/sklearn/externals/joblib/externals/loky/backend/semaphore_tracker.py", line 37, in <module>
+    mod_name, _Error)
+  File "/usr/lib/python2.7/runpy.py", line 102, in _get_module_details
+    loader = get_loader(mod_name)
+  File "/usr/lib/python2.7/pkgutil.py", line 462, in get_loader
+    return find_loader(fullname)
+  File "/usr/lib/python2.7/pkgutil.py", line 472, in find_loader
+    for importer in iter_importers(fullname):
+  File "/usr/lib/python2.7/pkgutil.py", line 428, in iter_importers
+    __import__(pkg)
+  File "/home/aquemy/.local/lib/python2.7/site-packages/sklearn/__init__.py", line 64, in <module>
+    from .base import clone
+  File "/home/aquemy/.local/lib/python2.7/site-packages/sklearn/base.py", line 13, in <module>
+    from .utils.fixes import signature
+  File "/home/aquemy/.local/lib/python2.7/site-packages/sklearn/utils/__init__.py", line 14, in <module>
+    from . import _joblib
+  File "/home/aquemy/.local/lib/python2.7/site-packages/sklearn/utils/_joblib.py", line 22, in <module>
+    from ..externals import joblib
+  File "/home/aquemy/.local/lib/python2.7/site-packages/sklearn/externals/joblib/__init__.py", line 119, in <module>
+    from .parallel import Parallel
+  File "/home/aquemy/.local/lib/python2.7/site-packages/sklearn/externals/joblib/parallel.py", line 28, in <module>
+    from ._parallel_backends import (FallbackToBackend, MultiprocessingBackend,
+  File "/home/aquemy/.local/lib/python2.7/site-packages/sklearn/externals/joblib/_parallel_backends.py", line 22, in <module>
+    from .executor import get_memmapping_executor
+  File "/home/aquemy/.local/lib/python2.7/site-packages/sklearn/externals/joblib/executor.py", line 14, in <module>
+    from .semlock import sem_unlink
+  File "/home/aquemy/.local/lib/python2.7/site-packages/sklearn/externals/joblib/externals/loky/backend/semlock.py", line 43, in <module>
+    pthread = ctypes.CDLL(find_library('pthread'), use_errno=True)
+  File "/usr/lib/python2.7/ctypes/util.py", line 285, in find_library
+    from .externals.loky.reusable_executor import get_reusable_executor
+  File "/home/aquemy/.local/lib/python2.7/site-packages/sklearn/externals/joblib/externals/loky/__init__.py", line 11, in <module>
+    return _findSoname_ldconfig(name) or _get_soname(_findLib_gcc(name))
+  File "/usr/lib/python2.7/ctypes/util.py", line 275, in _findSoname_ldconfig
+    env=env)
+  File "/usr/lib/python2.7/subprocess.py", line 394, in __init__
+    errread, errwrite)
+  File "/usr/lib/python2.7/subprocess.py", line 1023, in _execute_child
+    data = _eintr_retry_call(os.read, errpipe_read, 1048576)
+  File "/usr/lib/python2.7/subprocess.py", line 125, in _eintr_retry_call
+    return func(*args)
+KeyboardInterrupt
+Traceback (most recent call last):
+  File "/usr/lib/python2.7/runpy.py", line 163, in _run_module_as_main
+    mod_name, _Error)
+  File "/usr/lib/python2.7/runpy.py", line 102, in _get_module_details
+    loader = get_loader(mod_name)
+  File "/usr/lib/python2.7/pkgutil.py", line 462, in get_loader
+    return find_loader(fullname)
+  File "/usr/lib/python2.7/pkgutil.py", line 472, in find_loader
+    for importer in iter_importers(fullname):
+  File "/usr/lib/python2.7/pkgutil.py", line 428, in iter_importers
+    __import__(pkg)
+  File "/home/aquemy/.local/lib/python2.7/site-packages/sklearn/__init__.py", line 64, in <module>
+    from .base import clone
+  File "/home/aquemy/.local/lib/python2.7/site-packages/sklearn/base.py", line 13, in <module>
+    from .utils.fixes import signature
+  File "/home/aquemy/.local/lib/python2.7/site-packages/sklearn/utils/__init__.py", line 14, in <module>
+    from . import _joblib
+  File "/home/aquemy/.local/lib/python2.7/site-packages/sklearn/utils/_joblib.py", line 22, in <module>
+    from ..externals import joblib
+  File "/home/aquemy/.local/lib/python2.7/site-packages/sklearn/externals/joblib/__init__.py", line 119, in <module>
+    from .parallel import Parallel
+  File "/home/aquemy/.local/lib/python2.7/site-packages/sklearn/externals/joblib/parallel.py", line 28, in <module>
+    from ._parallel_backends import (FallbackToBackend, MultiprocessingBackend,
+  File "/home/aquemy/.local/lib/python2.7/site-packages/sklearn/externals/joblib/_parallel_backends.py", line 22, in <module>
+    from .executor import get_memmapping_executor
+  File "/home/aquemy/.local/lib/python2.7/site-packages/sklearn/externals/joblib/executor.py", line 14, in <module>
+    from .externals.loky.reusable_executor import get_reusable_executor
+  File "/home/aquemy/.local/lib/python2.7/site-packages/sklearn/externals/joblib/externals/loky/__init__.py", line 6, in <module>
+Traceback (most recent call last):
+  File "/usr/lib/python2.7/runpy.py", line 163, in _run_module_as_main
+    from .backend.context import cpu_count
+  File "/home/aquemy/.local/lib/python2.7/site-packages/sklearn/externals/joblib/externals/loky/backend/__init__.py", line 4, in <module>
+    mod_name, _Error)
+  File "/usr/lib/python2.7/runpy.py", line 119, in _get_module_details
+    code = loader.get_code(mod_name)
+  File "/usr/lib/python2.7/pkgutil.py", line 281, in get_code
+    from ._base import Executor, Future
+  File "/home/aquemy/.local/lib/python2.7/site-packages/sklearn/externals/joblib/externals/loky/_base.py", line 539, in <module>
+    self.code = compile(source, self.filename, 'exec')
+KeyboardInterrupt
+    class Executor(object):
+KeyboardInterrupt
+    from .context import get_context
+  File "/home/aquemy/.local/lib/python2.7/site-packages/sklearn/externals/joblib/externals/loky/backend/context.py", line 21, in <module>
+    from .process import LokyProcess, LokyInitMainProcess
+  File "/home/aquemy/.local/lib/python2.7/site-packages/sklearn/externals/joblib/externals/loky/backend/process.py", line 11, in <module>
+    from .compat import BaseProcess
+  File "/home/aquemy/.local/lib/python2.7/site-packages/sklearn/externals/joblib/externals/loky/backend/compat.py", line 25, in <module>
+    from .compat_posix import wait
+  File "/home/aquemy/.local/lib/python2.7/site-packages/sklearn/externals/joblib/externals/loky/backend/compat_posix.py", line 11, in <module>
+    from ._posix_wait import wait
+  File "/home/aquemy/.local/lib/python2.7/site-packages/sklearn/externals/joblib/externals/loky/backend/_posix_wait.py", line 12, in <module>
+    import socket
+  File "/usr/lib/python2.7/socket.py", line 45, in <module>
+    """
+KeyboardInterrupt
+Error in generated code:
+def qmr(A, b, x0, tol, maxiter, M1, M2, callback, atol):
+    return _call_(_func_, A, b, x0, tol, maxiter, M1, M2, callback, atol)
+
+Traceback (most recent call last):
+  File "/usr/lib/python2.7/runpy.py", line 163, in _run_module_as_main
+    mod_name, _Error)
+  File "/usr/lib/python2.7/runpy.py", line 102, in _get_module_details
+    loader = get_loader(mod_name)
+  File "/usr/lib/python2.7/pkgutil.py", line 462, in get_loader
+    return find_loader(fullname)
+  File "/usr/lib/python2.7/pkgutil.py", line 472, in find_loader
+    for importer in iter_importers(fullname):
+  File "/usr/lib/python2.7/pkgutil.py", line 428, in iter_importers
+    __import__(pkg)
+  File "/home/aquemy/.local/lib/python2.7/site-packages/sklearn/__init__.py", line 64, in <module>
+    from .base import clone
+  File "/home/aquemy/.local/lib/python2.7/site-packages/sklearn/base.py", line 13, in <module>
+    from .utils.fixes import signature
+  File "/home/aquemy/.local/lib/python2.7/site-packages/sklearn/utils/__init__.py", line 16, in <module>
+    from .fixes import _Sequence as Sequence
+  File "/home/aquemy/.local/lib/python2.7/site-packages/sklearn/utils/fixes.py", line 92, in <module>
+    from scipy.sparse.linalg import lsqr as sparse_lsqr  # noqa
+  File "/home/aquemy/.local/lib/python2.7/site-packages/scipy/sparse/linalg/__init__.py", line 114, in <module>
+    from .isolve import *
+  File "/home/aquemy/.local/lib/python2.7/site-packages/scipy/sparse/linalg/isolve/__init__.py", line 6, in <module>
+    from .iterative import *
+  File "/home/aquemy/.local/lib/python2.7/site-packages/scipy/sparse/linalg/isolve/iterative.py", line 604, in <module>
+    atol=None):
+  File "/home/aquemy/.local/lib/python2.7/site-packages/scipy/_lib/_threadsafety.py", line 59, in decorator
+    return lock.decorate(func)
+  File "/home/aquemy/.local/lib/python2.7/site-packages/scipy/_lib/_threadsafety.py", line 47, in decorate
+    return scipy._lib.decorator.decorate(func, caller)
+  File "/home/aquemy/.local/lib/python2.7/site-packages/scipy/_lib/decorator.py", line 234, in decorate
+    evaldict, __wrapped__=func)
+  File "/home/aquemy/.local/lib/python2.7/site-packages/scipy/_lib/decorator.py", line 222, in create
+    evaldict, addsource, **attrs)
+  File "/home/aquemy/.local/lib/python2.7/site-packages/scipy/_lib/decorator.py", line 190, in make
+    code = compile(src, filename, 'single')
+KeyboardInterrupt
+Exception OSError: OSError(32, 'Broken pipe') in <Finalize object, dead> ignored
+Exception OSError: OSError(32, 'Broken pipe') in <Finalize object, dead> ignored
+Exception OSError: OSError(32, 'Broken pipe') in <Finalize object, dead> ignored
+Exception OSError: OSError(32, 'Broken pipe') in <Finalize object, dead> ignored
+Exception OSError: OSError(32, 'Broken pipe') in <Finalize object, dead> ignored
+Exception OSError: OSError(32, 'Broken pipe') in <Finalize object, dead> ignored
+Exception OSError: OSError(32, 'Broken pipe') in <Finalize object, dead> ignored
+Traceback (most recent call last):
+  File "./main.py", line 32, in <module>
+    main(args)
+  File "./main.py", line 26, in main
+    policy.run(X,y)
+  File "/home/aquemy/dev/dp_hyperparameters/extension/experiment/policies/split.py", line 14, in run
+    super(Split, self).run(X, y)
+  File "/home/aquemy/dev/dp_hyperparameters/extension/experiment/policies/policy.py", line 31, in run
+    self.__compute_baseline(X, y)
+  File "/home/aquemy/dev/dp_hyperparameters/extension/experiment/policies/policy.py", line 25, in __compute_baseline
+    self.config['seed'])
+  File "/home/aquemy/dev/dp_hyperparameters/extension/experiment/objective.py", line 126, in get_baseline_score
+    verbose=0)
+  File "/home/aquemy/.local/lib/python2.7/site-packages/sklearn/model_selection/_validation.py", line 240, in cross_validate
+    for train, test in cv.split(X, y, groups))
+  File "/home/aquemy/.local/lib/python2.7/site-packages/sklearn/externals/joblib/parallel.py", line 930, in __call__
+    self.retrieve()
+  File "/home/aquemy/.local/lib/python2.7/site-packages/sklearn/externals/joblib/parallel.py", line 833, in retrieve
+    self._output.extend(job.get(timeout=self.timeout))
+  File "/home/aquemy/.local/lib/python2.7/site-packages/sklearn/externals/joblib/_parallel_backends.py", line 521, in wrap_future_result
+    return future.result(timeout=timeout)
+  File "/home/aquemy/.local/lib/python2.7/site-packages/sklearn/externals/joblib/externals/loky/_base.py", line 428, in result
+    self._condition.wait(timeout)
+  File "/usr/lib/python2.7/threading.py", line 340, in wait
+    waiter.acquire()
+KeyboardInterrupt
+Traceback (most recent call last):
+  File "/usr/lib/python2.7/multiprocessing/util.py", line 277, in _run_finalizers
+    finalizer()
+  File "/usr/lib/python2.7/multiprocessing/util.py", line 207, in __call__
+    res = self._callback(*self._args, **self._kwargs)
+  File "/home/aquemy/.local/lib/python2.7/site-packages/sklearn/externals/joblib/externals/loky/backend/synchronize.py", line 97, in _cleanup
+    semaphore_tracker.unregister(name)
+  File "/home/aquemy/.local/lib/python2.7/site-packages/sklearn/externals/joblib/externals/loky/backend/semaphore_tracker.py", line 125, in unregister
+    self.ensure_running()
+  File "/home/aquemy/.local/lib/python2.7/site-packages/sklearn/externals/joblib/externals/loky/backend/semaphore_tracker.py", line 66, in ensure_running
+    if self._check_alive():
+  File "/home/aquemy/.local/lib/python2.7/site-packages/sklearn/externals/joblib/externals/loky/backend/semaphore_tracker.py", line 112, in _check_alive
+    self._send('PROBE', '')
+  File "/home/aquemy/.local/lib/python2.7/site-packages/sklearn/externals/joblib/externals/loky/backend/semaphore_tracker.py", line 134, in _send
+    nbytes = os.write(self._fd, msg)
+OSError: [Errno 32] Broken pipe
+Traceback (most recent call last):
+  File "/usr/lib/python2.7/multiprocessing/util.py", line 277, in _run_finalizers
+    finalizer()
+  File "/usr/lib/python2.7/multiprocessing/util.py", line 207, in __call__
+    res = self._callback(*self._args, **self._kwargs)
+  File "/home/aquemy/.local/lib/python2.7/site-packages/sklearn/externals/joblib/externals/loky/backend/synchronize.py", line 97, in _cleanup
+    semaphore_tracker.unregister(name)
+  File "/home/aquemy/.local/lib/python2.7/site-packages/sklearn/externals/joblib/externals/loky/backend/semaphore_tracker.py", line 125, in unregister
+    self.ensure_running()
+  File "/home/aquemy/.local/lib/python2.7/site-packages/sklearn/externals/joblib/externals/loky/backend/semaphore_tracker.py", line 66, in ensure_running
+    if self._check_alive():
+  File "/home/aquemy/.local/lib/python2.7/site-packages/sklearn/externals/joblib/externals/loky/backend/semaphore_tracker.py", line 112, in _check_alive
+    self._send('PROBE', '')
+  File "/home/aquemy/.local/lib/python2.7/site-packages/sklearn/externals/joblib/externals/loky/backend/semaphore_tracker.py", line 134, in _send
+    nbytes = os.write(self._fd, msg)
+OSError: [Errno 32] Broken pipe
+Traceback (most recent call last):
+  File "/usr/lib/python2.7/multiprocessing/util.py", line 277, in _run_finalizers
+    finalizer()
+  File "/usr/lib/python2.7/multiprocessing/util.py", line 207, in __call__
+    res = self._callback(*self._args, **self._kwargs)
+  File "/home/aquemy/.local/lib/python2.7/site-packages/sklearn/externals/joblib/externals/loky/backend/synchronize.py", line 97, in _cleanup
+    semaphore_tracker.unregister(name)
+  File "/home/aquemy/.local/lib/python2.7/site-packages/sklearn/externals/joblib/externals/loky/backend/semaphore_tracker.py", line 125, in unregister
+    self.ensure_running()
+  File "/home/aquemy/.local/lib/python2.7/site-packages/sklearn/externals/joblib/externals/loky/backend/semaphore_tracker.py", line 66, in ensure_running
+    if self._check_alive():
+  File "/home/aquemy/.local/lib/python2.7/site-packages/sklearn/externals/joblib/externals/loky/backend/semaphore_tracker.py", line 112, in _check_alive
+    self._send('PROBE', '')
+  File "/home/aquemy/.local/lib/python2.7/site-packages/sklearn/externals/joblib/externals/loky/backend/semaphore_tracker.py", line 134, in _send
+    nbytes = os.write(self._fd, msg)
+OSError: [Errno 32] Broken pipe
+Exception in thread QueueFeederThread (most likely raised during interpreter shutdown):
+Traceback (most recent call last):
+  File "/usr/lib/python2.7/threading.py", line 801, in __bootstrap_inner
+  File "/usr/lib/python2.7/threading.py", line 754, in run
+  File "/home/aquemy/.local/lib/python2.7/site-packages/sklearn/externals/joblib/externals/loky/backend/queues.py", line 150, in _feed
+  File "/home/aquemy/.local/lib/python2.7/site-packages/sklearn/externals/joblib/externals/loky/backend/reduction.py", line 243, in dumps
+  File "/home/aquemy/.local/lib/python2.7/site-packages/sklearn/externals/joblib/externals/loky/backend/reduction.py", line 236, in dump
+  File "/home/aquemy/.local/lib/python2.7/site-packages/sklearn/externals/joblib/externals/cloudpickle/cloudpickle.py", line 284, in dump
+  File "/usr/lib/python2.7/pickle.py", line 224, in dump
+  File "/usr/lib/python2.7/pickle.py", line 331, in save
+  File "/usr/lib/python2.7/pickle.py", line 425, in save_reduce
+  File "/usr/lib/python2.7/pickle.py", line 286, in save
+  File "/usr/lib/python2.7/pickle.py", line 655, in save_dict
+  File "/usr/lib/python2.7/pickle.py", line 687, in _batch_setitems
+  File "/usr/lib/python2.7/pickle.py", line 331, in save
+  File "/usr/lib/python2.7/pickle.py", line 425, in save_reduce
+  File "/usr/lib/python2.7/pickle.py", line 286, in save
+  File "/usr/lib/python2.7/pickle.py", line 655, in save_dict
+  File "/usr/lib/python2.7/pickle.py", line 692, in _batch_setitems
+  File "/usr/lib/python2.7/pickle.py", line 331, in save
+  File "/usr/lib/python2.7/pickle.py", line 425, in save_reduce
+  File "/usr/lib/python2.7/pickle.py", line 286, in save
+  File "/usr/lib/python2.7/pickle.py", line 655, in save_dict
+  File "/usr/lib/python2.7/pickle.py", line 687, in _batch_setitems
+  File "/usr/lib/python2.7/pickle.py", line 286, in save
+  File "/usr/lib/python2.7/pickle.py", line 606, in save_list
+  File "/usr/lib/python2.7/pickle.py", line 642, in _batch_appends
+  File "/usr/lib/python2.7/pickle.py", line 286, in save
+  File "/usr/lib/python2.7/pickle.py", line 554, in save_tuple
+  File "/usr/lib/python2.7/pickle.py", line 286, in save
+  File "/usr/lib/python2.7/pickle.py", line 568, in save_tuple
+  File "/usr/lib/python2.7/pickle.py", line 286, in save
+  File "/home/aquemy/.local/lib/python2.7/site-packages/sklearn/externals/joblib/externals/loky/backend/reduction.py", line 203, in dispatcher
+  File "/usr/lib/python2.7/pickle.py", line 400, in save_reduce
+  File "/usr/lib/python2.7/pickle.py", line 286, in save
+  File "/home/aquemy/.local/lib/python2.7/site-packages/sklearn/externals/joblib/externals/cloudpickle/cloudpickle.py", line 659, in save_builtin_function
+  File "/home/aquemy/.local/lib/python2.7/site-packages/sklearn/externals/joblib/externals/cloudpickle/cloudpickle.py", line 389, in save_function
+  File "/home/aquemy/.local/lib/python2.7/site-packages/sklearn/externals/joblib/externals/cloudpickle/cloudpickle.py", line 681, in save_global
+  File "/usr/lib/python2.7/pickle.py", line 743, in save_global
+<type 'exceptions.TypeError'>: 'NoneType' object is not callable

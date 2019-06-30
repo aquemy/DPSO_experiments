@@ -1,0 +1,8 @@
+/home/aquemy/.local/lib/python2.7/site-packages/sklearn/preprocessing/data.py:2778: RuntimeWarning: divide by zero encountered in log
+  loglike = -n_samples / 2 * np.log(x_trans.var())
+/home/aquemy/.local/lib/python2.7/site-packages/sklearn/preprocessing/data.py:2778: RuntimeWarning: divide by zero encountered in log
+  loglike = -n_samples / 2 * np.log(x_trans.var())
+/home/aquemy/.local/lib/python2.7/site-packages/sklearn/preprocessing/data.py:2778: RuntimeWarning: divide by zero encountered in log
+  loglike = -n_samples / 2 * np.log(x_trans.var())
+/home/aquemy/.local/lib/python2.7/site-packages/sklearn/preprocessing/data.py:2778: RuntimeWarning: divide by zero encountered in log
+  loglike = -n_samples / 2 * np.log(x_trans.var())

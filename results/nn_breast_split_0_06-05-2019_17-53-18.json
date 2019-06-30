@@ -1,0 +1,346 @@
+{
+    "context": {
+        "best_config": {
+            "status": "ok", 
+            "score_std": 0.027646801001269376, 
+            "max_history_score_std": 0.027646801001269376, 
+            "iteration": 5, 
+            "start_time": 1559749984.393084, 
+            "step": "algorithm", 
+            "duration": 13.836390018463135, 
+            "loss": 0.06510781263503573, 
+            "pipeline": {}, 
+            "algorithm": {
+                "alpha": 1e-05, 
+                "activation": "tanh", 
+                "hidden_layer_sizes": [
+                    100
+                ], 
+                "learning_rate": "constant", 
+                "solver": "adam"
+            }, 
+            "config_hash": {
+                "pipeline": "bf21a9e8fbc5a3846fb05b4fa0859e0917b2202f", 
+                "config": "8f7b8408d349fec891c0b99e15b95cf3ea88c2df", 
+                "algorithm": "1887b7327328ad4d7147f9e5bbee4cb8f341589a"
+            }, 
+            "max_history_step": "algorithm", 
+            "score": 0.9348921873649643, 
+            "stop_time": 1559749998.229474, 
+            "type": "pipeline", 
+            "max_history_score": 0.9348921873649643
+        }, 
+        "baseline_score": 0.9366163252959987, 
+        "history_index": {
+            "5d52d69f7b9954d950af12301908f5cd54dea18f": 3, 
+            "73bae38065a20c76a2cf20cab16ed1012eed5d54": 2, 
+            "db875fcd4074aff9ad8b579dc97d316050a59550": 0, 
+            "8f7b8408d349fec891c0b99e15b95cf3ea88c2df": 5, 
+            "ee55f360a4fade381ad062baa7229b062ca2abc7": 4, 
+            "4737404b6526b37c42d09b9acd14ea4429a5ab58": 1
+        }, 
+        "baseline_score_std": 0.014583891121471187, 
+        "history_hash": [
+            "db875fcd4074aff9ad8b579dc97d316050a59550", 
+            "4737404b6526b37c42d09b9acd14ea4429a5ab58", 
+            "73bae38065a20c76a2cf20cab16ed1012eed5d54", 
+            "5d52d69f7b9954d950af12301908f5cd54dea18f", 
+            "ee55f360a4fade381ad062baa7229b062ca2abc7", 
+            "8f7b8408d349fec891c0b99e15b95cf3ea88c2df"
+        ], 
+        "max_history_step": "algorithm", 
+        "max_history_score_std": 0.027646801001269376, 
+        "iteration": 5, 
+        "max_history_score": 0.9348921873649643, 
+        "history": [
+            {
+                "status": "ok", 
+                "score_std": 0.004411892459753817, 
+                "max_history_score_std": 0.004411892459753817, 
+                "iteration": 0, 
+                "start_time": 1559749692.549776, 
+                "step": "algorithm", 
+                "duration": 8.06652283668518, 
+                "loss": 0.6274274047186933, 
+                "pipeline": {}, 
+                "algorithm": {
+                    "alpha": 0.01, 
+                    "activation": "tanh", 
+                    "hidden_layer_sizes": [
+                        10, 
+                        10, 
+                        10, 
+                        10, 
+                        10, 
+                        10, 
+                        10, 
+                        10, 
+                        10, 
+                        10, 
+                        10, 
+                        10, 
+                        10, 
+                        10, 
+                        10, 
+                        10, 
+                        10, 
+                        10, 
+                        10, 
+                        10, 
+                        10, 
+                        10, 
+                        10, 
+                        10, 
+                        10
+                    ], 
+                    "learning_rate": "invscaling", 
+                    "solver": "sgd"
+                }, 
+                "config_hash": {
+                    "pipeline": "bf21a9e8fbc5a3846fb05b4fa0859e0917b2202f", 
+                    "config": "db875fcd4074aff9ad8b579dc97d316050a59550", 
+                    "algorithm": "35bde5afd6756532ac13a730603a746eda848af1"
+                }, 
+                "max_history_step": "algorithm", 
+                "score": 0.3725725952813067, 
+                "stop_time": 1559749700.616299, 
+                "type": "pipeline", 
+                "max_history_score": 0.3725725952813067
+            }, 
+            {
+                "status": "ok", 
+                "score_std": 0.013969557297455063, 
+                "max_history_score_std": 0.013969557297455063, 
+                "iteration": 1, 
+                "start_time": 1559749700.694338, 
+                "step": "algorithm", 
+                "duration": 87.91768789291382, 
+                "loss": 0.08265383285800687, 
+                "pipeline": {}, 
+                "algorithm": {
+                    "alpha": 0.01, 
+                    "activation": "relu", 
+                    "hidden_layer_sizes": [
+                        100, 
+                        100, 
+                        100, 
+                        100, 
+                        100, 
+                        100, 
+                        100, 
+                        100, 
+                        100, 
+                        100
+                    ], 
+                    "learning_rate": "adaptive", 
+                    "solver": "adam"
+                }, 
+                "config_hash": {
+                    "pipeline": "bf21a9e8fbc5a3846fb05b4fa0859e0917b2202f", 
+                    "config": "4737404b6526b37c42d09b9acd14ea4429a5ab58", 
+                    "algorithm": "1502479d9650d978e83616892e4bf3e3ec75668f"
+                }, 
+                "max_history_step": "algorithm", 
+                "score": 0.9173461671419931, 
+                "stop_time": 1559749788.612026, 
+                "type": "pipeline", 
+                "max_history_score": 0.9173461671419931
+            }, 
+            {
+                "status": "ok", 
+                "score_std": 0.00441189245975379, 
+                "max_history_score_std": 0.013969557297455063, 
+                "iteration": 2, 
+                "start_time": 1559749788.721551, 
+                "step": "algorithm", 
+                "duration": 3.7522971630096436, 
+                "loss": 0.3725725952813067, 
+                "pipeline": {}, 
+                "algorithm": {
+                    "alpha": 0.001, 
+                    "activation": "logistic", 
+                    "hidden_layer_sizes": [
+                        10, 
+                        10, 
+                        10, 
+                        10, 
+                        10, 
+                        10, 
+                        10, 
+                        10, 
+                        10, 
+                        10
+                    ], 
+                    "learning_rate": "constant", 
+                    "solver": "adam"
+                }, 
+                "config_hash": {
+                    "pipeline": "bf21a9e8fbc5a3846fb05b4fa0859e0917b2202f", 
+                    "config": "73bae38065a20c76a2cf20cab16ed1012eed5d54", 
+                    "algorithm": "ef1051ba1dc880b556393d25ffe1a8926641e26a"
+                }, 
+                "max_history_step": "algorithm", 
+                "score": 0.6274274047186933, 
+                "stop_time": 1559749792.473848, 
+                "type": "pipeline", 
+                "max_history_score": 0.9173461671419931
+            }, 
+            {
+                "status": "ok", 
+                "score_std": 0.032125349595448494, 
+                "max_history_score_std": 0.032125349595448494, 
+                "iteration": 3, 
+                "start_time": 1559749792.615589, 
+                "step": "algorithm", 
+                "duration": 2.720935106277466, 
+                "loss": 0.08250043211476965, 
+                "pipeline": {}, 
+                "algorithm": {
+                    "alpha": 0.001, 
+                    "activation": "relu", 
+                    "hidden_layer_sizes": [
+                        10, 
+                        10
+                    ], 
+                    "learning_rate": "constant", 
+                    "solver": "lbfgs"
+                }, 
+                "config_hash": {
+                    "pipeline": "bf21a9e8fbc5a3846fb05b4fa0859e0917b2202f", 
+                    "config": "5d52d69f7b9954d950af12301908f5cd54dea18f", 
+                    "algorithm": "2148c9bbc4eb1936720910ea7f8a636b1cd39b6e"
+                }, 
+                "max_history_step": "algorithm", 
+                "score": 0.9174995678852303, 
+                "stop_time": 1559749795.336524, 
+                "type": "pipeline", 
+                "max_history_score": 0.9174995678852303
+            }, 
+            {
+                "status": "ok", 
+                "score_std": 0.00441189245975379, 
+                "max_history_score_std": 0.032125349595448494, 
+                "iteration": 4, 
+                "start_time": 1559749795.439179, 
+                "step": "algorithm", 
+                "duration": 188.85924005508423, 
+                "loss": 0.3725725952813067, 
+                "pipeline": {}, 
+                "algorithm": {
+                    "alpha": 0.01, 
+                    "activation": "logistic", 
+                    "hidden_layer_sizes": [
+                        50, 
+                        50, 
+                        50, 
+                        50, 
+                        50, 
+                        50, 
+                        50, 
+                        50, 
+                        50, 
+                        50, 
+                        50, 
+                        50, 
+                        50, 
+                        50, 
+                        50, 
+                        50, 
+                        50, 
+                        50, 
+                        50, 
+                        50, 
+                        50, 
+                        50, 
+                        50, 
+                        50, 
+                        50, 
+                        50, 
+                        50, 
+                        50, 
+                        50, 
+                        50, 
+                        50, 
+                        50, 
+                        50, 
+                        50, 
+                        50, 
+                        50, 
+                        50, 
+                        50, 
+                        50, 
+                        50, 
+                        50, 
+                        50, 
+                        50, 
+                        50, 
+                        50, 
+                        50, 
+                        50, 
+                        50, 
+                        50, 
+                        50
+                    ], 
+                    "learning_rate": "constant", 
+                    "solver": "adam"
+                }, 
+                "config_hash": {
+                    "pipeline": "bf21a9e8fbc5a3846fb05b4fa0859e0917b2202f", 
+                    "config": "ee55f360a4fade381ad062baa7229b062ca2abc7", 
+                    "algorithm": "726c22e6ff06a5b45aa8446236b803e188124ddd"
+                }, 
+                "max_history_step": "algorithm", 
+                "score": 0.6274274047186933, 
+                "stop_time": 1559749984.298419, 
+                "type": "pipeline", 
+                "max_history_score": 0.9174995678852303
+            }, 
+            {
+                "status": "ok", 
+                "score_std": 0.027646801001269376, 
+                "max_history_score_std": 0.027646801001269376, 
+                "iteration": 5, 
+                "start_time": 1559749984.393084, 
+                "step": "algorithm", 
+                "duration": 13.836390018463135, 
+                "loss": 0.06510781263503573, 
+                "pipeline": {}, 
+                "algorithm": {
+                    "alpha": 1e-05, 
+                    "activation": "tanh", 
+                    "hidden_layer_sizes": [
+                        100
+                    ], 
+                    "learning_rate": "constant", 
+                    "solver": "adam"
+                }, 
+                "config_hash": {
+                    "pipeline": "bf21a9e8fbc5a3846fb05b4fa0859e0917b2202f", 
+                    "config": "8f7b8408d349fec891c0b99e15b95cf3ea88c2df", 
+                    "algorithm": "1887b7327328ad4d7147f9e5bbee4cb8f341589a"
+                }, 
+                "max_history_step": "algorithm", 
+                "score": 0.9348921873649643, 
+                "stop_time": 1559749998.229474, 
+                "type": "pipeline", 
+                "max_history_score": 0.9348921873649643
+            }
+        ]
+    }, 
+    "scenario": {
+        "control": {
+            "seed": 42
+        }, 
+        "policy": {
+            "step_pipeline": 0
+        }, 
+        "setup": {
+            "policy": "split", 
+            "runtime": 300, 
+            "algorithm": "NeuralNet", 
+            "dataset": "breast"
+        }, 
+        "file_name": "nn_breast_split_0", 
+        "title": "Neural Net on Breast with Split policy"
+    }
+}

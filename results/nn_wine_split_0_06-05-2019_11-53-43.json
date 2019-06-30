@@ -1,0 +1,239 @@
+{
+    "context": {
+        "best_config": {
+            "status": "ok", 
+            "score_std": 0.016871583549832498, 
+            "max_history_score_std": 0.016871583549832498, 
+            "iteration": 0, 
+            "start_time": 1559727698.892891, 
+            "step": "algorithm", 
+            "duration": 6.676841974258423, 
+            "loss": 0.6007460440316478, 
+            "pipeline": {}, 
+            "algorithm": {
+                "alpha": 0.001, 
+                "activation": "logistic", 
+                "hidden_layer_sizes": [
+                    50, 
+                    50, 
+                    50, 
+                    50, 
+                    50
+                ], 
+                "learning_rate": "adaptive", 
+                "solver": "sgd"
+            }, 
+            "config_hash": {
+                "pipeline": "bf21a9e8fbc5a3846fb05b4fa0859e0917b2202f", 
+                "config": "afe44001051d63767241fd2cb81020da7a501270", 
+                "algorithm": "3d51ba7b4a65bb742f359f8607d7230c36d5eac5"
+            }, 
+            "max_history_step": "algorithm", 
+            "score": 0.3992539559683522, 
+            "stop_time": 1559727705.569733, 
+            "type": "pipeline", 
+            "max_history_score": 0.3992539559683522
+        }, 
+        "baseline_score": 0.9005847953216375, 
+        "history_index": {
+            "5c3110f5e3fffa50652088a4179f24b803cc1474": 1, 
+            "afe44001051d63767241fd2cb81020da7a501270": 0, 
+            "ee970abcb079e8bff9aaef906e7b6c49342a1756": 2
+        }, 
+        "baseline_score_std": 0.0852879419132968, 
+        "history_hash": [
+            "afe44001051d63767241fd2cb81020da7a501270", 
+            "5c3110f5e3fffa50652088a4179f24b803cc1474", 
+            "ee970abcb079e8bff9aaef906e7b6c49342a1756"
+        ], 
+        "max_history_step": "algorithm", 
+        "max_history_score_std": 0.016871583549832498, 
+        "iteration": 2, 
+        "max_history_score": 0.3992539559683522, 
+        "history": [
+            {
+                "status": "ok", 
+                "score_std": 0.016871583549832498, 
+                "max_history_score_std": 0.016871583549832498, 
+                "iteration": 0, 
+                "start_time": 1559727698.892891, 
+                "step": "algorithm", 
+                "duration": 6.676841974258423, 
+                "loss": 0.6007460440316478, 
+                "pipeline": {}, 
+                "algorithm": {
+                    "alpha": 0.001, 
+                    "activation": "logistic", 
+                    "hidden_layer_sizes": [
+                        50, 
+                        50, 
+                        50, 
+                        50, 
+                        50
+                    ], 
+                    "learning_rate": "adaptive", 
+                    "solver": "sgd"
+                }, 
+                "config_hash": {
+                    "pipeline": "bf21a9e8fbc5a3846fb05b4fa0859e0917b2202f", 
+                    "config": "afe44001051d63767241fd2cb81020da7a501270", 
+                    "algorithm": "3d51ba7b4a65bb742f359f8607d7230c36d5eac5"
+                }, 
+                "max_history_step": "algorithm", 
+                "score": 0.3992539559683522, 
+                "stop_time": 1559727705.569733, 
+                "type": "pipeline", 
+                "max_history_score": 0.3992539559683522
+            }, 
+            {
+                "status": "ok", 
+                "score_std": 0.016871583549832498, 
+                "max_history_score_std": 0.016871583549832498, 
+                "iteration": 1, 
+                "start_time": 1559727705.659374, 
+                "step": "algorithm", 
+                "duration": 135.33180594444275, 
+                "loss": 0.6007460440316478, 
+                "pipeline": {}, 
+                "algorithm": {
+                    "alpha": 1e-05, 
+                    "activation": "logistic", 
+                    "hidden_layer_sizes": [
+                        100, 
+                        100, 
+                        100, 
+                        100, 
+                        100, 
+                        100, 
+                        100, 
+                        100, 
+                        100, 
+                        100, 
+                        100, 
+                        100, 
+                        100, 
+                        100, 
+                        100, 
+                        100, 
+                        100, 
+                        100, 
+                        100, 
+                        100, 
+                        100, 
+                        100, 
+                        100, 
+                        100, 
+                        100
+                    ], 
+                    "learning_rate": "adaptive", 
+                    "solver": "sgd"
+                }, 
+                "config_hash": {
+                    "pipeline": "bf21a9e8fbc5a3846fb05b4fa0859e0917b2202f", 
+                    "config": "5c3110f5e3fffa50652088a4179f24b803cc1474", 
+                    "algorithm": "328cb138988ad8ad150811eca7247762eff00f64"
+                }, 
+                "max_history_step": "algorithm", 
+                "score": 0.3992539559683522, 
+                "stop_time": 1559727840.99118, 
+                "type": "pipeline", 
+                "max_history_score": 0.3992539559683522
+            }, 
+            {
+                "status": "ok", 
+                "score_std": 0.016871583549832498, 
+                "max_history_score_std": 0.016871583549832498, 
+                "iteration": 2, 
+                "start_time": 1559727841.093322, 
+                "step": "algorithm", 
+                "duration": 582.2451310157776, 
+                "loss": 0.6007460440316478, 
+                "pipeline": {}, 
+                "algorithm": {
+                    "alpha": 0.01, 
+                    "activation": "tanh", 
+                    "hidden_layer_sizes": [
+                        100, 
+                        100, 
+                        100, 
+                        100, 
+                        100, 
+                        100, 
+                        100, 
+                        100, 
+                        100, 
+                        100, 
+                        100, 
+                        100, 
+                        100, 
+                        100, 
+                        100, 
+                        100, 
+                        100, 
+                        100, 
+                        100, 
+                        100, 
+                        100, 
+                        100, 
+                        100, 
+                        100, 
+                        100, 
+                        100, 
+                        100, 
+                        100, 
+                        100, 
+                        100, 
+                        100, 
+                        100, 
+                        100, 
+                        100, 
+                        100, 
+                        100, 
+                        100, 
+                        100, 
+                        100, 
+                        100, 
+                        100, 
+                        100, 
+                        100, 
+                        100, 
+                        100, 
+                        100, 
+                        100, 
+                        100, 
+                        100, 
+                        100
+                    ], 
+                    "learning_rate": "invscaling", 
+                    "solver": "adam"
+                }, 
+                "config_hash": {
+                    "pipeline": "bf21a9e8fbc5a3846fb05b4fa0859e0917b2202f", 
+                    "config": "ee970abcb079e8bff9aaef906e7b6c49342a1756", 
+                    "algorithm": "31f54eb49bac5ed1aa3bf420def648282fffc40d"
+                }, 
+                "max_history_step": "algorithm", 
+                "score": 0.3992539559683522, 
+                "stop_time": 1559728423.338453, 
+                "type": "pipeline", 
+                "max_history_score": 0.3992539559683522
+            }
+        ]
+    }, 
+    "scenario": {
+        "control": {
+            "seed": 42
+        }, 
+        "policy": {
+            "step_pipeline": 0
+        }, 
+        "setup": {
+            "policy": "split", 
+            "runtime": 300, 
+            "algorithm": "NeuralNet", 
+            "dataset": "wine"
+        }, 
+        "file_name": "nn_wine_split_0", 
+        "title": "Neural Net on Wine with Split policy"
+    }
+}

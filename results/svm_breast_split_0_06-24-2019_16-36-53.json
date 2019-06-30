@@ -1,0 +1,117 @@
+{
+    "context": {
+        "best_config": {
+            "status": "ok", 
+            "score_std": 0.020926339060654518, 
+            "max_history_score_std": 0.020926339060654518, 
+            "iteration": 1, 
+            "start_time": 1561386647.630437, 
+            "step": "algorithm", 
+            "duration": 365.5633671283722, 
+            "loss": 0.043865050557428176, 
+            "pipeline": {}, 
+            "algorithm": {
+                "kernel": "poly", 
+                "C": 0.05, 
+                "shrinking": true, 
+                "degree": 2, 
+                "gamma": "auto"
+            }, 
+            "config_hash": {
+                "pipeline": "bf21a9e8fbc5a3846fb05b4fa0859e0917b2202f", 
+                "config": "157cd5db7524eeadc4ab50e86ddecde402c5628f", 
+                "algorithm": "8bcccd91077e623eaf710d03f45faccd4974ed28"
+            }, 
+            "max_history_step": "algorithm", 
+            "score": 0.9561349494425718, 
+            "stop_time": 1561387013.193804, 
+            "max_history_score": 0.9561349494425718
+        }, 
+        "baseline_score": 0.6274274047186933, 
+        "history_index": {
+            "157cd5db7524eeadc4ab50e86ddecde402c5628f": 1, 
+            "cde88c94f3a4c5540f9ced7f419c2d206488fdbf": 0
+        }, 
+        "baseline_score_std": 0.00441189245975379, 
+        "history_hash": [
+            "cde88c94f3a4c5540f9ced7f419c2d206488fdbf", 
+            "157cd5db7524eeadc4ab50e86ddecde402c5628f"
+        ], 
+        "max_history_step": "algorithm", 
+        "max_history_score_std": 0.020926339060654518, 
+        "iteration": 1, 
+        "max_history_score": 0.9561349494425718, 
+        "history": [
+            {
+                "status": "ok", 
+                "score_std": 0.00441189245975379, 
+                "max_history_score_std": 0.00441189245975379, 
+                "iteration": 0, 
+                "start_time": 1561386647.324982, 
+                "step": "algorithm", 
+                "duration": 0.2879929542541504, 
+                "loss": 0.3725725952813067, 
+                "pipeline": {}, 
+                "algorithm": {
+                    "kernel": "rbf", 
+                    "C": 0.005, 
+                    "shrinking": false, 
+                    "degree": 10, 
+                    "gamma": "auto"
+                }, 
+                "config_hash": {
+                    "pipeline": "bf21a9e8fbc5a3846fb05b4fa0859e0917b2202f", 
+                    "config": "cde88c94f3a4c5540f9ced7f419c2d206488fdbf", 
+                    "algorithm": "f0e91f348269da67afced518c752dea19329d791"
+                }, 
+                "max_history_step": "algorithm", 
+                "score": 0.6274274047186933, 
+                "stop_time": 1561386647.612975, 
+                "max_history_score": 0.6274274047186933
+            }, 
+            {
+                "status": "ok", 
+                "score_std": 0.020926339060654518, 
+                "max_history_score_std": 0.020926339060654518, 
+                "iteration": 1, 
+                "start_time": 1561386647.630437, 
+                "step": "algorithm", 
+                "duration": 365.5633671283722, 
+                "loss": 0.043865050557428176, 
+                "pipeline": {}, 
+                "algorithm": {
+                    "kernel": "poly", 
+                    "C": 0.05, 
+                    "shrinking": true, 
+                    "degree": 2, 
+                    "gamma": "auto"
+                }, 
+                "config_hash": {
+                    "pipeline": "bf21a9e8fbc5a3846fb05b4fa0859e0917b2202f", 
+                    "config": "157cd5db7524eeadc4ab50e86ddecde402c5628f", 
+                    "algorithm": "8bcccd91077e623eaf710d03f45faccd4974ed28"
+                }, 
+                "max_history_step": "algorithm", 
+                "score": 0.9561349494425718, 
+                "stop_time": 1561387013.193804, 
+                "max_history_score": 0.9561349494425718
+            }
+        ]
+    }, 
+    "scenario": {
+        "control": {
+            "seed": 42
+        }, 
+        "policy": {
+            "step_pipeline": 0
+        }, 
+        "setup": {
+            "policy": "split", 
+            "runtime": 300, 
+            "algorithm": "SVM", 
+            "dataset": "breast"
+        }, 
+        "file_name": "svm_breast_split_0", 
+        "title": "S VM on Breast with Split policy"
+    }
+}

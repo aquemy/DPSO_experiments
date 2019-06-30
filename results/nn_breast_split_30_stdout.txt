@@ -1,0 +1,84 @@
+SCENARIO:
+ {
+    "control": {
+        "seed": 42
+    }, 
+    "file_name": "nn_breast_split_30", 
+    "policy": {
+        "step_pipeline": 30
+    }, 
+    "setup": {
+        "algorithm": "NeuralNet", 
+        "dataset": "breast", 
+        "policy": "split", 
+        "runtime": 300
+    }, 
+    "title": "Neural Net on Breast with Split policy"
+}
+## Data Pipeline
+Best score: 0.94566588886 (0.0283088903833) [P] | Score: 0.94566588886 (0.0283088903833) [P]
+Best score: 0.975406187884 (0.0160659254419) [P] | Score: 0.975406187884 (0.0160659254419) [P]
+Best score: 0.975406187884 (0.0160659254419) [P] | Score: 0.968448059805 (0.0201689742625) [P]
+Best score: 0.975406187884 (0.0160659254419) [P] | Score: 0.945697217181 (0.0311993873714) [P]
+Best score: 0.975406187884 (0.0160659254419) [P] | Score: 0.943881254861 (0.0315055067489) [P]
+Best score: 0.975406187884 (0.0160659254419) [P] | Score: 0.915651196958 (0.0507213430941) [P]
+#################### STEP RESULT ####################
+BEST PIPELINE:
+ {
+    "features": [
+        "features_NoneType", 
+        {}
+    ], 
+    "normalizer": [
+        "normalizer_RobustScaler", 
+        {
+            "normalizer__quantile_range": [
+                10.0, 
+                90.0
+            ], 
+            "normalizer__with_centering": false, 
+            "normalizer__with_scaling": true
+        }
+    ], 
+    "rebalance": [
+        "rebalance_NoneType", 
+        {}
+    ]
+}
+BEST ALGO CONFIG:
+ {}
+BEST SCORE: 0.975406187884 (0.0160659254419)
+##################################################
+## Algorithm
+Best score: 0.975406187884 (0.0160659254419) [P] | Score: 0.627427404719 (0.00441189245975) [A]
+Best score: 0.975406187884 (0.0160659254419) [P] | Score: 0.963090916948 (0.00956178940074) [A]
+Best score: 0.975406187884 (0.0160659254419) [P] | Score: 0.627427404719 (0.00441189245975) [A]
+Best score: 0.975406187884 (0.0160659254419) [P] | Score: 0.374326981246 (0.0057095367401) [A]
+Best score: 0.975406187884 (0.0160659254419) [P] | Score: 0.627427404719 (0.00441189245975) [A]
+#################### STEP RESULT ####################
+BEST PIPELINE:
+ {
+    "features": [
+        "features_NoneType", 
+        {}
+    ], 
+    "normalizer": [
+        "normalizer_RobustScaler", 
+        {
+            "normalizer__quantile_range": [
+                10.0, 
+                90.0
+            ], 
+            "normalizer__with_centering": false, 
+            "normalizer__with_scaling": true
+        }
+    ], 
+    "rebalance": [
+        "rebalance_NoneType", 
+        {}
+    ]
+}
+BEST ALGO CONFIG:
+ {}
+BEST SCORE: 0.975406187884 (0.0160659254419)
+##################################################

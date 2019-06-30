@@ -1,0 +1,114 @@
+/home/aquemy/.local/lib/python2.7/site-packages/sklearn/svm/base.py:196: FutureWarning: The default value of gamma will change from 'auto' to 'scale' in version 0.22 to account better for unscaled features. Set gamma explicitly to 'auto' or 'scale' to avoid this warning.
+  "avoid this warning.", FutureWarning)
+/home/aquemy/.local/lib/python2.7/site-packages/sklearn/svm/base.py:196: FutureWarning: The default value of gamma will change from 'auto' to 'scale' in version 0.22 to account better for unscaled features. Set gamma explicitly to 'auto' or 'scale' to avoid this warning.
+  "avoid this warning.", FutureWarning)
+/home/aquemy/.local/lib/python2.7/site-packages/sklearn/svm/base.py:196: FutureWarning: The default value of gamma will change from 'auto' to 'scale' in version 0.22 to account better for unscaled features. Set gamma explicitly to 'auto' or 'scale' to avoid this warning.
+  "avoid this warning.", FutureWarning)
+/home/aquemy/.local/lib/python2.7/site-packages/sklearn/svm/base.py:196: FutureWarning: The default value of gamma will change from 'auto' to 'scale' in version 0.22 to account better for unscaled features. Set gamma explicitly to 'auto' or 'scale' to avoid this warning.
+  "avoid this warning.", FutureWarning)
+Process LokyProcess-2:
+Traceback (most recent call last):
+Process LokyProcess-1:
+Traceback (most recent call last):
+  File "/usr/lib/python2.7/multiprocessing/process.py", line 267, in _bootstrap
+  File "/usr/lib/python2.7/multiprocessing/process.py", line 267, in _bootstrap
+    self.run()
+  File "/usr/lib/python2.7/multiprocessing/process.py", line 114, in run
+    self.run()
+  File "/usr/lib/python2.7/multiprocessing/process.py", line 114, in run
+    self._target(*self._args, **self._kwargs)
+  File "/home/aquemy/.local/lib/python2.7/site-packages/sklearn/externals/joblib/externals/loky/process_executor.py", line 464, in _process_worker
+    gc.collect()
+KeyboardInterrupt
+Process LokyProcess-3:
+    self._target(*self._args, **self._kwargs)
+Traceback (most recent call last):
+  File "/home/aquemy/.local/lib/python2.7/site-packages/sklearn/externals/joblib/externals/loky/process_executor.py", line 464, in _process_worker
+  File "/usr/lib/python2.7/multiprocessing/process.py", line 267, in _bootstrap
+    self.run()
+  File "/usr/lib/python2.7/multiprocessing/process.py", line 114, in run
+    self._target(*self._args, **self._kwargs)
+  File "/home/aquemy/.local/lib/python2.7/site-packages/sklearn/externals/joblib/externals/loky/process_executor.py", line 464, in _process_worker
+    gc.collect()
+KeyboardInterrupt
+    gc.collect()
+KeyboardInterrupt
+Process LokyProcess-4:
+Traceback (most recent call last):
+  File "/usr/lib/python2.7/multiprocessing/process.py", line 267, in _bootstrap
+    self.run()
+  File "/usr/lib/python2.7/multiprocessing/process.py", line 114, in run
+    self._target(*self._args, **self._kwargs)
+  File "/home/aquemy/.local/lib/python2.7/site-packages/sklearn/externals/joblib/externals/loky/process_executor.py", line 464, in _process_worker
+    gc.collect()
+KeyboardInterrupt
+Traceback (most recent call last):
+  File "./main.py", line 32, in <module>
+    main(args)
+  File "./main.py", line 26, in main
+    policy.run(X,y)
+  File "/home/aquemy/dev/dp_hyperparameters/extension/experiment/policies/split.py", line 36, in run
+    verbose=0
+  File "/home/aquemy/dev/dp_hyperparameters/extension/hyperopt/fmin.py", line 411, in fmin
+    max_time=max_time
+  File "/home/aquemy/dev/dp_hyperparameters/extension/hyperopt/base.py", line 641, in fmin
+    show_progressbar=show_progressbar)
+  File "/home/aquemy/dev/dp_hyperparameters/extension/hyperopt/fmin.py", line 431, in fmin
+    rval.exhaust()
+  File "/home/aquemy/dev/dp_hyperparameters/extension/hyperopt/fmin.py", line 278, in exhaust
+    self.run(self.max_evals - n_done, block_until_done=self.asynchronous)
+  File "/home/aquemy/dev/dp_hyperparameters/extension/hyperopt/fmin.py", line 237, in run
+    self.serial_evaluate()
+  File "/home/aquemy/dev/dp_hyperparameters/extension/hyperopt/fmin.py", line 143, in serial_evaluate
+    result = self.domain.evaluate(spec, ctrl)
+  File "/home/aquemy/dev/dp_hyperparameters/extension/hyperopt/base.py", line 846, in evaluate
+    rval = self.fn(pyll_rval)
+  File "/home/aquemy/dev/dp_hyperparameters/extension/experiment/objective.py", line 107, in objective_pipeline
+    return objective(pipeline_config, current_algo_config, algorithm, X, y, context, config, step='pipeline')
+  File "/home/aquemy/dev/dp_hyperparameters/extension/experiment/objective.py", line 50, in objective
+    verbose=0)
+  File "/home/aquemy/.local/lib/python2.7/site-packages/sklearn/model_selection/_validation.py", line 240, in cross_validate
+    for train, test in cv.split(X, y, groups))
+  File "/home/aquemy/.local/lib/python2.7/site-packages/sklearn/externals/joblib/parallel.py", line 930, in __call__
+    self.retrieve()
+  File "/home/aquemy/.local/lib/python2.7/site-packages/sklearn/externals/joblib/parallel.py", line 833, in retrieve
+    self._output.extend(job.get(timeout=self.timeout))
+  File "/home/aquemy/.local/lib/python2.7/site-packages/sklearn/externals/joblib/_parallel_backends.py", line 521, in wrap_future_result
+    return future.result(timeout=timeout)
+  File "/home/aquemy/.local/lib/python2.7/site-packages/sklearn/externals/joblib/externals/loky/_base.py", line 428, in result
+    self._condition.wait(timeout)
+  File "/usr/lib/python2.7/threading.py", line 340, in wait
+    waiter.acquire()
+KeyboardInterrupt
+/home/aquemy/.local/lib/python2.7/site-packages/sklearn/svm/base.py:196: FutureWarning: The default value of gamma will change from 'auto' to 'scale' in version 0.22 to account better for unscaled features. Set gamma explicitly to 'auto' or 'scale' to avoid this warning.
+  "avoid this warning.", FutureWarning)
+/home/aquemy/.local/lib/python2.7/site-packages/sklearn/svm/base.py:196: FutureWarning: The default value of gamma will change from 'auto' to 'scale' in version 0.22 to account better for unscaled features. Set gamma explicitly to 'auto' or 'scale' to avoid this warning.
+  "avoid this warning.", FutureWarning)
+/home/aquemy/.local/lib/python2.7/site-packages/sklearn/svm/base.py:196: FutureWarning: The default value of gamma will change from 'auto' to 'scale' in version 0.22 to account better for unscaled features. Set gamma explicitly to 'auto' or 'scale' to avoid this warning.
+  "avoid this warning.", FutureWarning)
+/home/aquemy/.local/lib/python2.7/site-packages/sklearn/svm/base.py:196: FutureWarning: The default value of gamma will change from 'auto' to 'scale' in version 0.22 to account better for unscaled features. Set gamma explicitly to 'auto' or 'scale' to avoid this warning.
+  "avoid this warning.", FutureWarning)
+Traceback (most recent call last):
+  File "./main.py", line 33, in <module>
+    main(args)
+  File "./main.py", line 27, in main
+    policy.run(X,y)
+  File "/home/aquemy/dev/dp_hyperparameters/extension/experiment/policies/split.py", line 36, in run
+    verbose=0
+  File "/home/aquemy/dev/dp_hyperparameters/extension/hyperopt/fmin.py", line 411, in fmin
+    max_time=max_time
+  File "/home/aquemy/dev/dp_hyperparameters/extension/hyperopt/base.py", line 641, in fmin
+    show_progressbar=show_progressbar)
+  File "/home/aquemy/dev/dp_hyperparameters/extension/hyperopt/fmin.py", line 431, in fmin
+    rval.exhaust()
+  File "/home/aquemy/dev/dp_hyperparameters/extension/hyperopt/fmin.py", line 278, in exhaust
+    self.run(self.max_evals - n_done, block_until_done=self.asynchronous)
+  File "/home/aquemy/dev/dp_hyperparameters/extension/hyperopt/fmin.py", line 220, in run
+    self.rstate.randint(2 ** 31 - 1))
+  File "/home/aquemy/dev/dp_hyperparameters/extension/hyperopt/tpe.py", line 900, in suggest
+    print_node_on_error=False)
+  File "/home/aquemy/dev/dp_hyperparameters/extension/hyperopt/pyll/base.py", line 913, in rec_eval
+    rval = scope._impls[node.name](*args, **kwargs)
+  File "/home/aquemy/dev/dp_hyperparameters/extension/hyperopt/tpe.py", line 645, in ap_filter_trials
+    above = [v for i, v in zip(o_idxs, o_vals) if i in keep_idxs]
+KeyboardInterrupt

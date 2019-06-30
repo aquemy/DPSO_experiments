@@ -1,0 +1,76 @@
+SCENARIO:
+ {
+    "control": {
+        "seed": 42
+    }, 
+    "file_name": "nn_digits_split_270", 
+    "policy": {
+        "step_pipeline": 270
+    }, 
+    "setup": {
+        "algorithm": "NeuralNet", 
+        "dataset": "digits", 
+        "policy": "split", 
+        "runtime": 300
+    }, 
+    "title": "Neural Net on Digits with Split policy"
+}
+## Data Pipeline
+Best score: 0.822858833167 (0.0287191724164) [P] | Score: 0.822858833167 (0.0287191724164) [P]
+Best score: 0.947664581524 (0.0338476147287) [P] | Score: 0.947664581524 (0.0338476147287) [P]
+Best score: 0.947664581524 (0.0338476147287) [P] | Score: 0.31298962799 (0.0699309964829) [P]
+Best score: 0.947664581524 (0.0338476147287) [P] | Score: 0.79797839057 (0.0523400044055) [P]
+Best score: 0.947664581524 (0.0338476147287) [P] | Score: 0.726899503943 (0.041450431422) [P]
+Best score: 0.948208603005 (0.0297762269329) [P] | Score: 0.948208603005 (0.0297762269329) [P]
+#################### STEP RESULT ####################
+BEST PIPELINE:
+ {
+    "features": [
+        "features_NoneType", 
+        {}
+    ], 
+    "normalizer": [
+        "normalizer_StandardScaler", 
+        {
+            "normalizer__with_mean": false, 
+            "normalizer__with_std": true
+        }
+    ], 
+    "rebalance": [
+        "rebalance_SMOTE", 
+        {
+            "rebalance__k_neighbors": 5
+        }
+    ]
+}
+BEST ALGO CONFIG:
+ {}
+BEST SCORE: 0.948208603005 (0.0297762269329)
+##################################################
+## Algorithm
+Best score: 0.948208603005 (0.0297762269329) [P] | Score: 0.923212251237 (0.0332987413457) [A]
+#################### STEP RESULT ####################
+BEST PIPELINE:
+ {
+    "features": [
+        "features_NoneType", 
+        {}
+    ], 
+    "normalizer": [
+        "normalizer_StandardScaler", 
+        {
+            "normalizer__with_mean": false, 
+            "normalizer__with_std": true
+        }
+    ], 
+    "rebalance": [
+        "rebalance_SMOTE", 
+        {
+            "rebalance__k_neighbors": 5
+        }
+    ]
+}
+BEST ALGO CONFIG:
+ {}
+BEST SCORE: 0.948208603005 (0.0297762269329)
+##################################################

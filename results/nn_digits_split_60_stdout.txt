@@ -1,0 +1,72 @@
+SCENARIO:
+ {
+    "control": {
+        "seed": 42
+    }, 
+    "file_name": "nn_digits_split_60", 
+    "policy": {
+        "step_pipeline": 60
+    }, 
+    "setup": {
+        "algorithm": "NeuralNet", 
+        "dataset": "digits", 
+        "policy": "split", 
+        "runtime": 300
+    }, 
+    "title": "Neural Net on Digits with Split policy"
+}
+## Data Pipeline
+Best score: 0.494529283161 (0.0583542123986) [P] | Score: 0.494529283161 (0.0583542123986) [P]
+Best score: 0.663528870902 (0.0476262799068) [P] | Score: 0.663528870902 (0.0476262799068) [P]
+#################### STEP RESULT ####################
+BEST PIPELINE:
+ {
+    "features": [
+        "features_FeatureUnion", 
+        {
+            "features__pca__n_components": 2, 
+            "features__selectkbest__k": 1
+        }
+    ], 
+    "normalizer": [
+        "normalizer_NoneType", 
+        {}
+    ], 
+    "rebalance": [
+        "rebalance_NearMiss", 
+        {
+            "rebalance__n_neighbors": 1
+        }
+    ]
+}
+BEST ALGO CONFIG:
+ {}
+BEST SCORE: 0.663528870902 (0.0476262799068)
+##################################################
+## Algorithm
+Best score: 0.663528870902 (0.0476262799068) [P] | Score: 0.641806916637 (0.0293595030503) [A]
+#################### STEP RESULT ####################
+BEST PIPELINE:
+ {
+    "features": [
+        "features_FeatureUnion", 
+        {
+            "features__pca__n_components": 2, 
+            "features__selectkbest__k": 1
+        }
+    ], 
+    "normalizer": [
+        "normalizer_NoneType", 
+        {}
+    ], 
+    "rebalance": [
+        "rebalance_NearMiss", 
+        {
+            "rebalance__n_neighbors": 1
+        }
+    ]
+}
+BEST ALGO CONFIG:
+ {}
+BEST SCORE: 0.663528870902 (0.0476262799068)
+##################################################

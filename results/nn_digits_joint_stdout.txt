@@ -1,0 +1,51 @@
+SCENARIO:
+ {
+    "control": {
+        "seed": 42
+    }, 
+    "file_name": "nn_digits_joint", 
+    "policy": null, 
+    "setup": {
+        "algorithm": "NeuralNet", 
+        "dataset": "digits", 
+        "policy": "joint", 
+        "runtime": 300
+    }, 
+    "title": "Neural Net on Digits with Joint policy"
+}
+Best score: 0.231546784711 (0.0219407021377) [J] | Score: 0.231546784711 (0.0219407021377) [J]
+Best score: 0.231546784711 (0.0219407021377) [J] | Score: 0.100187268253 (0.00142068267783) [J]
+Best score: 0.936564829349 (0.0205181469188) [J] | Score: 0.936564829349 (0.0205181469188) [J]
+Best score: 0.936564829349 (0.0205181469188) [J] | Score: 0.482807772566 (0.0438958620219) [J]
+Best score: 0.936564829349 (0.0205181469188) [J] | Score: 0.61885470859 (0.0465949548673) [J]
+Best score: 0.936564829349 (0.0205181469188) [J] | Score: 0.0990541146837 (0.00175531852234) [J]
+#################### STEP RESULT ####################
+BEST PIPELINE:
+ {
+    "features": [
+        "features_NoneType", 
+        {}
+    ], 
+    "normalizer": [
+        "normalizer_PowerTransformer", 
+        {}
+    ], 
+    "rebalance": [
+        "rebalance_SMOTE", 
+        {
+            "rebalance__k_neighbors": 6
+        }
+    ]
+}
+BEST ALGO CONFIG:
+ {
+    "activation": "tanh", 
+    "alpha": 1e-05, 
+    "hidden_layer_sizes": [
+        100
+    ], 
+    "learning_rate": "adaptive", 
+    "solver": "lbfgs"
+}
+BEST SCORE: 0.936564829349 (0.0205181469188)
+##################################################

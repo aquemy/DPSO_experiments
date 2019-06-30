@@ -1,0 +1,39 @@
+SCENARIO:
+ {
+    "control": {
+        "seed": 42
+    }, 
+    "file_name": "nn_digits_split_0", 
+    "policy": {
+        "step_pipeline": 0
+    }, 
+    "setup": {
+        "algorithm": "NeuralNet", 
+        "dataset": "digits", 
+        "policy": "split", 
+        "runtime": 300
+    }, 
+    "title": "Neural Net on Digits with Split policy"
+}
+## Algorithm
+Best score: 0.948151981571 (0.0238838512508) [A] | Score: 0.948151981571 (0.0238838512508) [A]
+Best score: 0.948151981571 (0.0238838512508) [A] | Score: 0.836999255278 (0.0632843931444) [A]
+Best score: 0.948151981571 (0.0238838512508) [A] | Score: 0.795764536396 (0.199547182977) [A]
+Best score: 0.948151981571 (0.0238838512508) [A] | Score: 0.101826743069 (0.00153387365197) [A]
+Best score: 0.948151981571 (0.0238838512508) [A] | Score: 0.105694146384 (0.0127001930709) [A]
+Best score: 0.948151981571 (0.0238838512508) [A] | Score: 0.896447471132 (0.0357254164877) [A]
+#################### STEP RESULT ####################
+BEST PIPELINE:
+ {}
+BEST ALGO CONFIG:
+ {
+    "activation": "tanh", 
+    "alpha": 0.0001, 
+    "hidden_layer_sizes": [
+        100
+    ], 
+    "learning_rate": "adaptive", 
+    "solver": "lbfgs"
+}
+BEST SCORE: 0.948151981571 (0.0238838512508)
+##################################################

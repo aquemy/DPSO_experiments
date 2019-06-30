@@ -1,0 +1,40 @@
+SCENARIO:
+ {
+    "control": {
+        "seed": 42
+    }, 
+    "file_name": "nn_wine_split_0", 
+    "policy": {
+        "step_pipeline": 0
+    }, 
+    "setup": {
+        "algorithm": "NeuralNet", 
+        "dataset": "wine", 
+        "policy": "split", 
+        "runtime": 300
+    }, 
+    "title": "Neural Net on Wine with Split policy"
+}
+## Algorithm
+Best score: 0.399253955968 (0.0168715835498) [A] | Score: 0.399253955968 (0.0168715835498) [A]
+Best score: 0.399253955968 (0.0168715835498) [A] | Score: 0.399253955968 (0.0168715835498) [A]
+Best score: 0.399253955968 (0.0168715835498) [A] | Score: 0.399253955968 (0.0168715835498) [A]
+#################### STEP RESULT ####################
+BEST PIPELINE:
+ {}
+BEST ALGO CONFIG:
+ {
+    "activation": "logistic", 
+    "alpha": 0.001, 
+    "hidden_layer_sizes": [
+        50, 
+        50, 
+        50, 
+        50, 
+        50
+    ], 
+    "learning_rate": "adaptive", 
+    "solver": "sgd"
+}
+BEST SCORE: 0.399253955968 (0.0168715835498)
+##################################################

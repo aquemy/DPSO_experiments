@@ -1,0 +1,81 @@
+SCENARIO:
+ {
+    "control": {
+        "seed": 42
+    }, 
+    "file_name": "nn_digits_split_300", 
+    "policy": {
+        "step_pipeline": 300
+    }, 
+    "setup": {
+        "algorithm": "NeuralNet", 
+        "dataset": "digits", 
+        "policy": "split", 
+        "runtime": 300
+    }, 
+    "title": "Neural Net on Digits with Split policy"
+}
+## Data Pipeline
+Best score: 0.487909148245 (0.0515940190547) [P] | Score: 0.487909148245 (0.0515940190547) [P]
+Best score: 0.737284254807 (0.0531519591734) [P] | Score: 0.737284254807 (0.0531519591734) [P]
+Best score: 0.948883760539 (0.0325716002776) [P] | Score: 0.948883760539 (0.0325716002776) [P]
+Best score: 0.948883760539 (0.0325716002776) [P] | Score: 0.307921387508 (0.0556478530612) [P]
+Best score: 0.953300077417 (0.0260630173601) [P] | Score: 0.953300077417 (0.0260630173601) [P]
+Best score: 0.953300077417 (0.0260630173601) [P] | Score: 0.31399849123 (0.0392564463609) [P]
+Best score: 0.953300077417 (0.0260630173601) [P] | Score: 0.612753614832 (0.0474439306634) [P]
+Best score: 0.953300077417 (0.0260630173601) [P] | Score: 0.48123836298 (0.0648997918318) [P]
+Best score: 0.953300077417 (0.0260630173601) [P] | Score: 0.724458855013 (0.0328596854663) [P]
+#################### STEP RESULT ####################
+BEST PIPELINE:
+ {
+    "features": [
+        "features_NoneType", 
+        {}
+    ], 
+    "normalizer": [
+        "normalizer_RobustScaler", 
+        {
+            "normalizer__quantile_range": [
+                10.0, 
+                90.0
+            ], 
+            "normalizer__with_centering": true, 
+            "normalizer__with_scaling": true
+        }
+    ], 
+    "rebalance": [
+        "rebalance_NoneType", 
+        {}
+    ]
+}
+BEST ALGO CONFIG:
+ {}
+BEST SCORE: 0.953300077417 (0.0260630173601)
+##################################################
+#################### STEP RESULT ####################
+BEST PIPELINE:
+ {
+    "features": [
+        "features_NoneType", 
+        {}
+    ], 
+    "normalizer": [
+        "normalizer_RobustScaler", 
+        {
+            "normalizer__quantile_range": [
+                10.0, 
+                90.0
+            ], 
+            "normalizer__with_centering": true, 
+            "normalizer__with_scaling": true
+        }
+    ], 
+    "rebalance": [
+        "rebalance_NoneType", 
+        {}
+    ]
+}
+BEST ALGO CONFIG:
+ {}
+BEST SCORE: 0.953300077417 (0.0260630173601)
+##################################################

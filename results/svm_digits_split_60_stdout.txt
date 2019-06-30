@@ -1,0 +1,51 @@
+SCENARIO:
+ {
+    "control": {
+        "seed": 42
+    }, 
+    "file_name": "svm_digits_split_60", 
+    "policy": {
+        "step_pipeline": 60
+    }, 
+    "setup": {
+        "algorithm": "SVM", 
+        "dataset": "digits", 
+        "policy": "split", 
+        "runtime": 300
+    }, 
+    "title": "S VM on Digits with Split policy"
+}
+SCENARIO:
+ {
+    "control": {
+        "seed": 42
+    }, 
+    "file_name": "svm_digits_split_60", 
+    "policy": {
+        "step_pipeline": 60
+    }, 
+    "setup": {
+        "algorithm": "SVM", 
+        "dataset": "digits", 
+        "policy": "split", 
+        "runtime": 300
+    }, 
+    "title": "S VM on Digits with Split policy"
+}
+SCENARIO:
+ {
+    "control": {
+        "seed": 42
+    }, 
+    "file_name": "svm_digits_split_60", 
+    "policy": {
+        "step_pipeline": 60
+    }, 
+    "setup": {
+        "algorithm": "SVM", 
+        "dataset": "digits", 
+        "policy": "split", 
+        "runtime": 300
+    }, 
+    "title": "S VM on Digits with Split policy"
+}

@@ -1,0 +1,64 @@
+SCENARIO:
+ {
+    "control": {
+        "seed": 42
+    }, 
+    "file_name": "nn_digits_split_150", 
+    "policy": {
+        "step_pipeline": 150
+    }, 
+    "setup": {
+        "algorithm": "NeuralNet", 
+        "dataset": "digits", 
+        "policy": "split", 
+        "runtime": 300
+    }, 
+    "title": "Neural Net on Digits with Split policy"
+}
+## Data Pipeline
+Best score: 0.94888829633 (0.0185513320553) [P] | Score: 0.94888829633 (0.0185513320553) [P]
+Best score: 0.94888829633 (0.0185513320553) [P] | Score: 0.244384732282 (0.0269290817731) [P]
+Best score: 0.94888829633 (0.0185513320553) [P] | Score: 0.342835673551 (0.0446570234458) [P]
+Best score: 0.94888829633 (0.0185513320553) [P] | Score: 0.829595195722 (0.0328976917116) [P]
+#################### STEP RESULT ####################
+BEST PIPELINE:
+ {
+    "features": [
+        "features_NoneType", 
+        {}
+    ], 
+    "normalizer": [
+        "normalizer_PowerTransformer", 
+        {}
+    ], 
+    "rebalance": [
+        "rebalance_NoneType", 
+        {}
+    ]
+}
+BEST ALGO CONFIG:
+ {}
+BEST SCORE: 0.94888829633 (0.0185513320553)
+##################################################
+## Algorithm
+Best score: 0.94888829633 (0.0185513320553) [P] | Score: 0.519250357494 (0.370237997167) [A]
+#################### STEP RESULT ####################
+BEST PIPELINE:
+ {
+    "features": [
+        "features_NoneType", 
+        {}
+    ], 
+    "normalizer": [
+        "normalizer_PowerTransformer", 
+        {}
+    ], 
+    "rebalance": [
+        "rebalance_NoneType", 
+        {}
+    ]
+}
+BEST ALGO CONFIG:
+ {}
+BEST SCORE: 0.94888829633 (0.0185513320553)
+##################################################
