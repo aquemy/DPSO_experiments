@@ -1,5 +1,5 @@
 from sklearn.datasets import load_breast_cancer, load_iris, load_wine, load_digits, fetch_covtype
-import echr
+#import echr
 
 def load(name):
     loader = {
